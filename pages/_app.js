@@ -339,6 +339,11 @@ export default function App({ Component, pageProps }) {
               element.setAttribute('data-modal-status', 'active');
               element.setAttribute('data-modal-show', 'InactivityModal');
             }
+            function modalClose() {
+              const element = document.getElementById("ModalWrapper");
+              element.setAttribute('data-modal-status', 'inactive');
+              element.setAttribute('data-modal-show', '');
+            }
             function resetTimer() {
               console.log("USER INTERACTION - TIMER RESET");
               hasInteracted = true;
@@ -373,7 +378,7 @@ export default function App({ Component, pageProps }) {
         } //END inactivityTimer function
 
         //disabled during build
-        //inactivityTimer();
+        inactivityTimer();
 
   });
 
