@@ -58,12 +58,12 @@ export default function App({ Component, pageProps }) {
         updateActionState('show-after-load', 5000, 'tooltips');
 
      /* ===== Load Sequence ===== */
-      updateActionState('initial', 0, 'load');
-      updateActionState('post-initial', 250), 'load';
-      updateActionState('load-finished', 1000, 'load');
-      updateActionState('just-after-load', 2000, 'load');
-      updateActionState('just-after-load-2', 3500, 'load');
-      updateActionState('load-sequence-complete', 5000, 'load');
+        updateActionState('initial', 0, 'load');
+        updateActionState('post-initial', 250), 'load';
+        updateActionState('load-finished', 1000, 'load');
+        updateActionState('just-after-load', 2000, 'load');
+        updateActionState('just-after-load-2', 3500, 'load');
+        updateActionState('load-sequence-complete', 5000, 'load');
 
       
 
