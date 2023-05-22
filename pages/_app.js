@@ -78,6 +78,7 @@ export default function App({ Component, pageProps }) {
           setTimeout(function() {
             router.push(url);
           }, delay);
+          updateActionState('initial', 0, 'load');
         } //END pageTransition function
 
     /* ================================= */
