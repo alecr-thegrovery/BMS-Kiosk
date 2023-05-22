@@ -84,6 +84,7 @@ export default function App({ Component, pageProps }) {
           router.prefetch(url); //prefetch next page
           updateActionState('hidden', delay, 'transition');
           setTimeout(function() {
+            updateActionState('initial', 500, 'transition-screen');
             router.push(url);
           }, delay);
         } //END pageTransition function
