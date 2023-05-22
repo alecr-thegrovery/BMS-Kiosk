@@ -59,17 +59,25 @@ export default function App({ Component, pageProps }) {
         updateActionState('initial', 0, 'tooltips');
         updateActionState('show-after-load', 5000, 'tooltips');
 
-     /* ===== Load Sequence ===== */
-      updateActionState('initial', 0, 'load');
-      updateActionState('post-initial', 250), 'load';
-      updateActionState('load-finished', 1000, 'load');
-      updateActionState('just-after-load', 2000, 'load');
-      updateActionState('just-after-load-2', 3500, 'load');
-      updateActionState('load-sequence-complete', 5000, 'load');
+       /* ===== Load Sequence ===== */
+        updateActionState('initial', 0, 'load');
+        updateActionState('post-initial', 250), 'load';
+        updateActionState('load-finished', 1000, 'load');
+        updateActionState('just-after-load', 2000, 'load');
+        updateActionState('just-after-load-2', 3500, 'load');
+        updateActionState('load-sequence-complete', 5000, 'load');
 
-    /* ===== Transition Screens ===== */
-     
-     
+      /* ===== Transition Screens ===== */
+       /*updateActionState('initial', 2500, 'transition-screen');
+       updateActionState('zoom', 3000, 'transition-screen');
+       updateActionState('fade', 4500, 'transition-screen');
+       updateActionState('end', 7000, 'transition-screen');*/
+        window.addEventListener("popstate", (event) => {
+          updateActionState('initial', 2500, 'transition-screen');
+                 updateActionState('zoom', 3000, 'transition-screen');
+                 updateActionState('fade', 4500, 'transition-screen');
+                 updateActionState('end', 7000, 'transition-screen');
+        });
       
 
     /* ========================== */
@@ -284,10 +292,6 @@ export default function App({ Component, pageProps }) {
               }else{
                 //updateActionState('card-drop-success', 0);
                 pageTransition(link, 500);
-                updateActionState('initial', 2500, 'transition-screen');
-                updateActionState('zoom', 3000, 'transition-screen');
-                updateActionState('fade', 5500, 'transition-screen');
-                updateActionState('end', 7000, 'transition-screen');
               }
 
             },
