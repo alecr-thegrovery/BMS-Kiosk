@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
     /* ===== Global Action State ===== */
     /* ============================= */
       //define function
-      function updateActionState(stateValue, delay, thread) {
+      async function updateActionState(stateValue, delay, thread) {
         setTimeout(function() {
           const LayoutOuter = document.querySelector("#LayoutOuter");
           if(thread == "load"){
