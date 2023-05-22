@@ -467,52 +467,62 @@
       [data-transition-screen="1"] img{
         $zoomFocus: calc(50% + 100px) calc(60% + 100px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="2"] svg,
       [data-transition-screen="2"] img{
         $zoomFocus: calc(41% + 80px) calc(13% + 65px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="3"] svg,
       [data-transition-screen="3"] img{
         $zoomFocus: calc(68% + 80px) calc(72% + 50px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="4"] svg,
       [data-transition-screen="4"] img{
         $zoomFocus: 65% 55%;
         //$zoomFocus: calc(65% + 80px) calc(55% + 50px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="5"] svg,
       [data-transition-screen="5"] img{
         $zoomFocus: calc(5% + 0px) calc(81% + 80px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="6"] svg,
       [data-transition-screen="6"] img{
         $zoomFocus: calc(46% + 0px) calc(60% + 80px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="7"] svg,
       [data-transition-screen="7"] img{
         $zoomFocus: 20% 71%;
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="8"] svg,
       [data-transition-screen="8"] img{
         $zoomFocus: calc(36% + 0px) calc(48% + 100px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="9"] svg,
       [data-transition-screen="9"] img{
         $zoomFocus: calc(80% + 0px) calc(64% + 50px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
       [data-transition-screen="10"] svg,
       [data-transition-screen="10"] img{
         $zoomFocus: calc(45% + 0px) calc(64% + 100px);
         transform-origin: $zoomFocus;
+        opacity: 1;
       }
     /* ===== Initial State ===== */
       &[data-action-state-load="initial"],
@@ -523,58 +533,62 @@
           [data-transition-screen="1"] img{
             $zoomFocus: calc(50% + 100px) calc(60% + 100px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="2"] svg,
           [data-transition-screen="2"] img{
             $zoomFocus: calc(41% + 80px) calc(13% + 65px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="3"] svg,
           [data-transition-screen="3"] img{
-            $zoomFocus: 73% 68%;
             $zoomFocus: calc(68% + 80px) calc(72% + 50px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="4"] svg,
           [data-transition-screen="4"] img{
             $zoomFocus: 65% 55%;
             //$zoomFocus: calc(65% + 80px) calc(55% + 50px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="5"] svg,
           [data-transition-screen="5"] img{
-            $zoomFocus: 5% 81%;
             $zoomFocus: calc(5% + 0px) calc(81% + 80px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="6"] svg,
           [data-transition-screen="6"] img{
-            $zoomFocus: 46% 53%;
             $zoomFocus: calc(46% + 0px) calc(60% + 80px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="7"] svg,
           [data-transition-screen="7"] img{
             $zoomFocus: 20% 71%;
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="8"] svg,
           [data-transition-screen="8"] img{
-            //$zoomFocus: 28% 52%;
             $zoomFocus: calc(36% + 0px) calc(48% + 100px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="9"] svg,
           [data-transition-screen="9"] img{
-            //$zoomFocus: 57% 64%;
             $zoomFocus: calc(80% + 0px) calc(64% + 50px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
           [data-transition-screen="10"] svg,
           [data-transition-screen="10"] img{
-            $zoomFocus: 30% 57%;
             $zoomFocus: calc(45% + 0px) calc(64% + 100px);
             transform-origin: $zoomFocus;
+            opacity: 1;
           }
       }
 
