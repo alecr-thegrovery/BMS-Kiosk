@@ -7,7 +7,7 @@
 	height: 100%;
 	width: 100%;
 	//width: calc(100% - clamp(250px, 20vw, 360px));
-	z-index: 1000;
+	z-index: 10;
 
 	img{
 		transition: $transitionSlow;
