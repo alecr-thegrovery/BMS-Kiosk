@@ -73,10 +73,11 @@ export default function App({ Component, pageProps }) {
        updateActionState('fade', 4500, 'transition-screen');
        updateActionState('end', 7000, 'transition-screen');*/
         window.addEventListener("popstate", (event) => {
+          console.log("popstate");
           updateActionState('initial', 2500, 'transition-screen');
-                 updateActionState('zoom', 3000, 'transition-screen');
-                 updateActionState('fade', 4500, 'transition-screen');
-                 updateActionState('end', 7000, 'transition-screen');
+          updateActionState('zoom', 3000, 'transition-screen');
+          updateActionState('fade', 4500, 'transition-screen');
+          updateActionState('end', 7000, 'transition-screen');
         });
       
 
