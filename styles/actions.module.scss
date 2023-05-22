@@ -461,13 +461,7 @@
 
   #LayoutOuter{
     //Default animation vars, override below
-      $zoomFocus: 50% 83%;
-      $zoomAmount: 2.5;
-      transform-origin: $zoomFocus;
-      [data-transition-screen="1"] svg,
-      [data-transition-screen="1"] img{
-        opacity: 1;
-      }
+      
     //Individual Screens
       [data-transition-screen="1"] svg,
       [data-transition-screen="1"] img{
@@ -586,10 +580,7 @@
 
     /* ===== Animation Begin ===== */
       &[data-action-state-load="just-after-load"]{
-        [data-transition-screen] svg{
-          //zoom in
-          transform: scale($zoomAmount);
-        }
+        
         [data-transition-screen="1"] svg,
         [data-transition-screen="1"] img{
           $zoomAmount: 2.5; 
