@@ -459,7 +459,7 @@
 /* ===== Level 3 Page Transitions ===== */
 /* ================================== */
 
-  #LayoutOuter{
+  #LayoutOuter[data-action-state-page="lvl-3"]{
     //Default animation vars, override below
       $zoomFocus: 50% 83%;
       $zoomAmount: 2.5;
@@ -468,161 +468,188 @@
       [data-transition-screen="1"] img{
         opacity: 1;
       }
-    //Individual Screens
-      [data-transition-screen="1"] svg,
-      [data-transition-screen="1"] img{
-        $zoomFocus: calc(50% + 100px) calc(60% + 100px);
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="2"] svg,
-      [data-transition-screen="2"] img{
-        $zoomFocus: calc(41% + 80px) calc(13% + 65px);
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="3"] svg,
-      [data-transition-screen="3"] img{
-        $zoomFocus: 73% 68%;
-        $zoomFocus: calc(68% + 80px) calc(72% + 50px);
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="4"] svg,
-      [data-transition-screen="4"] img{
-        $zoomFocus: 65% 55%;
-        //$zoomFocus: calc(65% + 80px) calc(55% + 50px);
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="5"] svg,
-      [data-transition-screen="5"] img{
-        $zoomFocus: 5% 81%;
-        $zoomFocus: calc(5% + 0px) calc(81% + 80px);
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="6"] svg,
-      [data-transition-screen="6"] img{
-        $zoomFocus: 46% 53%;
-        $zoomFocus: calc(46% + 0px) calc(60% + 80px);
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="7"] svg,
-      [data-transition-screen="7"] img{
-        $zoomFocus: 20% 71%;
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="8"] svg,
-      [data-transition-screen="8"] img{
-        //$zoomFocus: 28% 52%;
-        $zoomFocus: calc(36% + 0px) calc(48% + 100px);
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="9"] svg,
-      [data-transition-screen="9"] img{
-        //$zoomFocus: 57% 64%;
-        $zoomFocus: calc(80% + 0px) calc(64% + 50px);
-        transform-origin: $zoomFocus;
-      }
-      [data-transition-screen="10"] svg,
-      [data-transition-screen="10"] img{
-        $zoomFocus: 30% 57%;
-        $zoomFocus: calc(45% + 0px) calc(64% + 100px);
-        transform-origin: $zoomFocus;
-      }
-    /* ===== Initial State ===== */
-      &[data-action-state-load="initial"],
-      &[data-action-state-load="load-finished"]{
-        
-      /* [data-transition-screen]{
-          transform-origin: $zoomFocus;
-        }*/
-        
+      /* ===== Initial Animation State ===== */
+      &[data-action-state-transition-screen="initial"]{
+        //Individual Screens
+          [data-transition-screen="1"] svg,
+          [data-transition-screen="1"] img{
+            $zoomFocus: calc(50% + 100px) calc(60% + 100px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="2"] svg,
+          [data-transition-screen="2"] img{
+            $zoomFocus: calc(41% + 80px) calc(13% + 65px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="3"] svg,
+          [data-transition-screen="3"] img{
+            $zoomFocus: calc(68% + 80px) calc(72% + 50px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="4"] svg,
+          [data-transition-screen="4"] img{
+            $zoomFocus: 65% 55%;
+            //$zoomFocus: calc(65% + 80px) calc(55% + 50px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="5"] svg,
+          [data-transition-screen="5"] img{
+            $zoomFocus: calc(5% + 0px) calc(81% + 80px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="6"] svg,
+          [data-transition-screen="6"] img{
+            $zoomFocus: calc(46% + 0px) calc(60% + 80px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="7"] svg,
+          [data-transition-screen="7"] img{
+            $zoomFocus: 20% 71%;
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="8"] svg,
+          [data-transition-screen="8"] img{
+            $zoomFocus: calc(36% + 0px) calc(48% + 100px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="9"] svg,
+          [data-transition-screen="9"] img{
+            $zoomFocus: calc(80% + 0px) calc(64% + 50px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
+          [data-transition-screen="10"] svg,
+          [data-transition-screen="10"] img{
+            $zoomFocus: calc(45% + 0px) calc(64% + 100px);
+            transform-origin: $zoomFocus;
+            opacity: 1;
+          }
       }
 
-    /* ===== Animation Begin ===== */
-      &[data-action-state-load="just-after-load"]{
-        [data-transition-screen] svg{
-          //zoom in
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="1"] svg,
-        [data-transition-screen="1"] img{
-          $zoomAmount: 2.5; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="2"] svg,
-        [data-transition-screen="2"] img{
-          $zoomAmount: 3.5; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="3"] svg,
-        [data-transition-screen="3"] img{
-          $zoomAmount: 2.15; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="4"] svg,
-        [data-transition-screen="4"] img{
-          $zoomAmount: 2; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="5"] svg,
-        [data-transition-screen="5"] img{
-          $zoomAmount: 2.75; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="6"] svg,
-        [data-transition-screen="6"] img{
-          $zoomAmount: 2.5; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="7"] svg,
-        [data-transition-screen="7"] img{
-          $zoomAmount: 2.15; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="8"] svg,
-        [data-transition-screen="8"] img{
-          $zoomAmount: 1.85; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="9"] svg,
-        [data-transition-screen="9"] img{
-          $zoomAmount: 2.15; 
-          transform: scale($zoomAmount);
-        }
-        [data-transition-screen="10"] svg,
-        [data-transition-screen="10"] img{
-          $zoomAmount: 1.65; 
-          transform: scale($zoomAmount);
-        }
-      }
-    
-    /* ===== Animation Point 1 ===== */
-      &[data-action-state-load="just-after-load-2"]{
-        [data-transition-screen]{
-          transition: $transitionMedium;
-          opacity: 0;
-        }
-        [data-transition-screen] svg,
-        [data-transition-screen] img{
-          //keep zoom in, fade out & reveal content
-          transform: scale(4);
-          opacity: 0;
-          pointer-events: none;
-        }
+      /* ===== First Action - Zoom ===== */
+      &[data-action-state-transition-screen="zoom"]{
+        //screens
+          [data-transition-screen="1"] svg,
+          [data-transition-screen="1"] img{
+            $zoomFocus: calc(50% + 100px) calc(60% + 100px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 2.5; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="2"] svg,
+          [data-transition-screen="2"] img{
+            $zoomFocus: calc(41% + 80px) calc(13% + 65px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 3.5; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="3"] svg,
+          [data-transition-screen="3"] img{
+            $zoomFocus: calc(68% + 80px) calc(72% + 50px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 2.15; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="4"] svg,
+          [data-transition-screen="4"] img{
+            $zoomFocus: 65% 55%;
+            //$zoomFocus: calc(65% + 80px) calc(55% + 50px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 2; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="5"] svg,
+          [data-transition-screen="5"] img{
+            $zoomFocus: calc(5% + 0px) calc(81% + 80px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 2.75; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="6"] svg,
+          [data-transition-screen="6"] img{
+            $zoomFocus: calc(46% + 0px) calc(60% + 80px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 2.5; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="7"] svg,
+          [data-transition-screen="7"] img{
+            $zoomFocus: 20% 71%;
+            transform-origin: $zoomFocus;
+            $zoomAmount: 2.15; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="8"] svg,
+          [data-transition-screen="8"] img{
+            $zoomFocus: calc(36% + 0px) calc(48% + 100px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 1.85; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="9"] svg,
+          [data-transition-screen="9"] img{
+            $zoomFocus: calc(80% + 0px) calc(64% + 50px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 2.15; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
+          [data-transition-screen="10"] svg,
+          [data-transition-screen="10"] img{
+            $zoomFocus: calc(45% + 0px) calc(64% + 100px);
+            transform-origin: $zoomFocus;
+            $zoomAmount: 1.65; 
+            transform: scale($zoomAmount);
+            opacity: 1;
+          }
       }
 
-    /* ===== Complete, Clear Animations ===== */
-      &[data-action-state-load="load-sequence-complete"]{
-        [data-transition-screen],
-        [data-transition-screen] svg,
-        [data-transition-screen] img{
-          //clear everything after animations are complete
-          //transform: none;
-          //transform-origin: none;
-          transition: $transitionMedium;
-          opacity: 0;
-          pointer-events: none;
-        }
+      /* ===== Second Action - Fade/Zoom ===== */
+      &[data-action-state-transition-screen="fade"]{
+        //screens
+          [data-transition-screen]{
+            transition: $transitionMedium;
+            opacity: 0 !important;
+            pointer-events: none !important;
+          }
+          [data-transition-screen] svg,
+          [data-transition-screen] img{
+            //keep zoom in, fade out & reveal content
+            transform: scale(4) !important;
+            opacity: 0 !important;
+            
+          }
       }
 
+      /* ===== Animation End - reset state ===== */
+      &[data-action-state-transition-screen="end"]{
+          [data-transition-screen],
+          [data-transition-screen] svg,
+          [data-transition-screen] img{
+            //clear everything after animations are complete
+            //transform: none;
+            //transform-origin: none;
+            transition: $transitionMedium;
+            opacity: 0;
+            pointer-events: none;
+          }
+        }
     //end
     }
 

@@ -40,6 +40,7 @@ export default function Layout({
       data-action-state-cards="initial"
       data-action-state-cards-show="initial"
       data-action-state-cards-home-bg="initial"
+      data-action-state-transition-screen="initial"
       data-action-state-page={pageActionState}
     >
       <Head>

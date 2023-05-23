@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery'
 import { router } from 'next/router'
+import { useRouter } from 'next/router';
 import 'normalize.css';
 
 //Drag n Drop 
@@ -15,13 +16,15 @@ import '@styles/main.scss';
 
 export default function App({ Component, pageProps }) {
 
+  const router = useRouter();
+
   useEffect(() => {
 
     /* ============================= */
     /* ===== Global Action State ===== */
     /* ============================= */
       //define function
-      function updateActionState(stateValue, delay, thread) {
+      async function updateActionState(stateValue, delay, thread) {
         setTimeout(function() {
           const LayoutOuter = document.querySelector("#LayoutOuter");
           if(thread == "load"){
@@ -38,6 +41,8 @@ export default function App({ Component, pageProps }) {
             LayoutOuter.setAttribute("data-action-state-page", stateValue);
           } else if(thread == "home-bg"){
             LayoutOuter.setAttribute("data-action-state-home-bg", stateValue);
+          } else if(thread == "transition-screen"){
+            LayoutOuter.setAttribute("data-action-state-transition-screen", stateValue);
           } else{
             LayoutOuter.setAttribute("data-action-state", stateValue);
           }
@@ -65,6 +70,12 @@ export default function App({ Component, pageProps }) {
       updateActionState('just-after-load-2', 3500, 'load');
       updateActionState('load-sequence-complete', 5000, 'load');
 
+    /* ===== Transition Screens ===== */
+     updateActionState('initial', 0, 'transition-screen');
+     updateActionState('zoom', 1500, 'transition-screen');
+     updateActionState('fade', 3000, 'transition-screen');
+     updateActionState('end', 7000, 'transition-screen');
+     
       
 
     /* ========================== */
@@ -76,6 +87,7 @@ export default function App({ Component, pageProps }) {
           router.prefetch(url); //prefetch next page
           updateActionState('hidden', delay, 'transition');
           setTimeout(function() {
+            updateActionState('initial', 500, 'transition-screen');
             router.push(url);
           }, delay);
         } //END pageTransition function
@@ -368,5 +380,5 @@ export default function App({ Component, pageProps }) {
 
   });
 
-  return <Component {...pageProps} />
+  return <Component key={router.asPath} {...pageProps} />
 }
