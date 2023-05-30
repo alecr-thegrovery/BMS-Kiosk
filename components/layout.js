@@ -60,8 +60,8 @@ export default function Layout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
 
-        <Script async strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-LJMM5M1WYV"></Script>
-        <Script strategy="afterInteractive">
+        <script async  src="https://www.googletagmanager.com/gtag/js?id=G-LJMM5M1WYV"></script>
+        <script >
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -69,7 +69,7 @@ export default function Layout({
 
           gtag('config', 'G-LJMM5M1WYV');
         `}
-        </Script>
+        </script>
       </Head>
 
       <SmallScreenWarning/>
