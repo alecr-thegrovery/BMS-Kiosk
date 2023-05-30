@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head'
+import Script from 'next/script'
 import Image from 'next/image'
 import { router } from 'next/router'
 import styles from './layout.module.scss'
@@ -58,6 +59,17 @@ export default function Layout({
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LJMM5M1WYV"></Script>
+        <Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-LJMM5M1WYV');
+        `}
+        </Script>
       </Head>
 
       <SmallScreenWarning/>
