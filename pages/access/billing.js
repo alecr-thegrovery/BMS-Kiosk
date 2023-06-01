@@ -20,7 +20,7 @@ import pageStyles from '@styles/pages.module.scss'
 
 let title = "Using the My BMS Cases Provider Portal";
 //{["Using the My BMS Cases ", <strong>Provider Portal</strong>]}
-let footerText = "";
+let footerText = "Healthcare providers should code healthcare claims based upon the service that is rendered, the patient’s medical record, the coding requirements of each health insurer, and the best coding practices. The accurate completion of reimbursement- or coverage-related documentation is the responsibility of the healthcare provider and patient. Bristol Myers Squibb and its agents make no guarantee regarding reimbursement for any service or item.";
 
 export default function Post({ postData }) {
 
