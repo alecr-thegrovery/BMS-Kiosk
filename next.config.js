@@ -1,9 +1,18 @@
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig = {
-  /* config options here */
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  runtimeCaching: [{
+      // Routing via a matchCallback function:
+      urlPattern: '**/\.(?:html|js|css|jpg|png|svg)$/,',
+      handler:'NetworkFirst'
+  }]
+})
 
+const nextConfig = withPWA({
+  /* config options here */
+  output: 'export',
   //IMAGE LOADER
   images: {
     unoptimized: true,
@@ -23,6 +32,12 @@ const nextConfig = {
     ]
   }
 
-}
+})
+
+
+
+/*module.exports = withPWA({
+  // next.js config
+})*/
 
 module.exports = nextConfig
