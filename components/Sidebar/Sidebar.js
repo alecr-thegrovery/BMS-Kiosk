@@ -66,10 +66,17 @@ export default function Sidebar({
         
         <div className={componentStyles.controlsOuter}>
           <div className={componentStyles.controls}>
-            <a data-modal-open='support' href="#">
+            
+            <a className={componentStyles.alt} data-modal-open='support' href="#">
               <SupportIcon/>
               SUPPORT
             </a>
+
+            <a  href="/resource-links">
+              <SupportIcon/>
+              RESOURCES
+            </a>
+
           </div>
         </div>
         

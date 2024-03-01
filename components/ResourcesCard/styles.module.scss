@@ -1,0 +1,42 @@
+@import "@styles/vars.module.scss";
+
+.ResourcesCard{
+	border: solid 2px $black;
+	display: flex;
+	width: 48%;
+	margin: 1%;
+	padding: 1rem;
+	
+	.text{
+		width:calc(100% - 300px);
+		h3{
+			font-size: $clampLarge;
+			margin-bottom: 0.15em;
+		}
+		p{
+			font-size: $clampSmall;
+			margin-bottom: 1.5em;
+		}
+	}
+	
+	.linkButton{
+		border-radius: 0.5em;
+		padding: 0.5em 1em;
+		box-shadow: 1px 2px 6px rgba(128, 128, 128, 0.55);
+		background-image: linear-gradient(to bottom, #373231, #373231, #373231, #373231, #373231, #342f2e, #302d2b, #2d2a28, #262422, #1f1e1c, #191817, #121110);
+		color: $white;
+
+	}
+	
+	.qrcode{
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		p{
+			font-size: 0.65em; 
+			text-align: center;;
+		}
+	}
+
+}
