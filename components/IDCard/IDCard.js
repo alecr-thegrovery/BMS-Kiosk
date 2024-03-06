@@ -38,7 +38,7 @@ export default function IDCard({
           tooltipID={tooltipID}
         />
       }
-      <div className={componentStyles.inner+ " inner"}>
+      <div className={" inner " + componentStyles.inner}>
           {cardID == "enrollment" &&
             <EnrollmentCard/>
           }
@@ -51,8 +51,11 @@ export default function IDCard({
           {cardID == "resources" &&
             <ResourcesCard/>
           }
-
+          <div className={componentStyles.clickableIcon}>
+            <span>+</span>
+          </div>
         </div>
+        
     </div>
   )
 }
