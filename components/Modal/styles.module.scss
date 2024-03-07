@@ -52,6 +52,11 @@ $backdropColor: rgba($black, 0.25);
 				display: block;
 			}
 		}
+		&[data-modal-show="ResourcesFormModal"]{
+			.ResourcesFormModal{
+				display: block;
+			}
+		}
 	//end
 }
 
@@ -304,5 +309,80 @@ $backdropColor: rgba($black, 0.25);
 		margin: auto;
 		padding: $clampSmall;
 		font-size: $clampExtraSmall;
+	}
+}
+
+.ResourcesFormModal{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: $white;
+	padding: $clampLarge $clampExtraLarge;
+	border-radius: 3px;
+	.scroll{
+		overflow-y: auto;
+		max-height: 85vh;
+		padding: $clampMedium;
+	}
+
+	.closeButton{
+		position: absolute;
+		top: $clampSmall;
+		right: $clampSmall;
+		width: $clampSmall;
+		aspect-ratio: 1/1;
+		cursor: pointer;
+	}
+
+	/*Modal Heading*/
+	.heading{
+		text-align: center;
+		display: block;
+		width: 100%;
+		max-width: 1200px;
+		margin: auto;
+		margin-bottom: $clampLarge;
+		h2{
+			font-size: $clampLarge;
+			margin-bottom: $clampSmall;
+		}
+		p{
+			font-size: $clampSmall;
+		}
+	}
+
+	/*Body Section - Columns*/
+	.body{
+		display: flex;
+		padding: 1em 0;
+		
+	}
+
+	.qrCode{
+		display: flex;
+		justify-content: center;
+		padding: $clampLarge 0;
+		width: 100%;
+		max-width: 600px;
+		margin: auto;
+	}
+	.modalFooter{
+		border-top: solid 2px $purple;
+		padding-top: 1em;
+		font-size: $clampSmall;
+		text-align: center;
+		h5{
+			font-size: inherit;
+			width: 100%;
+			max-width: 1000px;
+			margin: auto;
+		}
+		p{
+			font-size: $clampExtraSmall;
+			width: 100%;
+			max-width: 1000px;
+			margin: auto;
+			margin-top: $clampMedium;
+		}
 	}
 }

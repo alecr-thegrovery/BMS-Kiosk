@@ -23,8 +23,15 @@ export default function BlogPreview({
       
       <div className={componentStyles.text}>
         <h3>{name ? name : "Resource Name"}</h3>
-        <p>{description ? description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "}</p>
-        <a className={componentStyles.linkButton} href={link ? link : "http://localhost:3000/resource-links/"}>Open Resource</a>
+        <p>{description ? description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}</p>
+        
+        <a 
+          className={componentStyles.linkButton} 
+          data-modal-open='resources' 
+          data-resource-value={link} 
+          href="#"
+        >Send Resource</a>
+
       </div>
       <div className={componentStyles.qrcode}>
         <QRCodePreset link={link ? link : "http://localhost:3000/resource-links/"}/>
