@@ -185,3 +185,10 @@
     }
   }
   
+/* =============================== */
+/* ===== Online Status Detect  ===== */
+/* =============================== */
+  .OnlineDetectWrapper.offline{
+    opacity: 0.5;
+    pointer-events: none;
+  }

@@ -6,6 +6,7 @@ import SocialIcons from '@components/SocialIcons'
 import Button1 from '@components/Button1'
 import PdfThumbnail from '@components/ContentComponents/PdfThumbnail'
 import QRCodePreset from "@components/ContentComponents/QRCodePreset";
+import OnlineDetectWrapper from "@components/OnlineDetectWrapper";
 
 /*===== Styles =====*/
 import componentStyles from './styles.module.scss'
@@ -23,8 +24,17 @@ export default function BlogPreview({
       
       <div className={componentStyles.text}>
         <h3>{name ? name : "Resource Name"}</h3>
-        <p>{description ? description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "}</p>
-        <a className={componentStyles.linkButton} href={link ? link : "http://localhost:3000/resource-links/"}>Open Resource</a>
+        <p>{description ? description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}</p>
+        <OnlineDetectWrapper>
+          <a 
+            className={componentStyles.linkButton} 
+            data-modal-open='resources' 
+            data-resource-value={link} 
+            href="#"
+          >Send Resource</a>
+        </OnlineDetectWrapper>
+        
+
       </div>
       <div className={componentStyles.qrcode}>
         <QRCodePreset link={link ? link : "http://localhost:3000/resource-links/"}/>
