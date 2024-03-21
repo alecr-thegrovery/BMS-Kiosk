@@ -18,5 +18,44 @@
 		box-shadow: 1px 2px 6px rgba(128, 128, 128, 0.55);
 		background-image: linear-gradient(to bottom, #373231, #373231, #373231, #373231, #373231, #342f2e, #302d2b, #2d2a28, #262422, #1f1e1c, #191817, #121110);
 		color: $white;
+		cursor: pointer;
+	}
+
+
+}
+
+[data-form-state="default"]{
+	.form{
+		display: block;
+	}
+	.thankYou{
+		display: none;
+	}
+	.error{
+		display: none;
+	}
+}
+
+[data-form-state="success"]{
+	.form{
+		display: none;
+	}
+	.thankYou{
+		display: block;
+	}
+	.error{
+		display: none;
+	}
+}
+
+[data-form-state="error"]{
+	.form{
+		display: none;
+	}
+	.thankYou{
+		display: none;
+	}
+	.error{
+		display: block;
 	}
 }
