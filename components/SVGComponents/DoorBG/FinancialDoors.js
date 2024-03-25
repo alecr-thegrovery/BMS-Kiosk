@@ -30,7 +30,8 @@ export default function FinancialDoors({
           <rect id="floor" width="1989.786" height="150" transform="translate(-13.786 1153.253)" fill="#fff" stroke="#453838" strokeMiterlimit="10" strokeWidth="1"/>
           <g id="all-objects">
             <g id="doors" data-element="doors">
-              <g id="door1" transform="translate(-2434.939 184.607)" className="droppable" data-door="1" data-door-name="Commercial Patients" data-link="/financial/commercial-patients/" data-active="inactive">
+              
+              <g id="door1" transform="translate(-2434.939 184.607)" className="droppable" data-door="1" data-door-name="Commercial Patients" data-link="/financial/commercial-patients/" data-page-transition="/financial/commercial-patients/" data-active="inactive">
                 <g className="doorInnerBlack">
                   <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
                 </g>
@@ -61,7 +62,8 @@ export default function FinancialDoors({
                 </g>
                 
               </g>
-              <g id="door2" transform="translate(-2097.943 184.607)" className="droppable" data-door="1" data-door-name="Government Uninsured Patients" data-link="/financial/government-uninsured-patients/" data-active="inactive">
+              
+              <g id="door2" transform="translate(-2097.943 184.607)" className="droppable" data-door="1" data-door-name="Government Uninsured Patients" data-link="/financial/government-uninsured-patients/" data-page-transition="/financial/government-uninsured-patients/" data-active="inactive">
                 <g className="doorInnerBlack">
                   <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
                 </g>

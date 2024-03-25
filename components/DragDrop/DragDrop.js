@@ -39,6 +39,7 @@ export default function DragDrop({
           tooltipID="lvl-1-card-instructions"
           tooltipText={[<h2>Begin Getting Access!</h2> , <p>Tap to drag an access card to the scanner on the right to learn more about each topic.</p>]}
           tooltipPlacement="up"
+          clickNavButton
         />
 
         <IDCard
@@ -48,6 +49,7 @@ export default function DragDrop({
           color="mutedYellow"
           animation="fadeInUp"
           animationDelay="2"
+          clickNavButton
         />
 
         <IDCard 
@@ -57,6 +59,7 @@ export default function DragDrop({
           color="mutedBlue"
           animation="fadeInUp"
           animationDelay="3"
+          clickNavButton
         />
       
         <IDCard 
@@ -66,6 +69,7 @@ export default function DragDrop({
           color="mutedGreen"
           animation="fadeInUp"
           animationDelay="4"
+          clickNavButton
         />
         
       </div>

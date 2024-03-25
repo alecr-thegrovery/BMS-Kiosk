@@ -36,7 +36,7 @@ export default function ResourceDoors({
     <rect id="Rectangle_1450" data-name="Rectangle 1450" width="1595.489" height="985.106" transform="translate(-46.087 189)" fill="none"/>
     <g id="all-objects" >
       <g id="doors" data-element="doors">
-        <g id="door2" transform="translate(-2434.935 184.607)" className="droppable" data-door="1" data-door-name="Brochures" data-link="/resources/brochures/" data-active="inactive">
+        <g id="door2" transform="translate(-2434.935 184.607)" className="droppable" data-door="1" data-door-name="Brochures" data-link="/resources/brochures/" data-active="inactive" data-page-transition="/resources/brochures/" >
           <g className="doorInnerBlack">
             <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
           </g>
@@ -68,7 +68,7 @@ export default function ResourceDoors({
 
           
         </g>
-        <g id="door3" transform="translate(-2106.281 184.607)" className="droppable" data-door="2" data-door-name="Videos" data-link="/resources/videos/" data-active="inactive">
+        <g id="door3" transform="translate(-2106.281 184.607)" className="droppable" data-door="2" data-door-name="Videos" data-link="/resources/videos/" data-active="inactive" data-page-transition="/resources/videos/">
           <g className="doorInnerBlack">
             <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
           </g>
