@@ -17,7 +17,8 @@ export default function IDCard({
   //Props
   text, link, cardID, 
   color, animation, animationDelay, 
-  tooltipText, tooltipPlacement, tooltipID
+  tooltipText, tooltipPlacement, tooltipID,
+  clickNavButton
 }) {
 
   //console.log(author);
@@ -51,10 +52,18 @@ export default function IDCard({
           {cardID == "resources" &&
             <ResourcesCard/>
           }
-          <div className={componentStyles.clickableIcon}>
-            <span>+</span>
-          </div>
+  
+          
         </div>
+        {clickNavButton &&
+          <a 
+              className={componentStyles.clickableIcon}
+              data-page-transition={link}
+              data-delay="0"
+            >
+              <span>+</span>  
+            </a>
+        }
         
     </div>
   )
