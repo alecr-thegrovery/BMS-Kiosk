@@ -40,7 +40,8 @@ export default function AccessDoors({
             <rect id="floor" width="1989.786" height="150" transform="translate(-13.786 1153.253)" fill="#fff" stroke="#453838" strokeMiterlimit="10" strokeWidth="1"/>
             <g id="all-objects">
               <g id="doors" data-element="doors">
-                <g id="door1" transform="translate(-2433.939 185.607)" className="droppable" data-door="1" data-door-name="Benefits Rreview" data-link="/access/benefits/" data-active="inactive">
+                
+                <g id="door1" transform="translate(-2433.939 185.607)" className="droppable" data-door="1" data-door-name="Benefits Rreview" data-link="/access/benefits/" data-page-transition="/access/benefits/" data-active="inactive">
                   <g className="doorInnerBlack">
                     <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" transform="translate(2589.634 442.31)" fill="#212121"/>
                   </g>
@@ -72,7 +73,7 @@ export default function AccessDoors({
                   
                 </g>
 
-                <g id="door2" transform="translate(-2097.943 184.607)" className="droppable" data-door="2" data-door-name="PA Appeals Support" data-link="/access/appeals/" data-active="inactive">
+                <g id="door2" transform="translate(-2097.943 184.607)" className="droppable" data-door="2" data-door-name="PA Appeals Support" data-link="/access/appeals/" data-page-transition="/access/benefits/" data-active="inactive">
                   <g className="doorInnerBlack">
                     <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
                   </g>
@@ -105,7 +106,7 @@ export default function AccessDoors({
                   
                 </g>
 
-                <g id="door3" transform="translate(-1769.29 184.607)" className="droppable" data-door="3" data-door-name="Billing Coding" data-link="/access/billing/" data-active="inactive">
+                <g id="door3" transform="translate(-1769.29 184.607)" className="droppable" data-door="3" data-door-name="Billing Coding" data-link="/access/billing/" data-page-transition="/access/billing/" data-active="inactive">
                   <g className="doorInnerBlack">
                     <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
                   </g>
