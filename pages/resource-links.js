@@ -86,48 +86,7 @@ export default function Home({ allPostsData }) {
 
           <section className={pageStyles.mainSection}>
             <div>
-              <ResourcesContent>
-                <ResourcesCard
-                  name="eSign"
-                  description=""
-                  link="https://www.mybmscases.com/bmsProviderLightningPortal/s/esign"
-                />
-                <ResourcesCard
-                  name="BMS Provider Portal"
-                  description=""
-                  link="https://www.mybmscases.com/bmsProviderLightningPortal/s/login/?ec=302&startURL=%2FbmsProviderLightningPortal%2Fs%2F"
-                />
-                <ResourcesCard
-                  name="BMS Access Map"
-                  description=""
-                  link="https://www.bmsaccessmap.com/"
-                />
-                <ResourcesCard
-                  name="Access Support Forms"
-                  description=""
-                  link="https://www.bmsaccesssupport.com/forms-resources"
-                />
-                <ResourcesCard
-                  name="Codes Coverage"
-                  description=""
-                  link="https://www.bmsaccesssupport.com/codes-coverage"
-                />
-                <ResourcesCard
-                  name="Charitable Foundations"
-                  description=""
-                  link="https://www.bmsaccesssupport.com/charitable-foundations"
-                />
-                <ResourcesCard
-                  name="Forms Resources"
-                  description=""
-                  link="https://www.bmsaccesssupport.com/forms-resources"
-                />
-                <ResourcesCard
-                  name="Video Resources"
-                  description=""
-                  link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
-                />
-              </ResourcesContent>
+              <ResourcesContent/>
             </div>
           </section>
           

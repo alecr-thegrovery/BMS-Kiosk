@@ -47,6 +47,12 @@ export default function Sidebar({
         ModalWrapper.attr("data-modal-show", "SupportModal");
       });
 
+      $("[data-modal-open='resources']").click(function(e){
+        e.preventDefault();
+        ModalWrapper.attr("data-modal-status", "active");
+        ModalWrapper.attr("data-modal-show", "ResourcesModal");
+      });
+
       $("[data-modal-close]").click(function(e){
         e.preventDefault();
         //$("#SupportModal").attr("data-modal-status", "inactive");
@@ -72,7 +78,12 @@ export default function Sidebar({
               SUPPORT
             </a>
 
-            <a  href="/resource-links">
+            {/*<a  href="/resource-links">
+              <SupportIcon/>
+              RESOURCES
+            </a>*/}
+
+            <a  data-modal-open='resources' href="#">
               <SupportIcon/>
               RESOURCES
             </a>

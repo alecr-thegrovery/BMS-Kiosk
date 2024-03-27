@@ -25,6 +25,9 @@ export default function BlogPreview({
       <div className={componentStyles.text}>
         <h3>{name ? name : "Resource Name"}</h3>
         <p>{description ? description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}</p>
+      </div>
+      
+      <div className={componentStyles.buttonSpace}>
         <OnlineDetectWrapper>
           <a 
             className={componentStyles.linkButton} 
@@ -33,13 +36,12 @@ export default function BlogPreview({
             href="#"
           >Send Resource</a>
         </OnlineDetectWrapper>
-        
-
       </div>
-      <div className={componentStyles.qrcode}>
+      
+      {/*<div className={componentStyles.qrcode}>
         <QRCodePreset link={link ? link : "http://localhost:3000/resource-links/"}/>
         <p>Scan to open on your phone</p>
-      </div>
+      </div>*/}
     </div>
   )
 }
