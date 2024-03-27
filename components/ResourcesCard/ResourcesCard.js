@@ -31,7 +31,7 @@ export default function BlogPreview({
         <OnlineDetectWrapper>
           <a 
             className={componentStyles.linkButton} 
-            data-modal-open='resources' 
+            data-modal-open='resourcesForm' 
             data-resource-value={link} 
             href="#"
           >Send Resource</a>

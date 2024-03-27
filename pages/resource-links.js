@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
     }*/
     $(document).ready(function() {
       let ModalWrapper = $("#ModalWrapper");
-      $("[data-modal-open='resources']").click(function(e){
+      $("[data-modal-open='resourcesForm']").click(function(e){
         e.preventDefault();
         ModalWrapper.attr("data-modal-status", "active");
         ModalWrapper.attr("data-modal-show", "ResourcesFormModal");

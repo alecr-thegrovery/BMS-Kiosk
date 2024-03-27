@@ -328,9 +328,10 @@ $backdropColor: rgba($black, 0.25);
 	background-color: $white;
 	padding: $clampLarge $clampExtraLarge;
 	border-radius: 3px;
+	z-index: 100;
 	.scroll{
 		overflow-y: auto;
-		max-height: 85vh;
+		max-height: 75vh;
 		padding: $clampMedium;
 	}
 

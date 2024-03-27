@@ -53,6 +53,24 @@ export default function Sidebar({
         ModalWrapper.attr("data-modal-show", "ResourcesModal");
       });
 
+      $("[data-modal-open='resourcesForm']").click(function(e){
+        e.preventDefault();
+        ModalWrapper.attr("data-modal-status", "active");
+        ModalWrapper.attr("data-modal-show", "ResourcesFormModal");
+
+        //pre-select resource option
+        var resourceID = $(this).attr('data-resource-value');
+        console.log(resourceID);
+        //$("#ResourcesForm-options option[value='"+resourceID+"']").attr('selected', 'true');
+        document.getElementById('ResourcesForm-options').value = resourceID;
+      });
+
+      $("[data-modal-close]").click(function(e){
+        e.preventDefault();
+        //$("#SupportModal").attr("data-modal-status", "inactive");
+        ModalWrapper.attr("data-modal-status", "inactive");
+      });
+
       $("[data-modal-close]").click(function(e){
         e.preventDefault();
         //$("#SupportModal").attr("data-modal-status", "inactive");
