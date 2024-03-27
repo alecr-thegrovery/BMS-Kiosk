@@ -63,7 +63,7 @@ export default function Home({ allPostsData }) {
    });
 
   return (
-    <Layout home pageActionState="lvl-3" >
+    <Layout pageActionState="lvl-3" >
       
       <Head>
         <title>Home | {siteData.siteTitleBase}</title>
