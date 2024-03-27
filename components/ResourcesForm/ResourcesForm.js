@@ -66,14 +66,24 @@ export default function ResourcesForm({
           <div className={componentStyles.cell}>
             {/*<label for="options">Choose a Resource:</label>*/}
             <select id="ResourcesForm-options" name="options" hidden>
-              <option value="https://www.mybmscases.com/bmsProviderLightningPortal/s/esign">eSign</option>
-              <option value="https://www.mybmscases.com/bmsProviderLightningPortal/s/login/?ec=302&startURL=%2FbmsProviderLightningPortal%2Fs%2F">BMS Provider Portal</option>
-              <option value="https://www.bmsaccessmap.com/">BMS Access Map</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources">Access Support Forms</option>
-              <option value="https://www.bmsaccesssupport.com/codes-coverage">Codes Coverage</option>
-              <option value="https://www.bmsaccesssupport.com/charitable-foundations">Charitable Foundations</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources">Forms Resources</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Video Resources</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf">BMS AS Enrollment Form</option>
+              {/*<option value="https://bmsaccesssupport.com/?missing_resource">How-to-Enroll Guide</option>
+              <option value="https://bmsaccesssupport.com/?missing_resource">Sample BR Results Form</option>*/}
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf">Oral T&amp;C</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/IVs-Terms-and-Conditions.pdf">IV T&amp;C</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Understanding_Healthcare_Benefits.pdf">Understanding Healthcare Benefits Brochure</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-insurance-journey-map.pdf">Patient Reimbursement Process Map</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-medicare-guide.pdf">Medicare Part D Guide</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf">BMS Access Support Patient Brochure</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Low-Income_Subsidy_Brochure.pdf">Low Income Subsidy Brochure</option>
+              {/*<option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Enrollment Form Tutorial Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">What is an Explanation of Benefits Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">What is Health Insurance? Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Get to Know BMS Access Support Video</option>*/}
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Resource Videos</option>
+              {/*<option value="XXXXX">XXXXX</option>
+              <option value="XXXXX">XXXXX</option>*/}
+
             </select>
           </div>
           
