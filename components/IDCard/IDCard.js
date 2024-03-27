@@ -53,17 +53,18 @@ export default function IDCard({
             <ResourcesCard/>
           }
   
-          
+          {clickNavButton &&
+            <a 
+                className={componentStyles.clickableIcon}
+                data-page-transition={link}
+                data-delay="0"
+              >
+                <span>&rarr;</span>  
+              </a>
+          }
+
         </div>
-        {clickNavButton &&
-          <a 
-              className={componentStyles.clickableIcon}
-              data-page-transition={link}
-              data-delay="0"
-            >
-              <span>+</span>  
-            </a>
-        }
+        
         
     </div>
   )
