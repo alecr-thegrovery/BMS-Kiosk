@@ -5,6 +5,7 @@ import PDFModal from './PDFModal'
 import InactivityModal from './InactivityModal'
 import SupportModal from './SupportModal'
 import ResourcesFormModal from './ResourcesFormModal'
+import ResourcesModal from './ResourcesModal'
 
 /*===== Styles =====*/
 import componentStyles from './styles.module.scss'
@@ -63,6 +64,7 @@ export default function Modal({
         <PDFModal  />
         <InactivityModal />
         <ResourcesFormModal />
+        <ResourcesModal />
       </div>
 
     </div>

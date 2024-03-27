@@ -10,8 +10,9 @@
 
 ### Server Links ###
 * Local: http://localhost:3000/
-* Staging: https://bms-kiosk-staging.netlify.app/
-* Live: http://congress.bmsvirtualcongress.com/
+* Staging: https://bms-access-support-kiosk-update-2024.netlify.app/
+* Pre-Production: https://bms-access-support-kiosk.netlify.app/
+* Production: 
 
 ---
 

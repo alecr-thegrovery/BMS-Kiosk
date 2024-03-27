@@ -4,14 +4,16 @@ import Link from 'next/link'
 import Date from '@components/date'
 import CloseIcon from '@components/SVGComponents/CloseIcon'
 import Button1 from '@components/Button1'
-import QRCodePreset from "@components/ContentComponents/QRCodePreset";
-import ResourcesForm from "@components/ResourcesForm";
+
+/*New Resources components*/
+import ResourcesContent from '@components/ResourcesContent'
+import ResourcesCard from '@components/ResourcesCard'
 
 /*===== Styles =====*/
 import componentStyles from './styles.module.scss'
 
 
-export default function ResourcesFormModal({ 
+export default function ResourcesModal({ 
   //Props
   children, heading, 
 }) {
@@ -28,8 +30,8 @@ export default function ResourcesFormModal({
 
   return (
     <div 
-      id="ResourcesFormModal"
-      className={componentStyles.ResourcesFormModal}
+      id="ResourcesModal"
+      className={componentStyles.ResourcesModal}
     >
 
       <div 
@@ -41,13 +43,11 @@ export default function ResourcesFormModal({
       
       <div className={componentStyles.scroll}>
         <div className={componentStyles.heading}>
-          <h2>Send a Resource</h2>
-          <p>Fill in your email and select a resource to send yourself.</p>
+          <h2>All Resources</h2>
         </div>
 
         <div className={componentStyles.body}>
-          
-          <ResourcesForm/>
+          <ResourcesContent />
         </div>
 
         <div className={componentStyles.modalFooter}></div>
