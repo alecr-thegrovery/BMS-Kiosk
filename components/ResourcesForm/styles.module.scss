@@ -4,12 +4,21 @@
 	width: 100%;
 	max-width: 500px;
 	margin: auto;
-	border: 2px dashed $black;
+	//border: 2px dashed $black;
 
 	.cell{
 		margin-bottom: 0.5em;
 		display: flex;
 		flex-direction: column;
+	}
+
+	select{
+		appearance: none;
+		opacity: 1;
+		color: $black;
+		background: transparent;
+		border: none;
+		pointer-events: none;
 	}
 
 	button{
@@ -24,38 +33,41 @@
 
 }
 
-[data-form-state="default"]{
-	.form{
-		display: block;
+/*===== =========== =====*/
+/*===== Form States =====*/
+/*===== =========== =====*/
+	[data-form-state="default"]{
+		.form{
+			display: block;
+		}
+		.thankYou{
+			display: none;
+		}
+		.error{
+			display: none;
+		}
 	}
-	.thankYou{
-		display: none;
-	}
-	.error{
-		display: none;
-	}
-}
 
-[data-form-state="success"]{
-	.form{
-		display: none;
+	[data-form-state="success"]{
+		.form{
+			display: none;
+		}
+		.thankYou{
+			display: block;
+		}
+		.error{
+			display: none;
+		}
 	}
-	.thankYou{
-		display: block;
-	}
-	.error{
-		display: none;
-	}
-}
 
-[data-form-state="error"]{
-	.form{
-		display: none;
+	[data-form-state="error"]{
+		.form{
+			display: none;
+		}
+		.thankYou{
+			display: none;
+		}
+		.error{
+			display: block;
+		}
 	}
-	.thankYou{
-		display: none;
-	}
-	.error{
-		display: block;
-	}
-}
