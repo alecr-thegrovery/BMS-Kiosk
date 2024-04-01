@@ -1,10 +1,11 @@
 /*===== Components =====*/
-import React, { useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Link from 'next/link'
 import Date from '@components/date'
 import SocialIcons from '@components/SocialIcons'
 import Button1 from '@components/Button1'
+import $ from 'jquery'
 
 /*===== Styles =====*/
 import componentStyles from './styles.module.scss'
@@ -42,18 +43,23 @@ export default function ResourcesForm({
         );
     };
 
+    useEffect(() => {
+      $(document).ready(function() {
+        let ModalWrapper = $("#ModalWrapper");
+        
+        $("[data-modal-open='resources']").click(function(e){
+            e.preventDefault();
+            ModalWrapper.attr("data-modal-status", "active");
+            ModalWrapper.attr("data-modal-show", "ResourcesModal");
+          });
+        });
+      });
 
   return (
     <div id="resourcesFormOuter" data-form-state="default" className={componentStyles.ResourcesForm}>
       
       <div className={componentStyles.form}>
-        <h3>Send Resources Form</h3>
-        <p>
-          Enter your email to send the resource you just selected. 
-          <br/>
-          No data will be collected from this.
-        </p>
-
+        
         <form id="ResourcesForm" ref={form} onSubmit={sendEmail}>
 
           {/*EMAIL INPUT*/}
@@ -64,8 +70,8 @@ export default function ResourcesForm({
           
           {/*RESOURCE LINK*/}
           <div className={componentStyles.cell}>
-            {/*<label for="options">Choose a Resource:</label>*/}
-            <select id="ResourcesForm-options" name="options" hidden>
+            <label for="options">Selected Resource:</label>
+            <select id="ResourcesForm-options" name="options" disabled>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf">BMS AS Enrollment Form</option>
               {/*<option value="https://bmsaccesssupport.com/?missing_resource">How-to-Enroll Guide</option>
               <option value="https://bmsaccesssupport.com/?missing_resource">Sample BR Results Form</option>*/}
@@ -90,6 +96,8 @@ export default function ResourcesForm({
           {/*SUBMIT BUTTON*/}
           <div className={componentStyles.cell}>
             <button type="submit">Submit</button>
+            <br/><br/>
+            <a data-modal-open='resources' >&larr; select a different resource</a>
           </div>
           
         </form>
