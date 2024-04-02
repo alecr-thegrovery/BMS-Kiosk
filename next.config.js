@@ -6,7 +6,10 @@ const withPWA = require('next-pwa')({
   runtimeCaching: [{
       // Routing via a matchCallback function:
       urlPattern: '**/\.(?:html|js|css|jpg|png|svg)$/,',
-      handler:'CacheFirst'
+      handler:'CacheFirst',
+      options: {
+        cacheName: 'pwa-cache'
+      }
   }]
 })
 
