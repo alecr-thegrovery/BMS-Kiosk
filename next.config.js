@@ -6,13 +6,13 @@ const withPWA = require('next-pwa')({
   runtimeCaching: [{
       // Routing via a matchCallback function:
       urlPattern: '**/\.(?:html|js|css|jpg|png|svg)$/,',
-      handler:'NetworkFirst'
+      handler:'CacheFirst'
   }]
 })
 
 const nextConfig = withPWA({
   /* config options here */
-  output: 'export',
+  output: 'standalone',
   //IMAGE LOADER
   images: {
     unoptimized: true,
