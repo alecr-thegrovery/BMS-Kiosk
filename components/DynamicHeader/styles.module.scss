@@ -7,7 +7,7 @@ $fixedWidth: 310px;
 	background-color: $white;
 	position: absolute;
 	z-index: 20;
-	left: 0px;
+	left: -5px;
 	top: 25px;
 	width: 75%;
 	box-shadow: $simpleShadow;
@@ -22,12 +22,12 @@ $fixedWidth: 310px;
 		flex-wrap: wrap;
 		justify-content: flex-start;
 		align-items: center;
-		padding: 15px 35px;
+		padding: 0px 0px;
 	}
 
 	.logo{
 		width: $fixedWidth;
-		padding:5px;
+		padding:0px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
