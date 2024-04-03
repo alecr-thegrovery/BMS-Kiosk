@@ -8,6 +8,7 @@ import { BsUpcScan } from "react-icons/bs";
 import { MdArrowBackIosNew } from "react-icons/md";
 import $ from 'jquery'
 import SupportIcon from '@components/SVGComponents/SupportIcon'
+import ResourcesIcon from '@components/SVGComponents/ResourcesIcon'
 import BackIcon from '@components/SVGComponents/BackIcon'
 import HomeIcon from '@components/SVGComponents/HomeIcon'
 import ScannerIcon from '@components/SVGComponents/ScannerIcon'
@@ -103,7 +104,7 @@ export default function Sidebar({
             </a>*/}
 
             <a  data-modal-open='resources' href="#">
-              <SupportIcon/>
+              <ResourcesIcon/>
               RESOURCES
             </a>
 
