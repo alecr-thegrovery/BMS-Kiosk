@@ -5,6 +5,7 @@ import $ from 'jquery'
 import interact from 'interactjs'
 import Card from './Card.js'
 import IDCard from '@components/IDCard'
+import IDCardV2 from '@components/IDCardV2'
 //import IDCard from '@components/SVGComponents/IDCard'
 
 /*===== Styles =====*/
@@ -29,7 +30,7 @@ export default function DragDrop({
 
         {/*<div className={"cardsFilter "+ componentStyles.cardsFilter}></div>*/}
 
-        <IDCard
+        <IDCardV2
           cardID="enrollment"
           text="Enrollment"
           link="/enrollment/"
@@ -42,7 +43,7 @@ export default function DragDrop({
           clickNavButton
         />
 
-        <IDCard
+        <IDCardV2
           cardID="access"
           text="Access and Reimbursement Report"
           link="/access/"
@@ -52,7 +53,7 @@ export default function DragDrop({
           clickNavButton
         />
 
-        <IDCard 
+        <IDCardV2 
           cardID="financial"
           text="Co-Pay &amp; Finacial Assistance Services"
           link="/financial/"
@@ -62,7 +63,7 @@ export default function DragDrop({
           clickNavButton
         />
       
-        <IDCard 
+        <IDCardV2 
           cardID="resources"
           text="Patient Resources"
           link="/resources/"
