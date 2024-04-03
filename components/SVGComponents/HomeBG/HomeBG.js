@@ -86,14 +86,14 @@ export default function HomeBG({
          <g id="building2_clipmask" transform="translate(0 0)" clipPath="url(#clipPath)">
            <g id="building2_rightdoor" transform="translate(16.054 -0.238)">
             <g className="animateInner">
-              <rect id="Rectangle_1158" data-name="Rectangle 1158" width="66.367" height="109.269" transform="translate(466.603 695.242)" fill="#ffeccd" stroke="#595454" strokeWidth="0.5"/>
+              <rect id="Rectangle_1158" data-name="Rectangle 1158" width="66.367" height="109.269" transform="translate(466.603 695.242)" fill="#009FBA" stroke="#595454" strokeWidth="0.5"/>
               <rect id="Rectangle_1159" data-name="Rectangle 1159" width="2.538" height="58.501" rx="1.269" transform="translate(473.485 720.837)" fill="#fff" stroke="#352a2b" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.5"/>
             </g>
            </g>
 
            <g id="building2_leftdoor" transform="translate(16.054 -0.238)">
             <g className="animateInner">
-              <rect id="Rectangle_1160" data-name="Rectangle 1160" width="66.092" height="109.269" transform="translate(400.507 695.242)" fill="#ffeccd" stroke="#595454" strokeWidth="0.5"/>
+              <rect id="Rectangle_1160" data-name="Rectangle 1160" width="66.092" height="109.269" transform="translate(400.507 695.242)" fill="#009FBA" stroke="#595454" strokeWidth="0.5"/>
               <rect id="Rectangle_1161" data-name="Rectangle 1161" width="2.538" height="58.501" rx="1.269" transform="translate(457.28 720.837)" fill="#fff" stroke="#352a2b" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.5"/>
             </g>
            </g>
@@ -130,14 +130,14 @@ export default function HomeBG({
          <g id="building3-clipmask" clipPath="url(#clipPath-3)">
            <g id="building3_leftdoor">
             <g className="animateInner">
-              <path id="Path_3942" data-name="Path 3942" d="M0,0H98.5V126.647H0Z" transform="translate(822.359 677.918)" fill="#c0f2fb" stroke="#595454" strokeWidth="0.5"/>
+              <path id="Path_3942" data-name="Path 3942" d="M0,0H98.5V126.647H0Z" transform="translate(822.359 677.918)" fill="#C0F2FB" stroke="#595454" strokeWidth="0.5"/>
               <rect id="Rectangle_1113" data-name="Rectangle 1113" width="2.538" height="58.371" rx="1.269" transform="translate(907.123 713.456)" fill="#fff" stroke="#352a2b" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.5"/>   
             </g>
            </g>
 
            <g id="building3_rightdoor">
             <g className="animateInner">
-              <rect id="Rectangle_1110" data-name="Rectangle 1110" width="98.248" height="126.647" transform="translate(921.116 677.918)" fill="#c0f2fb" stroke="#595454" strokeWidth="0.5"/>
+              <rect id="Rectangle_1110" data-name="Rectangle 1110" width="98.248" height="126.647" transform="translate(921.116 677.918)" fill="#C0F2FB" stroke="#595454" strokeWidth="0.5"/>
               <rect id="Rectangle_1115" data-name="Rectangle 1115" width="2.538" height="58.371" rx="1.269" transform="translate(931.793 713.456)" fill="#fff" stroke="#352a2b" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.5"/>   
             </g>
            </g>
@@ -238,7 +238,7 @@ export default function HomeBG({
 
            <g id="building1_leftdoor" transform="translate(15.981 -0.366)">
             <g className="animateInner">
-              <path id="Path_3940" data-name="Path 3940" d="M0,0H67.047V116.732H0Z" transform="translate(92.673 853.14)" fill="#fedcca" stroke="#595454" strokeWidth="0.5"/>
+              <path id="Path_3940" data-name="Path 3940" d="M0,0H67.047V116.732H0Z" transform="translate(92.673 853.14)" fill="#097789" stroke="#595454" strokeWidth="0.5"/>
               <g id="Rectangle_1155" data-name="Rectangle 1155" transform="translate(152.073 884.37)" fill="#fff" stroke="#595454" strokeWidth="0.5">
                 <rect width="3" height="61" rx="1.5" stroke="none"/>
                 <rect x="0.25" y="0.25" width="2.5" height="60.5" rx="1.25" fill="none"/>
@@ -248,7 +248,7 @@ export default function HomeBG({
 
            <g id="building1_rightdoor" transform="translate(16.054 0.004)">
             <g className="animateInner">
-              <path id="Path_3908" data-name="Path 3908" d="M0,0H66.847V116.732H0Z" transform="translate(159.753 852.77)" fill="#fedcca" stroke="#595454" strokeWidth="0.5"/>
+              <path id="Path_3908" data-name="Path 3908" d="M0,0H66.847V116.732H0Z" transform="translate(159.753 852.77)" fill="#097789" stroke="#595454" strokeWidth="0.5"/>
               <g id="Rectangle_1156" data-name="Rectangle 1156" transform="translate(164 884)" fill="#fff" stroke="#595454" strokeWidth="0.5">
                 <rect width="3" height="61" rx="1.5" stroke="none"/>
                 <rect x="0.25" y="0.25" width="2.5" height="60.5" rx="1.25" fill="none"/>
