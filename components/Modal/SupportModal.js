@@ -39,12 +39,14 @@ export default function SupportModal({
       </div>
       
       <div className={componentStyles.scroll}>
+       
+        <div className={componentStyles.body}>
+
         <div className={componentStyles.heading}>
-          <h2>3 Ways to Get Support</h2>
-          <p>Visit BMSAccessSupport.com for on-demand online support, or schedule a call or in-office visit with one of our specialists.</p>
+          <h2>Looking for support? We're here for you.</h2>
+          <p>Patient access support, reimbursement resources, and financial support options may be available through <strong>BMS Access Support</strong></p>
         </div>
 
-        <div className={componentStyles.body}>
 
           {/*Column 1*/}
           <div className={componentStyles.column}>
@@ -52,16 +54,10 @@ export default function SupportModal({
             <div className={componentStyles.columnHeading}>
               <img className={componentStyles.icon} src="/images/icons/support-modal-icon-1.png" alt=""/>
               <h3  className={componentStyles.hTag}>
-                Online Support at BMSAccessSupport.com
+                Call a Patient Access Specialist at <strong>1-800-861-0048</strong>, 8 AM to 8 PM ET, Monday - Friday
               </h3>
             </div>
-            
-            <div className={componentStyles.columnBody}>
-              <ul>
-                <li key="li-1-1">Quick access to reimbursement information and co-pay program information</li>
-                <li key="li-1-2">Easy enrollment through the provider portal</li>
-              </ul>
-            </div>            
+             
           </div>
 
           {/*Column 2*/}
@@ -70,16 +66,10 @@ export default function SupportModal({
             <div className={componentStyles.columnHeading}>
               <img className={componentStyles.icon} src="/images/icons/support-modal-icon-2.png" alt=""/>
               <h3  className={componentStyles.hTag}>
-                Phone Support from a Patient Access Specialist
+                Visit <strong>www.BMSAccessSupport.com</strong>
               </h3>
             </div>
             
-            <div className={componentStyles.columnBody}>
-              <ul>
-                <li key="li-2-1">Answers regarding state-specific insurance policies, general HCP topics, and all Access Support services</li>
-                <li key="li-2-2">Assistance with claims tracking and specific BMS cases with submitted PA for enrolled patients</li>
-              </ul>
-            </div>            
           </div>
 
           {/*Column 3*/}
@@ -88,17 +78,12 @@ export default function SupportModal({
             <div className={componentStyles.columnHeading}>
               <img className={componentStyles.icon} src="/images/icons/support-modal-icon-3.png" alt=""/>
               <h3  className={componentStyles.hTag}>
-                In-Person Support with a Local Access &amp; Reimbursement Manager (ARM)
+                <strong>Schedule a meeting</strong> with a BMS Access and Reimbursement Manager on the BMS Access Support website
               </h3>
             </div>
-            
-            <div className={componentStyles.columnBody}>
-              <ul>
-                <li key="li-3-1">Real-time responses to Access Support and case-related questions</li>
-                <li key="li-3-1">Assistance with case status tracking, reimbursement claims, and appeals</li>
-              </ul>
-            </div>            
+              
           </div>
+
         </div>
 
         <div className={componentStyles.qrCode}>
