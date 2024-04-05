@@ -1,35 +1,78 @@
 @import "@styles/vars.module.scss";
 
 .ResourcesCard{
-	border: solid 2px $black;
+	border: solid 2px $purple;
+	border-radius: 25px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	flex-direction: column;
-	width: 48%;
+	width: 31%;
 	margin: 1%;
 	padding: 1rem;
+	&[data-hidden="true"]{
+		display: none;
+	}
+	.thumbnailImage{
+		margin-bottom: 1em;
+		box-shadow: 
+			0.15em 0.25em 0.5em rgba(0,0,0,0.15),
+			-0.15em 0.25em 0.5em rgba(0,0,0,0.15);
+	}
+	.placeholderImage{
+		width: 185px;
+		height: 240px;
+		background-color: #eeeeee;
+		font-size: $clampExtraSmall;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 	
-	.text{
+	.content{
 		//width:calc(100% - 200px);
-		padding-right: 2em;
+		//padding-right: 2em;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-direction: row;
+		width: 100%;
 		h3{
-			font-size: $clampLarge;
-			margin-bottom: 0.15em;
+			font-size: $clampSmall;
+			//margin-bottom: 0.15em;
 		}
 		p{
 			font-size: $clampSmall;
-			margin-bottom: 1.5em;
+			margin-bottom: 2em;
+		}
+
+		.text{
+			width: calc(100% - 50px);
+			padding-right: 50px;
+			color: #097789;
+		}
+		.linkSection{
+			width: 50px;
 		}
 	}
 	
 	.linkButton{
-		border-radius: 0.5em;
+		width: 1.5em;
+		height: auto;
+		display: inline-block;
+		position: relative;
+		top: -0.5em;
+		svg{
+			max-width: 100%;
+			height: auto;
+		}
+		/*border-radius: 0.5em;
 		padding: 0.5em 1em;
 		box-shadow: 1px 2px 6px rgba(128, 128, 128, 0.55);
 		background-image: linear-gradient(to bottom, #373231, #373231, #373231, #373231, #373231, #342f2e, #302d2b, #2d2a28, #262422, #1f1e1c, #191817, #121110);
 		color: $white;
-		margin: auto;
+		margin: auto;*/
 
 	}
 	

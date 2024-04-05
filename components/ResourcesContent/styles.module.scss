@@ -6,7 +6,45 @@
 	height: 100%;
 	//padding: 1rem;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
+}
+
+.tagCloud{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 1em;
+
+	div{
+		border: solid 0.2em transparent;
+		padding: 0.5em 1em;
+		border-radius: 2.5em;
+		margin-right: 1em;
+		font-size: $clampSmall;
+		background-color: $purple;
+		color: $white;
+
+		&[data-filter="enrollment"]{
+			background-color: $darkBlue;
+			color: $white;
+		}
+		&[data-filter="access"]{
+			background-color: $boldBlue;
+			color: $white;
+		}
+		&[data-filter="financial"]{
+			background-color: $tealBlue;
+			color: $black;
+		}
+		&[data-filter="resources"]{
+			background-color: $surfBlue;
+			color: $black;
+		}
+		&[data-active="active"]{
+			border-color: $black;
+		}
+	}
 }
 
 .innerGrid{

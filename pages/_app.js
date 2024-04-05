@@ -430,6 +430,7 @@ export default function App({ Component, pageProps }) {
         window.addEventListener('offline', handleOfflineStatus);
         
 
+      
   });
  
   return <Component {...pageProps} />
