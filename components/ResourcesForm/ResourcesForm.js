@@ -70,7 +70,7 @@ export default function ResourcesForm({
           
           {/*RESOURCE LINK*/}
           <div className={componentStyles.cell}>
-            <label for="options">Selected Resource:</label>
+            <label  className={componentStyles.selectLabel} for="options">Selected Resource:</label>
             <select id="ResourcesForm-options" name="options" disabled>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf">BMS AS Enrollment Form</option>
               {/*<option value="https://bmsaccesssupport.com/?missing_resource">How-to-Enroll Guide</option>
@@ -91,13 +91,13 @@ export default function ResourcesForm({
               <option value="XXXXX">XXXXX</option>*/}
 
             </select>
+            <a className={componentStyles.backButton} data-modal-open='resources' >&larr; select a different resource</a>
           </div>
           
           {/*SUBMIT BUTTON*/}
           <div className={componentStyles.cell}>
             <button type="submit">Submit</button>
-            <br/><br/>
-            <a data-modal-open='resources' >&larr; select a different resource</a>
+            
           </div>
           
         </form>

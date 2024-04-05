@@ -14,15 +14,17 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	margin-bottom: 1em;
 
 	div{
-		//border: solid 2px $black;
+		border: solid 0.2em transparent;
 		padding: 0.5em 1em;
-		border-radius: 1em;
+		border-radius: 2.5em;
 		margin-right: 1em;
 		font-size: $clampSmall;
 		background-color: $purple;
 		color: $white;
+
 		&[data-filter="enrollment"]{
 			background-color: $darkBlue;
 			color: $white;
@@ -38,6 +40,9 @@
 		&[data-filter="resources"]{
 			background-color: $surfBlue;
 			color: $black;
+		}
+		&[data-active="active"]{
+			border-color: $black;
 		}
 	}
 }

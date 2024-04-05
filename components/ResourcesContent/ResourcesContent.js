@@ -63,9 +63,18 @@ export default function ResourcesContent({
 
       filterButtons.forEach(button => {
           button.addEventListener('click', function() {
+              //set DOM variables
               const selectedFilter = this.getAttribute('data-filter');
               const cards = document.querySelectorAll('#resourceCards > .ResourcesCard');
 
+              //Set active state
+              var elements = document.querySelectorAll('#tagFilter > div');
+              elements.forEach(element => {
+                element.setAttribute('data-active', 'inactive');
+              });
+              this.setAttribute('data-active', 'active');
+
+              //Show/hide cards
               cards.forEach(card => {
                   if (selectedFilter === 'all' || card.getAttribute('data-tag') === selectedFilter) {
                       card.setAttribute("data-hidden", "false");
