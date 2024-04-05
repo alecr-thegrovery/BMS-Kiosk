@@ -10,6 +10,9 @@
 	width: 31%;
 	margin: 1%;
 	padding: 1rem;
+	&[data-hidden="true"]{
+		display: none;
+	}
 	.thumbnailImage{
 		margin-bottom: 1em;
 		box-shadow: 

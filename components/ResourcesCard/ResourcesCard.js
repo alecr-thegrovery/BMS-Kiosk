@@ -20,8 +20,9 @@ export default function BlogPreview({
 
   //console.log(author);
 
+
   return (
-    <div className={componentStyles.ResourcesCard}>
+    <div className={componentStyles.ResourcesCard + " ResourcesCard"} data-tag={tag}>
       <div className={componentStyles.thumbnailImage}>
         {thumbnail ? 
         <img src={thumbnail} alt=""/>
