@@ -30,7 +30,7 @@ export default function ResourceDoors({
   </defs>
   <g id="iPad_Pro_12.9in_9" data-name="iPad Pro 12.9in – 9" clipPath="url(#clip-iPad_Pro_12.9in_9)">
     <rect width="1976" height="1263" fill="#fff"/>
-    <path id="bg-color" d="M0,0H1990.793V1497.623H0Z" transform="translate(-14.793 -93.623)" fill="#c5ffe6" stroke="#595454" strokeWidth="1" opacity="0.196"/>
+    <path id="bg-color" d="M0,0H1990.793V1497.623H0Z" transform="translate(-14.793 -93.623)" fill="#C5FFE6" stroke="#595454" strokeWidth="1" opacity="0.196"/>
     <rect id="floor" width="1989.786" height="327.747" transform="translate(-13.786 1153.253)" fill="#fff" stroke="#453838" strokeMiterlimit="10" strokeWidth="1"/>
     <rect id="Rectangle_1444" data-name="Rectangle 1444" width="1595.487" height="985.104" transform="translate(-46.087 189.002)" fill="none"/>
     <rect id="Rectangle_1450" data-name="Rectangle 1450" width="1595.489" height="985.106" transform="translate(-46.087 189)" fill="none"/>
@@ -103,12 +103,12 @@ export default function ResourceDoors({
         <g id="signs">
           <g id="sign2" transform="translate(-336.991 20)">
             <rect id="Rectangle_185" data-name="Rectangle 185" width="279.31" height="86.697" transform="translate(491.691 491.358)" fill="#fff" stroke="#9f9089" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.264"/>
-            <rect id="Rectangle_1905" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#c5ffe6" stroke="#c5ffe6" strokeLinecap="round" strokeWidth="1.264"/>
+            <rect id="Rectangle_1905" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#C5FFE6" stroke="#C5FFE6" strokeLinecap="round" strokeWidth="1.264"/>
             <text id="BROCHURES" transform="translate(631.347 543.003)" fill="#595454" fontSize="24"   letterSpacing="0.02em"><tspan x="-68.723" y="0">BROCHURES</tspan></text>
           </g>
           <g id="sign3" transform="translate(-8.338 20)">
             <rect id="Rectangle_185-2" data-name="Rectangle 185" width="279.31" height="86.697" transform="translate(491.691 491.358)" fill="#fff" stroke="#9f9089" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.264"/>
-            <rect id="Rectangle_1905-2" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#c5ffe6" stroke="#c5ffe6" strokeLinecap="round" strokeWidth="1.264"/>
+            <rect id="Rectangle_1905-2" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#C5FFE6" stroke="#C5FFE6" strokeLinecap="round" strokeWidth="1.264"/>
             <text id="Videos" transform="translate(631.347 540)" fill="#595454" fontSize="24"   letterSpacing="0.02em"><tspan x="-41.753" y="0">VIDEOS</tspan></text>
           </g>
         </g>
