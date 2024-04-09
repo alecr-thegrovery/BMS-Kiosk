@@ -36,7 +36,7 @@ export default function DynamicFooter({
               </p>
             }
             <p>
-              &copy;2023 Bristol-Myers Squibb Company. Access Support is a registered trademark of Bristol-Myers Squibb Company. Use of the information on this site is subject to the terms of our Legal Notice and Privacy Statement.  NO-US-2200598  04/23
+              &copy;2023 Bristol-Myers Squibb Company. Access Support is a registered trademark of Bristol-Myers Squibb Company. Use of the information on this site is subject to the terms of our Legal Notice and Privacy Statement.  NO-US-2400153  04/24
               </p>
                         
           </div>
