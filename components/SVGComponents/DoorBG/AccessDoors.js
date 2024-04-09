@@ -73,7 +73,7 @@ export default function AccessDoors({
                   
                 </g>
 
-                <g id="door2" transform="translate(-2097.943 184.607)" className="droppable" data-door="2" data-door-name="PA Appeals Support" data-link="/access/appeals/" data-page-transition="/access/benefits/" data-active="inactive">
+                <g id="door2" transform="translate(-2097.943 184.607)" className="droppable" data-door="2" data-door-name="PA Appeals Support" data-link="/access/appeals/" data-page-transition="/access/appeals/" data-active="inactive">
                   <g className="doorInnerBlack">
                     <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
                   </g>
