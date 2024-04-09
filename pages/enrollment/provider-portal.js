@@ -73,7 +73,7 @@ export default function Post({ postData }) {
       <div className={pageStyles.pageLayout}>
         {/*Header*/}
         <DynamicHeader
-          heading={["Using the My BMS Cases ", <strong>Provider Portal</strong>]}
+          heading={["Using the BMS ", <strong>Access Support<sup>&reg;</sup></strong>, " Provider Portals"]}
         />
 
         {/*Content*/}
@@ -86,12 +86,12 @@ export default function Post({ postData }) {
               <div className={pageStyles.twoColumn}>
                 {/*LEFT CELL*/}
                 <div className={pageStyles.cell}>
-                  
+                  <h2>MyBMSCases Provider Portal </h2>
                   <BlockQuote icon="/images/icons/contentComputerScreen.svg">
-                    <p>This secure provider portal offers convenient, on-demand access to patient reimbursement cases for BMS medications.</p>
+                    <p>This secure provider portal offers convenient, on-demand access to patient reimbursement cases for select BMS medications.</p>
                   </BlockQuote>
 
-                  <h2>The provider portal allows you to: </h2>
+                  <h3>The provider portal allows you to: </h3>
                   <ul>
                     <li>Access case status updates </li>
                     <li>Enroll in co-pay program and view details, including eligibility dates, annual benefit cap, and available balance</li>
@@ -112,7 +112,18 @@ export default function Post({ postData }) {
 
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
-                  <img src="/images/content/provider-portal-img.png" alt="" />
+                  <h2>BMS Access Support<sup>&reg;</sup> Co-Pay Portal </h2>
+                  <BlockQuote icon="/images/icons/contentComputerScreen2.svg">
+                    <p>This secure portal allows HCPs to manage their patients’ co-pay claims after the patient has been enrolled into the Co-Pay Assistance Program.</p>
+                  </BlockQuote>
+
+                  <h3>The provider portal allows you to: The co-pay portal allows you to:</h3>
+                  <ul>
+                    <li>Submit medical claims</li>
+                    <li>Track claim status</li>
+                    <li>Submit and track reverification status Confirm payments for patients actively enrolled in the BMS Access Support Co-Pay Assistance Program. Please see full [Terms and Conditions] >, including complete eligibility requirements</li>
+                  </ul>
+                  <p>Please note that this portal does NOT support enrollment into co-pay programs.</p>
                 </div>
 
               </div>
