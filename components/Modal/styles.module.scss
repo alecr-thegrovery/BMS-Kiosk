@@ -181,6 +181,7 @@ $backdropColor: rgba($black, 0.25);
 
 	/*Body Section - Columns*/
 	.body{
+		position: relative;
 		display: flex;
 		flex-direction: row;
 		//flex-wrap: wrap;
@@ -188,13 +189,31 @@ $backdropColor: rgba($black, 0.25);
 		//align-items: flex-start;
 		gap: 3.33%;
 		//font-size: $clampSmall;
-		line-height: 1.35;
+		line-height: 1.35; 
+		border: solid 0.15em $darkBlue;
+		border-radius: 1em;
+		padding-top: 5em;
+		margin-top:2em;
+
+		.heading{
+			position: absolute;
+			top: -2em;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: $white;
+			color: $darkBlue;
+			width: 80%;
+			max-width: 20em;
+			p{
+				color: $black;
+			}
+		}
 
 		.column{
 			width: 30%;
 			padding: $clampMedium;
-			background-color: $grey;
-			border-radius: 5%;
+			/*background-color: $grey;
+			border-radius: 5%;*/
 			.columnHeading{
 				display: flex;
 				flex-direction: column;
@@ -205,9 +224,16 @@ $backdropColor: rgba($black, 0.25);
 				.icon{
 					font-size: $clampLarge;
 					margin-bottom: $clampSmall;
+					width: 100%;
+					max-width: 80px;
+					height: auto;
 				}
 				.hTag{
 					font-size: $clampSmall;
+					font-weight: 400;
+					strong{
+						color: $purple;
+					}
 				}
 			}
 			.columnBody{

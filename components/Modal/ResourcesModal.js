@@ -50,7 +50,7 @@ export default function ResourcesModal({
           <ResourcesContent />
         </div>
 
-        <div className={componentStyles.modalFooter}></div>
+        {/*<div className={componentStyles.modalFooter}></div>*/}
           
       </div>
 
