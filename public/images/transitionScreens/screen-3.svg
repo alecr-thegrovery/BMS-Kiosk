@@ -35,13 +35,13 @@
             </g>
           </g>
           <g id="Group_487" data-name="Group 487">
-            <g id="Group_484" data-name="Group 484" opacity="0.696">
-              <rect id="Rectangle_343" data-name="Rectangle 343" width="468.227" height="83.462" transform="translate(7628.215 137.734)" fill="#fdd7c2"/>
+            <g id="Group_484" data-name="Group 484" opacity="1">
+              <rect id="Rectangle_343" data-name="Rectangle 343" width="468.227" height="83.462" transform="translate(7628.215 137.734)" fill="#D3F6FC"/>
               <line id="Line_89" data-name="Line 89" x2="467.346" transform="translate(7629.096 168.147)" fill="none" stroke="#9f9089" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
               <line id="Line_90" data-name="Line 90" x2="467.346" transform="translate(7629.096 195.106)" fill="none" stroke="#9f9089" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
             </g>
-            <g id="Group_485" data-name="Group 485" opacity="0.696">
-              <rect id="Rectangle_344" data-name="Rectangle 344" width="458.182" height="83.462" transform="translate(7158.467 137.734)" fill="#fdd7c2"/>
+            <g id="Group_485" data-name="Group 485" opacity="1">
+              <rect id="Rectangle_344" data-name="Rectangle 344" width="458.182" height="83.462" transform="translate(7158.467 137.734)" fill="#D3F6FC"/>
               <line id="Line_91" data-name="Line 91" x2="457.301" transform="translate(7159.347 168.147)" fill="none" stroke="#9f9089" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
               <line id="Line_92" data-name="Line 92" x2="457.301" transform="translate(7159.347 195.106)" fill="none" stroke="#9f9089" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
             </g>
@@ -63,7 +63,7 @@
         </g>
         <g id="Group_493" data-name="Group 493" transform="translate(0 7.533)">
           <g id="Group_490" data-name="Group 490">
-            <path id="Path_2844" data-name="Path 2844" d="M7755.214,623.177a92.779,92.779,0,0,0-92.779-92.779H7420.049a97.905,97.905,0,0,0-97.9,97.9V868.782a51.942,51.942,0,0,0,51.942,51.942h323.852a57.078,57.078,0,0,0,57.078-57.032Z" fill="#be2bbb" stroke="#453838" stroke-miterlimit="10" stroke-width="1"/>
+            <path id="Path_2844" data-name="Path 2844" d="M7755.214,623.177a92.779,92.779,0,0,0-92.779-92.779H7420.049a97.905,97.905,0,0,0-97.9,97.9V868.782a51.942,51.942,0,0,0,51.942,51.942h323.852a57.078,57.078,0,0,0,57.078-57.032Z" fill="#097789" stroke="#453838" stroke-miterlimit="10" stroke-width="1"/>
             <path id="Path_2845" data-name="Path 2845" d="M7481.775,838.9,7422.3,824.4V665.2" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
             <line id="Line_93" data-name="Line 93" y2="205.268" transform="translate(7652.409 661.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
           </g>
@@ -92,8 +92,8 @@
         <path id="Path_3487" data-name="Path 3487" d="M70.567,369.352,208.763,237.8" transform="translate(8048.658 412.681)" fill="none" stroke="#707070" stroke-width="1"/>
       </g>
       <g id="Group_495" data-name="Group 495" transform="translate(0 83.342)">
-        <circle id="Ellipse_32" data-name="Ellipse 32" cx="97.859" cy="97.859" r="97.859" transform="translate(8285.13 142.864)" fill="#fff" stroke="#be2bbb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-        <path id="Path_2854" data-name="Path 2854" d="M8382.988,164.357v76.366h41.979" fill="#fff" stroke="#be2bbb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <circle id="Ellipse_32" data-name="Ellipse 32" cx="97.859" cy="97.859" r="97.859" transform="translate(8285.13 142.864)" fill="#fff" stroke="#097789" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+        <path id="Path_2854" data-name="Path 2854" d="M8382.988,164.357v76.366h41.979" fill="#fff" stroke="#097789" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
       </g>
     </g>
     <g id="Group_1149" data-name="Group 1149" transform="translate(1250 743)">
