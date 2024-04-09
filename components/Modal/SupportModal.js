@@ -52,7 +52,7 @@ export default function SupportModal({
           <div className={componentStyles.column}>
             
             <div className={componentStyles.columnHeading}>
-              <img className={componentStyles.icon} src="/images/icons/support-modal-icon-1.png" alt=""/>
+              <img className={componentStyles.icon} src="/images/icons/support-icon-1.png" alt=""/>
               <h3  className={componentStyles.hTag}>
                 Call a Patient Access Specialist at <strong>1-800-861-0048</strong>, 8 AM to 8 PM ET, Monday - Friday
               </h3>
@@ -64,7 +64,7 @@ export default function SupportModal({
           <div className={componentStyles.column}>
             
             <div className={componentStyles.columnHeading}>
-              <img className={componentStyles.icon} src="/images/icons/support-modal-icon-2.png" alt=""/>
+              <img className={componentStyles.icon} src="/images/icons/support-icon-2.png" alt=""/>
               <h3  className={componentStyles.hTag}>
                 Visit <strong>www.BMSAccessSupport.com</strong>
               </h3>
@@ -76,7 +76,7 @@ export default function SupportModal({
           <div className={componentStyles.column}>
             
             <div className={componentStyles.columnHeading}>
-              <img className={componentStyles.icon} src="/images/icons/support-modal-icon-3.png" alt=""/>
+              <img className={componentStyles.icon} src="/images/icons/support-icon-3.png" alt=""/>
               <h3  className={componentStyles.hTag}>
                 <strong>Schedule a meeting</strong> with a BMS Access and Reimbursement Manager on the BMS Access Support website
               </h3>

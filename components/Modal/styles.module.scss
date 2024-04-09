@@ -224,6 +224,9 @@ $backdropColor: rgba($black, 0.25);
 				.icon{
 					font-size: $clampLarge;
 					margin-bottom: $clampSmall;
+					width: 100%;
+					max-width: 80px;
+					height: auto;
 				}
 				.hTag{
 					font-size: $clampSmall;
