@@ -46,7 +46,7 @@ $fixedWidth: 310px;
 	.text{
 		width:calc(100% - #{$fixedWidth});
 		padding-right: 50px;
-		padding-left: 100px;
+		padding-left: 25px;
 		.heading{
 			font-size: $clampMedium;
 			strong{color: $purple;}
