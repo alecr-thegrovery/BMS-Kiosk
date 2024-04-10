@@ -93,17 +93,17 @@ export default function Post({ postData }) {
                 {/*LEFT CELL*/}
                 <div className={pageStyles.cell}>
 
-                  <h2>We offer product-specific Billing &amp; Coding resources for your healthcare office.</h2>
+                  <p>We offer product-specific Billing &amp; Coding resources for your healthcare office.</p>
                   <BlockQuote icon="/images/icons/contentClipboardIcon.svg">
-                    <p><strong>Billing &amp; Coding Guides</strong> provide an overview of relevant product and diagnosis codes, dosing and administration, and general reimbursement information.</p>
+                    <p><strong className={pageStyles.darkBlue}>Billing &amp; Coding Guides</strong> provide an overview of relevant product and diagnosis codes, dosing and administration, and general reimbursement information.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentClipboardIcon.svg">
-                    <p><strong>Online Code Search Tool</strong> allows providers to type in a keyword to find a specific HCPCS, CPT, NDC, 5010, or ICD-10 code.</p>
+                    <p><strong className={pageStyles.darkBlue}>Online Code Search Tool</strong> allows providers to type in a keyword to find a specific HCPCS, CPT, NDC, 5010, or ICD-10 code.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentListIcon.svg">
-                    <p><strong>Sample Claim Forms</strong> call out where to enter important information on health insurance claim forms (e.g., drug name, dosing information, HCPCS code, etc.).</p>
+                    <p><strong className={pageStyles.darkBlue}>Sample Claim Forms</strong> call out where to enter important information on health insurance claim forms (e.g., drug name, dosing information, HCPCS code, etc.).</p>
                   </BlockQuote>
                   <br/>
                   
