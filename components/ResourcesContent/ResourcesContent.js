@@ -51,14 +51,7 @@ export default function ResourcesContent({
   return (
     <div className={componentStyles.ResourcesContent}>
       
-      {/*<select id="tagFilter">
-           <option value="all">All</option>
-           <option value="tag-1">Tag 1</option>
-           <option value="tag-2">Tag 2</option>
-           <option value="tag-3">Tag 3</option>
-       </select>*/}
-
-       <div id="tagFilter" className={componentStyles.tagCloud}>
+      <div id="tagFilter" className={componentStyles.tagCloud}>
           <div data-filter="all" >All</div>
           <div data-filter="enrollment" >Enrollment</div>
           <div data-filter="access" >Access &amp; Reimbursement Support</div>
@@ -71,42 +64,41 @@ export default function ResourcesContent({
         <ResourcesCard
           name="BMS AS Enrollment Form"
           thumbnail="/images/resources/enrollment-form.png"
-          description=""
           link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf"
+          tag="enrollment"
       />
 
       {/*<ResourcesCard
         name="How-to-Enroll Guide"
-        description=""
+        thumbnail="/images/resources/enrollment-form.png"
         link="https://bmsaccesssupport.com/?missing_resource"
+        tag="access"
       />
 
       <ResourcesCard
         name="Sample BR Results Form"
-        description=""
+        thumbnail="/images/resources/enrollment-form.png"
         link="https://bmsaccesssupport.com/?missing_resource"
+        tag="access"
       />*/}
 
       <ResourcesCard
         name="Oral T&amp;C"
         thumbnail="/images/resources/T&C-oral.png"
-        description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf"
-        tag="resources"
+        tag="financial"
       />
 
       <ResourcesCard
         name="IV T&amp;C"
         thumbnail="/images/resources/T&C-HCP.png"
-        description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/IVs-Terms-and-Conditions.pdf"
-        tag="enrollment"
+        tag="financial"
       />
 
       <ResourcesCard
         name="Understanding Healthcare Benefits Brochure"
         thumbnail="/images/resources/understanding-benefits.png"
-        description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Understanding_Healthcare_Benefits.pdf"
         tag="resources"
       />
@@ -114,15 +106,13 @@ export default function ResourcesContent({
       <ResourcesCard
         name="Patient Reimbursement Process Map"
         thumbnail="/images/resources/Patient_Reimbursement_Process_Map.png"
-        description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-insurance-journey-map.pdf"
-        tag="access"
+        tag="resources"
       />
 
       <ResourcesCard
         name="Medicare Part D Guide"
         thumbnail="/images/resources/Medicare-Guide.png"
-        description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-medicare-guide.pdf"
         tag="resources"
       />
@@ -130,47 +120,40 @@ export default function ResourcesContent({
       <ResourcesCard
         name="BMS Access Support Patient Brochure"
         thumbnail="/images/resources/patient-brochure.png"
-        description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf"
-        tag="access"
+        tag="resources"
       />
 
       <ResourcesCard
         name="Low Income Subsidy Brochure"
         thumbnail="/images/resources/LowIncome-brochure.png"
-        description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Low-Income_Subsidy_Brochure.pdf"
         tag="financial"
       />
 
       {/*<ResourcesCard
         name="Enrollment Form Tutorial Video"
-        description=""
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
       />
 
       <ResourcesCard
         name="What is an Explanation of Benefits Video"
-        description=""
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
       />
 
       <ResourcesCard
         name="What is Health Insurance? Video"
-        description=""
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
       />
 
       <ResourcesCard
         name="Get to Know BMS Access Support Video"
-        description=""
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
       />*/}
 
       <ResourcesCard
         name="Resources Videos"
         thumbnail="/images/resources/video-generic.png"
-        description=""
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
         tag="resources"
       />
