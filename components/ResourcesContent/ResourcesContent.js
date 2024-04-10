@@ -19,45 +19,6 @@ export default function ResourcesContent({
   //console.log(author);
 
   useEffect(() => {
-    
-        
-        /*const selectElement = document.getElementById('tagFilter');
-        
-        selectElement.addEventListener('change', function() {
-            console.log("select interact");
-            const selectedTag = this.value;
-            const cards = document.querySelectorAll('#resourceCards > .ResourcesCard');
-
-            cards.forEach(card => {
-                card.setAttribute("data-hidden", "false");
-                if (selectedTag === 'all' || card.getAttribute('data-tag') === selectedTag) {
-                    card.setAttribute("data-hidden", "false");
-                } else {
-                    card.setAttribute("data-hidden", "true");
-                }
-            });
-        });*/
-
-        /*function tagClick(){
-          console.log("select interact");
-          const selectedTag = this.getAttribute("data-tag-value");
-          const cards = document.querySelectorAll('#resourceCards > .ResourcesCard');
-
-          cards.forEach(card => {
-              card.setAttribute("data-hidden", "false");
-              if (selectedTag === 'all' || card.getAttribute('data-tag') === selectedTag) {
-                  card.setAttribute("data-hidden", "false");
-              } else {
-                  card.setAttribute("data-hidden", "true");
-              }
-          });
-        }
-
-        const selectElement = document.querySelectorAll('tagFilter > div');
-        
-        document.querySelectorAll('tagFilter > div').addEventListener('click', function() {
-          tagClick()
-        })*/
 
       const filterButtons = document.querySelectorAll('#tagFilter > div');
 
@@ -109,6 +70,7 @@ export default function ResourcesContent({
         {/*{children}*/}
         <ResourcesCard
           name="BMS AS Enrollment Form"
+          thumbnail="/images/resources/enrollment-form.png"
           description=""
           link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf"
       />
@@ -127,6 +89,7 @@ export default function ResourcesContent({
 
       <ResourcesCard
         name="Oral T&amp;C"
+        thumbnail="/images/resources/T&C-oral.png"
         description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf"
         tag="resources"
@@ -134,6 +97,7 @@ export default function ResourcesContent({
 
       <ResourcesCard
         name="IV T&amp;C"
+        thumbnail="/images/resources/T&C-HCP.png"
         description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/IVs-Terms-and-Conditions.pdf"
         tag="enrollment"
@@ -141,6 +105,7 @@ export default function ResourcesContent({
 
       <ResourcesCard
         name="Understanding Healthcare Benefits Brochure"
+        thumbnail="/images/resources/understanding-benefits.png"
         description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Understanding_Healthcare_Benefits.pdf"
         tag="resources"
@@ -148,6 +113,7 @@ export default function ResourcesContent({
 
       <ResourcesCard
         name="Patient Reimbursement Process Map"
+        thumbnail="/images/resources/Patient_Reimbursement_Process_Map.png"
         description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-insurance-journey-map.pdf"
         tag="access"
@@ -155,6 +121,7 @@ export default function ResourcesContent({
 
       <ResourcesCard
         name="Medicare Part D Guide"
+        thumbnail="/images/resources/Medicare-Guide.png"
         description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-medicare-guide.pdf"
         tag="resources"
@@ -162,6 +129,7 @@ export default function ResourcesContent({
 
       <ResourcesCard
         name="BMS Access Support Patient Brochure"
+        thumbnail="/images/resources/patient-brochure.png"
         description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf"
         tag="access"
@@ -169,6 +137,7 @@ export default function ResourcesContent({
 
       <ResourcesCard
         name="Low Income Subsidy Brochure"
+        thumbnail="/images/resources/LowIncome-brochure.png"
         description=""
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Low-Income_Subsidy_Brochure.pdf"
         tag="financial"
@@ -200,6 +169,7 @@ export default function ResourcesContent({
 
       <ResourcesCard
         name="Resources Videos"
+        thumbnail="/images/resources/video-generic.png"
         description=""
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
         tag="resources"
