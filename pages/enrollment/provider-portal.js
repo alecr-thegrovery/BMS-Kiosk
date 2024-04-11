@@ -12,6 +12,7 @@ import ComputerFrame from '@components/SVGComponents/ComputerFrame'
 import TransitionScreen from '@components/SVGComponents/TransitionScreen'
 import BlockQuote from '@components/ContentComponents/BlockQuote'
 import PdfThumbnail from '@components/ContentComponents/PdfThumbnail'
+import PdfLink from '@components/ContentComponents/PdfLink'
 import QRCodePreset from "@components/ContentComponents/QRCodePreset";
 
 /*===== Styles =====*/
@@ -121,7 +122,7 @@ export default function Post({ postData }) {
                   <ul>
                     <li>Submit medical claims</li>
                     <li>Track claim status</li>
-                    <li>Submit and track reverification status Confirm payments for patients actively enrolled in the BMS Access Support Co-Pay Assistance Program. Please see full [Terms and Conditions] >, including complete eligibility requirements</li>
+                    <li>Submit and track reverification status Confirm payments for patients actively enrolled in the BMS Access Support Co-Pay Assistance Program. Please see full <PdfLink url="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf">Terms and Conditions</PdfLink>, including complete eligibility requirements</li>
                   </ul>
                   <p>Please note that this portal does NOT support enrollment into co-pay programs.</p>
                 </div>
