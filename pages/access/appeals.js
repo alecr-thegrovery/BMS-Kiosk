@@ -127,7 +127,7 @@ export default function Post({ postData }) {
 
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
-                  <img src="/images/content/appeals-img.png" alt="" />
+                  <img src="/images/thumbnails-2024/appeals-1.png" alt="" />
                   <p>To access the BMS Access Payer Map, scan the QR code below and select the appropriate medication.</p>
                   <QRCodePreset 
                     link="https://www.bmsaccessmap.com/opdivo?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
@@ -137,7 +137,7 @@ export default function Post({ postData }) {
 
                   <br/><br/>
 
-                  <img src="/images/content/pa-appeals-supporting.png" alt="" />
+                  <img src="/images/thumbnails-2024/appeals-2.png" alt="" />
                   <QRCodePreset 
                     link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
                     toolTipText="Scan for PA &amp; Appeals Forms &amp; Resources"
