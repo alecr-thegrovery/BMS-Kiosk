@@ -122,7 +122,7 @@ export default function Post({ postData }) {
                   <ul>
                     <li>Submit medical claims</li>
                     <li>Track claim status</li>
-                    <li>Submit and track reverification status Confirm payments for patients actively enrolled in the BMS Access Support Co-Pay Assistance Program. Please see full <PdfLink url="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf">Terms and Conditions</PdfLink>, including complete eligibility requirements</li>
+                    <li>Submit and track reverification status Confirm payments for patients actively enrolled in the BMS Access Support Co-Pay Assistance Program. Please see full <PdfLink url="/pdf/Heme_Orals_Terms_and_Conditions.pdf">Terms and Conditions</PdfLink>, including complete eligibility requirements</li>
                   </ul>
                   <p>Please note that this portal does NOT support enrollment into co-pay programs.</p>
                 </div>
