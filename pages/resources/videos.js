@@ -105,14 +105,26 @@ export default function Post({ postData }) {
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
                   <VideoThumbnail
-                    thumbnail="/images/content/as-video-generic-poster_ss.png"
+                    thumbnail="/images/thumbnails-2024/video-1.png"
                     name="What is health insurance?" 
                     url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
                   />
                   <br/><br/>
                   <VideoThumbnail
-                    thumbnail="/images/content/as-video-generic-poster_ss.png"
+                    thumbnail="/images/thumbnails-2024/video-2.png"
                     name="What is an Explanation of Benefits (EOB)? " 
+                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
+                  />
+                  <br/><br/>
+                  <VideoThumbnail
+                    thumbnail="/images/thumbnails-2024/video-3.png"
+                    name="What is Health Insurance? " 
+                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
+                  />
+                  <br/><br/>
+                  <VideoThumbnail
+                    thumbnail="/images/thumbnails-2024/video-4.png"
+                    name="Get to Know BMS Access Support" 
                     url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
                   />
                 </div>
