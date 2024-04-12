@@ -127,26 +127,31 @@ export default function Post({ postData }) {
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
                   <PdfThumbnail 
-                    thumbnail="/images/thumbnails/Understanding_Healthcare_Benefits_thumb.png"
+                    thumbnail="/images/thumbnails-2024/brochures-2.png"
                     name="Understanding Healthcare Benefits"
                     url="/pdf/Understanding_Healthcare_Benefits.pdf"
                    />
                    <br/>
                   <PdfThumbnail 
-                    thumbnail="/images/thumbnails/Patient_Reimbursement_Process_Map_thumb.png"
+                    thumbnail="/images/thumbnails-2024/brochures-2.png"
                     name="Patient Reimbursement Process Map"
                     url="/pdf/Patient_Reimbursement_Process_Map.pdf"
                    />
                    <br/>
                    <PdfThumbnail 
-                    thumbnail="/images/thumbnails/NO-US-2200487_A_Guide_to_Medicare_Part_D_2023_thumb2x.jpg"
+                    thumbnail="/images/thumbnails-2024/brochures-3.png"
                     name="Medicare Part D Guide"
                     url="/pdf/A_Guide_to_Medicare_Part_D_2023.pdf"
                    />
                    <br/>
                    <PdfThumbnail 
-                    thumbnail="/images/thumbnails/PatientBrochure_Thumb.png"
+                    thumbnail="/images/thumbnails-2024/brochures-4.png"
                     name="BMS Access Support Patient Brochure"
+                    url="/pdf/Patient_Brochure.pdf"
+                   />
+                   <PdfThumbnail 
+                    thumbnail="/images/thumbnails-2024/brochures-5.png"
+                    name="Low-Income Subsidy Brochure"
                     url="/pdf/Patient_Brochure.pdf"
                    />
                 </div>

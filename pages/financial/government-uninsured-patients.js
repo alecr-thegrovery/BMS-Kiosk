@@ -108,7 +108,7 @@ export default function Post({ postData }) {
 
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
-                  <img src="/images/content/bmsas-charitable-foundations-resource.png" alt="" />
+                  <img className={pageStyles.imgShadow} src="/images/thumbnails-2024/government-1.png" alt="" />
                 </div>
 
               </div>

@@ -87,29 +87,23 @@ export default function Post({ postData }) {
               <div className={pageStyles.oneColumn}>
                   
                   <p >
-                   Please Note:  The program will cover the out-of-pocket expenses of the BMS product only. It does not cover the costs of any other healthcare provider charges or any other treatment costs. Patients may be responsible for non-drug-related, out-of-pocket costs, depending on their specific healthcare benefits. Restrictions apply. 
+                   Please Note: The program will cover the out-of-pocket expenses of the BMS product only. It does not cover the costs of any other healthcare provider charges or any other treatment costs. Patients may be responsible for non-drug-related, out-of-pocket costs, depending on their specific healthcare benefits. Restrictions apply. 
                   </p>
 
                   <BlockQuote icon="/images/icons/contentFormIcon.svg">
                     <ul>
                       <li>
-                        <PdfLink url="/pdf/Empliciti_Opdivo_O_Y_Opdualag_Yervoy_T_C.pdf" name="Empliciti_Opdivo_O+Y_Opdualag_Yervoy_T_C.pdf">Terms and Conditions for Empliciti, Opdivo, Opdivo + Yervoy, Opdualag, &amp; Yervoy</PdfLink>
+                        <PdfLink url="/pdf-2024/Orals-Terms-and-Conditions.pdf" name="Orals-Terms-and-Conditions.pdf">Terms and Conditions for Oral Medications</PdfLink>
                       </li>
                       <li>
-                        <PdfLink url="/pdf/Abraxane_Reblozyl_T_C.pdf" name="Abraxane_Reblozyl_T_C.pdf">Terms and Conditions for Abraxane &amp; Reblozyl</PdfLink>
-                      </li>
-                      <li>
-                        <PdfLink url="/pdf/Heme_Orals_Terms_and_Conditions.pdf" name="Heme_Orals_Terms_and_Conditions.pdf">Terms and Conditions for Idhifa, Inrebic, Onureg, Pomalyst, Revlimid, &amp; Thalomid</PdfLink>
-                      </li>
-                      <li>
-                        <PdfLink url="/pdf/Sprycel_Terms_and_Conditions_Copay_Card.pdf" name="Sprycel_Terms_and_Conditions_Copay_Card.pdf">Terms and Conditions for Sprycel</PdfLink>
+                        <PdfLink url="/pdf-2024/IVs-Terms-and-Conditions.pdf" name="IVs-Terms-and-Conditions.pdf">Terms and Conditions for HCP-Administered Medications</PdfLink>
                       </li>
                     </ul>
                   </BlockQuote>
 
-                  <img src="/images/content/commerical-patients-image-1-v3.png" alt=""/>
+                  <img src="/images/thumbnails-2024/commercial-1.png" alt=""/>
                   <br/><br/>
-                  <img src="/images/content/commerical-patients-image-2-v3.png" alt=""/>
+                  <img src="/images/thumbnails-2024/commercial-2.png" alt=""/>
 
               </div>
 
