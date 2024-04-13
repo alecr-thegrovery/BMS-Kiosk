@@ -129,30 +129,30 @@ export default function Post({ postData }) {
                   <PdfThumbnail 
                     thumbnail="/images/thumbnails-2024/brochures-2.png"
                     name="Understanding Healthcare Benefits"
-                    url="/pdf/Understanding_Healthcare_Benefits.pdf"
+                    url="/pdf-2024/Understanding_Healthcare_Benefits.pdf"
                    />
                    <br/>
                   <PdfThumbnail 
                     thumbnail="/images/thumbnails-2024/brochures-2.png"
                     name="Patient Reimbursement Process Map"
-                    url="/pdf/Patient_Reimbursement_Process_Map.pdf"
+                    url="/pdf-2024/patient-insurance-journey-map.pdf"
                    />
                    <br/>
                    <PdfThumbnail 
                     thumbnail="/images/thumbnails-2024/brochures-3.png"
                     name="Medicare Part D Guide"
-                    url="/pdf/A_Guide_to_Medicare_Part_D_2023.pdf"
+                    url="/pdf-2024/patient-medicare-guide.pdf"
                    />
                    <br/>
                    <PdfThumbnail 
                     thumbnail="/images/thumbnails-2024/brochures-4.png"
                     name="BMS Access Support Patient Brochure"
-                    url="/pdf/Patient_Brochure.pdf"
+                    url="/pdf-2024/Patient-Brochure.pdf"
                    />
                    <PdfThumbnail 
                     thumbnail="/images/thumbnails-2024/brochures-5.png"
                     name="Low-Income Subsidy Brochure"
-                    url="/pdf/Patient_Brochure.pdf"
+                    url="/pdf-2024/Low-Income_Subsidy_Brochure.pdf"
                    />
                 </div>
 

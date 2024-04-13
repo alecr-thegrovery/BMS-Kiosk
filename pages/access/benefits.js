@@ -129,7 +129,7 @@ export default function Post({ postData }) {
                   <PdfThumbnail 
                     name="Sample forms"
                     thumbnail="/images/thumbnails-2024/benefit-review-1.png"
-                    url="/pdf/N0-US-2200225_BMS10288 AS Sample SOB Form_Site of Care_FINAL.pdf"
+                    url="/pdf-2024/benefits-review.pdf"
                   />
                 </div>
 

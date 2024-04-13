@@ -106,7 +106,7 @@ export default function Post({ postData }) {
                 <div className={pageStyles.cell} data-centered>
                   <VideoThumbnail
                     thumbnail="/images/thumbnails-2024/video-1.png"
-                    name="What is health insurance?" 
+                    name="Enrollment Form Tutorial" 
                     url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
                   />
                   <br/><br/>

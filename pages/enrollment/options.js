@@ -107,7 +107,7 @@ export default function Post({ postData }) {
                 <div className={pageStyles.cell} data-centered>
                   <PdfThumbnail
                     name="Enrollment Form"
-                    url="/pdf/Oncology_Enrollment_Form_EN.pdf"
+                    url="/pdf-2024/enrollment-form.pdf"
                     thumbnail="/images/thumbnails-2024/how-to-enroll.png"
                   />
                 </div>
