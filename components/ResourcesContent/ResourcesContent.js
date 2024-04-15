@@ -65,6 +65,7 @@ export default function ResourcesContent({
           name="BMS AS Enrollment Form"
           thumbnail="/images/resources/enrollment-form.png"
           link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf"
+          localPDFLink="/pdf-2024/enrollment-form.pdf"
           tag="enrollment"
       />
 
@@ -86,6 +87,7 @@ export default function ResourcesContent({
         name="Oral T&amp;C"
         thumbnail="/images/resources/T&C-oral.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf"
+        localPDFLink="/pdf-2024/Orals-Terms-and-Conditions.pdf"
         tag="financial"
       />
 
@@ -93,6 +95,7 @@ export default function ResourcesContent({
         name="IV T&amp;C"
         thumbnail="/images/resources/T&C-HCP.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/IVs-Terms-and-Conditions.pdf"
+        localPDFLink="/pdf-2024/IVs-Terms-and-Conditions.pdf"
         tag="financial"
       />
 
@@ -100,6 +103,7 @@ export default function ResourcesContent({
         name="Understanding Healthcare Benefits Brochure"
         thumbnail="/images/resources/understanding-benefits.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Understanding_Healthcare_Benefits.pdf"
+        localPDFLink="/pdf-2024/Understanding_Healthcare_Benefits.pdf"
         tag="resources"
       />
 
@@ -107,6 +111,7 @@ export default function ResourcesContent({
         name="Patient Reimbursement Process Map"
         thumbnail="/images/resources/Patient_Reimbursement_Process_Map.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-insurance-journey-map.pdf"
+        localPDFLink="/pdf-2024/patient-insurance-journey-map.pdf"
         tag="resources"
       />
 
@@ -114,6 +119,7 @@ export default function ResourcesContent({
         name="Medicare Part D Guide"
         thumbnail="/images/resources/Medicare-Guide.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-medicare-guide.pdf"
+        localPDFLink="/pdf-2024/patient-medicare-guide.pdf"
         tag="resources"
       />
 
@@ -121,6 +127,7 @@ export default function ResourcesContent({
         name="BMS Access Support Patient Brochure"
         thumbnail="/images/resources/patient-brochure.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf"
+        localPDFLink="/pdf-2024/patient-medicare-guide.pdf"
         tag="resources"
       />
 
@@ -128,6 +135,7 @@ export default function ResourcesContent({
         name="Low Income Subsidy Brochure"
         thumbnail="/images/resources/LowIncome-brochure.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Low-Income_Subsidy_Brochure.pdf"
+        localPDFLink="/pdf-2024/Low-Income_Subsidy_Brochure.pdf"
         tag="financial"
       />
 

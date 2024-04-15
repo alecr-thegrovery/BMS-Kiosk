@@ -8,6 +8,8 @@ import PdfThumbnail from '@components/ContentComponents/PdfThumbnail'
 import QRCodePreset from "@components/ContentComponents/QRCodePreset";
 import OnlineDetectWrapper from "@components/OnlineDetectWrapper";
 import OpenResourceIcon from "@components/SVGComponents/OpenResourceIcon";
+import PdfLink from '@components/ContentComponents/PdfLink'
+
 
 /*===== Styles =====*/
 import componentStyles from './styles.module.scss'
@@ -15,7 +17,9 @@ import componentStyles from './styles.module.scss'
 
 export default function BlogPreview({ 
   //Props
-  id, name, description, link, thumbnail, tag
+  id, name, description, 
+  link, localPDFLink, 
+  localVideoLink, thumbnail, tag
 }) {
 
   //console.log(author);
@@ -46,6 +50,13 @@ export default function BlogPreview({
               href="#"
             ><OpenResourceIcon/></a>
           </OnlineDetectWrapper>
+          {localPDFLink &&
+            <PdfLink url={localPDFLink} >Open Resource</PdfLink>
+          }
+          {localVideoLink &&
+            <PdfLink url={localVideoLink} >Open Resource</PdfLink>
+          }
+          
         </div>
         
       </div>
