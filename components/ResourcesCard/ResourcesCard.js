@@ -42,6 +42,7 @@ export default function BlogPreview({
         </div>
         
         <div className={componentStyles.linkSection} >
+         
           <OnlineDetectWrapper>
             <a 
               className={componentStyles.linkButton} 
@@ -50,13 +51,15 @@ export default function BlogPreview({
               href="#"
             ><OpenResourceIcon/></a>
           </OnlineDetectWrapper>
-          {localPDFLink &&
-            <PdfLink url={localPDFLink} >Open Resource</PdfLink>
-          }
-          {localVideoLink &&
-            <PdfLink url={localVideoLink} >Open Resource</PdfLink>
-          }
-          
+          <div className={componentStyles.LocalLinkButton}>
+            {localPDFLink &&
+              <PdfLink url={localPDFLink} >Open Resource</PdfLink>
+            }
+            {localVideoLink &&
+              <PdfLink url={localVideoLink} >Open Resource</PdfLink>
+            }
+          </div>
+                    
         </div>
         
       </div>

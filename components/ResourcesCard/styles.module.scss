@@ -53,8 +53,12 @@
 			color: #097789;
 		}
 		.linkSection{
-			width: 50px;
+			width: 100px;
 		}
+	}
+
+	.LocalLinkButton{
+		font-size: $clampExtraSmall;
 	}
 	
 	.linkButton{
