@@ -49,16 +49,24 @@ export default function BlogPreview({
               data-modal-open='resourcesForm' 
               data-resource-value={link} 
               href="#"
-            ><OpenResourceIcon/></a>
+            ><OpenResourceIcon/> Send Resource</a>
           </OnlineDetectWrapper>
-          <div className={componentStyles.LocalLinkButton}>
+          
             {localPDFLink &&
-              <PdfLink url={localPDFLink} >Open Resource</PdfLink>
+              <div className={componentStyles.localLinkButton}>
+                <PdfLink url={localPDFLink} >
+                  <OpenResourceIcon/> Open Resource
+                  </PdfLink>
+                </div>
             }
             {localVideoLink &&
-              <PdfLink url={localVideoLink} >Open Resource</PdfLink>
+              <div className={componentStyles.localLinkButton}>
+              <PdfLink url={localVideoLink} >
+                <OpenResourceIcon/> Open Resource
+              </PdfLink>
+            </div>
             }
-          </div>
+          
                     
         </div>
         
