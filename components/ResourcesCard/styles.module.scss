@@ -39,7 +39,7 @@
 		display: flex;
 		justify-content: flex-start;
 		align-items: flex-start;
-		flex-direction: row;
+		flex-direction: column;
 		width: 100%;
 		h3{
 			font-size: $clampSmall;
@@ -51,13 +51,16 @@
 		}
 
 		.text{
-			width: calc(100% - 180px);
-			padding-right: 50px;
+			//width: calc(100% - 180px);
+			width: 100%;
+			//padding-right: 50px;
 			color: #097789;
+			margin-bottom: 1em;
 		}
 		.linkSection{
-			width: 180px;
-			padding-left: 0.5em;
+			//width: 180px;
+			width: 100%;
+			//padding-left: 0.5em;
 		}
 	}
 	
@@ -67,6 +70,7 @@
 		display: inline-block;
 		position: relative;
 		display: flex;
+		justify-content: center;
 		//top: -0.5em;
 		font-size: $clampSmall;
 
@@ -92,11 +96,13 @@
 		height: auto;
 		position: relative;
 		display: flex;
+		justify-content: center;
 		//top: -0.5em;
 		font-size: $clampSmall;
 		margin-top: 0.5em;
 		padding-top: 0.5em;
 		border-top: 1px solid $black;
+
 		svg{
 			//width: 100%;
 			width: 1em;

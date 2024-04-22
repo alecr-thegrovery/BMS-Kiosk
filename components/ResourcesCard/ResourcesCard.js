@@ -56,15 +56,15 @@ export default function BlogPreview({
               <div className={componentStyles.localLinkButton}>
                 <PdfLink url={localPDFLink} >
                   <OpenResourceIcon/> Open Resource
-                  </PdfLink>
-                </div>
+                </PdfLink>
+              </div>
             }
             {localVideoLink &&
               <div className={componentStyles.localLinkButton}>
-              <PdfLink url={localVideoLink} >
-                <OpenResourceIcon/> Open Resource
-              </PdfLink>
-            </div>
+                <PdfLink url={localVideoLink} >
+                  <OpenResourceIcon/> Open Resource
+                </PdfLink>
+              </div>
             }
           
                     
