@@ -6,13 +6,16 @@ import componentStyles from './styles.module.scss'
 
 export default function BlockQuote({ 
   //Props
-  children, icon, headline
+  children, icon, headline, noIcon
 }) {
 
   //console.log(author);
 
   return (
-    <div className={componentStyles.BlockQuote}>
+    <div 
+      className={componentStyles.BlockQuote} 
+      data-icon={noIcon && 'noIcon'}
+    >
 
       <div className={componentStyles.icon}>
         {icon ? 
