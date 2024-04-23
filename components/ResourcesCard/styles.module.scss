@@ -30,6 +30,9 @@
 		flex-direction: column;
 	}
 	
+	
+	
+
 	.content{
 		//width:calc(100% - 200px);
 		//padding-right: 2em;
@@ -48,24 +51,39 @@
 		}
 
 		.text{
-			width: calc(100% - 50px);
-			padding-right: 50px;
+			width: calc(100% - 2em);
+			//width: 100%;
+			//padding-right: 50px;
 			color: #097789;
+			//margin-bottom: 1em;
 		}
 		.linkSection{
-			width: 50px;
+			width: 2em;
+			//width: 100%;
+			//padding-left: 0.5em;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
 		}
 	}
 	
 	.linkButton{
-		width: 1.5em;
+		//width: 1.5em;
 		height: auto;
 		display: inline-block;
 		position: relative;
-		top: -0.5em;
+		display: flex;
+		justify-content: center;
+		//top: -0.5em;
+		font-size: $clampSmall;
+
 		svg{
-			max-width: 100%;
+			//width: 100%;
+			width: 1.5em;
 			height: auto;
+			//margin-right: 0.5em;
+			position: relative;
+			bottom: 0.15em;
 		}
 		/*border-radius: 0.5em;
 		padding: 0.5em 1em;
@@ -75,8 +93,40 @@
 		margin: auto;*/
 
 	}
+
+	.localLinkButton{
+		//width: 1.5em;
+		/*height: auto;
+		position: relative;
+		display: flex;
+		justify-content: center;*/
+		//top: -0.5em;
+		//font-size: $clampSmall;
+		/*margin-top: 0.5em;
+		padding-top: 0.5em;
+		border-top: 1px solid $black;*/
+
+		svg{
+			//width: 100%;
+			width: 1em;
+			height: auto;
+			margin-right: 0.5em;
+			position: relative;
+			bottom: -0.15em;
+		}
+		a{
+			//display: flex;
+			//color: $black;
+			text-decoration: underline dotted;
+			color: #097789;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+		
+	}
 	
-	.qrcode{
+	/*.qrcode{
 		width: 200px;
 		display: flex;
 		flex-direction: column;
@@ -85,6 +135,6 @@
 			font-size: 0.65em; 
 			text-align: center;;
 		}
-	}
+	}*/
 
 }

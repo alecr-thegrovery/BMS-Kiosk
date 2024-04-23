@@ -1,7 +1,8 @@
 /*===== Components =====*/
-import React from "react"
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link'
 import CloseIcon from '@components/SVGComponents/CloseIcon'
+import $ from 'jquery'
 
 /*===== Styles =====*/
 import componentStyles from './styles.module.scss'
@@ -16,6 +17,18 @@ export default function PDFModal({
 
   //NOTES:
   //Open functions are in /ContentComponents/PdfThumbnail
+
+  useEffect(() => {
+    $(document).ready(function() {
+      let ModalWrapper = $("#ModalWrapper");
+      
+      $("[data-modal-open='resources']").click(function(e){
+          e.preventDefault();
+          ModalWrapper.attr("data-modal-status", "active");
+          ModalWrapper.attr("data-modal-show", "ResourcesModal");
+        });
+      });
+    });
 
   const modalClose = () => {
     const element = document.getElementById("ModalWrapper");
@@ -33,6 +46,13 @@ export default function PDFModal({
       id="PDFModal"
       className={componentStyles.PDFModal}
     >
+
+      <div
+        className={componentStyles.backButton}
+        data-modal-open='resources'
+      >
+       &larr; Back To Resources
+      </div>
 
       <div 
         className={componentStyles.closeButton}

@@ -8,6 +8,8 @@ import PdfThumbnail from '@components/ContentComponents/PdfThumbnail'
 import QRCodePreset from "@components/ContentComponents/QRCodePreset";
 import OnlineDetectWrapper from "@components/OnlineDetectWrapper";
 import OpenResourceIcon from "@components/SVGComponents/OpenResourceIcon";
+import PdfLink from '@components/ContentComponents/PdfLink'
+
 
 /*===== Styles =====*/
 import componentStyles from './styles.module.scss'
@@ -15,7 +17,9 @@ import componentStyles from './styles.module.scss'
 
 export default function BlogPreview({ 
   //Props
-  id, name, description, link, thumbnail, tag
+  id, name, description, 
+  link, localPDFLink, 
+  localVideoLink, thumbnail, tag
 }) {
 
   //console.log(author);
@@ -33,11 +37,27 @@ export default function BlogPreview({
       <div className={componentStyles.content}>
         
         <div className={componentStyles.text}>
-          <h3>{name ? name : "Resource Name"}</h3>
+          
+          {localPDFLink ?
+            <div className={componentStyles.localLinkButton}>
+              <PdfLink url={localPDFLink} backButton>
+                <h3>{name ? name : "Resource Name"}</h3>
+              </PdfLink>
+            </div>
+            : localVideoLink ?
+            <div className={componentStyles.localLinkButton}>
+              <PdfLink url={localVideoLink} >
+                <h3>{name ? name : "Resource Name"}</h3>
+              </PdfLink>
+            </div>
+            : 
+            <h3>{name ? name : "Resource Name"}</h3>
+          } 
           {/*<p>{description ? description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}</p>*/}
         </div>
         
         <div className={componentStyles.linkSection} >
+         
           <OnlineDetectWrapper>
             <a 
               className={componentStyles.linkButton} 
@@ -46,6 +66,23 @@ export default function BlogPreview({
               href="#"
             ><OpenResourceIcon/></a>
           </OnlineDetectWrapper>
+          
+            {/*{localPDFLink &&
+              <div className={componentStyles.localLinkButton}>
+                <PdfLink url={localPDFLink} >
+                  <OpenResourceIcon/> Open Resource
+                </PdfLink>
+              </div>
+            }
+            {localVideoLink &&
+              <div className={componentStyles.localLinkButton}>
+                <PdfLink url={localVideoLink} >
+                  <OpenResourceIcon/> Open Resource
+                </PdfLink>
+              </div>
+            }*/}
+          
+                    
         </div>
         
       </div>
