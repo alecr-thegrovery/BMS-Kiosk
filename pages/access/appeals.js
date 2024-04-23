@@ -94,14 +94,14 @@ export default function Post({ postData }) {
                   
                   <BlockQuote icon="/images/icons/contentListIcon.svg">
                   {/*<h2>Prior Authorization (PA)</h2>*/}
-                  <h2>If required in the Benefits Review, our team can:</h2>
+                  <h2>If a PA is required, our team can:</h2>
                   <ul>
                     <li>Help obtain plan-specific PA forms and understand PA requirements </li>
-                    <li>Track PAs and follow up with payer</li>
+                    <li>Track PAs and follow up with payer </li>
                   </ul>
                   </BlockQuote>
 
-                  <h2>Or you can obtain payer requirement information through the BMS Access Payer Map at BMSAccessMap.com:</h2>
+                  <h2>Or, you can obtain payer requirement information through the BMS Access Payer Map at BMSAccessMap.com:</h2>
                   <ul>
                     <li>Get on-demand access to coverage policies and formulary status for select BMS medications within local health plans</li>
                     <li>View utilization management criteria, including Prior Authorization and documentation requirements, diagnostic testing information, etc.</li>

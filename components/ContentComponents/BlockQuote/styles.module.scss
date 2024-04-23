@@ -25,6 +25,9 @@
 			max-width: 120px;
 		}
 	}
+	&[data-icon="noIcon"]{
+		.icon{display: none;}
+	}
 	.text{
 		width:calc(100% - #{$fixedWidth});
 		font-size: $clampSmall;
