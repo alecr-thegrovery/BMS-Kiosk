@@ -127,7 +127,7 @@ export default function Post({ postData }) {
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
                   <PdfThumbnail 
-                    thumbnail="/images/thumbnails-2024/brochures-2.png"
+                    thumbnail="/images/thumbnails-2024/brochures-1.png"
                     name="Understanding Healthcare Benefits"
                     url="/pdf-2024/Understanding_Healthcare_Benefits.pdf"
                    />

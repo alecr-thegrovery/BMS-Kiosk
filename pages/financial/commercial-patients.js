@@ -90,7 +90,7 @@ export default function Post({ postData }) {
                    Please Note: The program will cover the out-of-pocket expenses of the BMS product only. It does not cover the costs of any other healthcare provider charges or any other treatment costs. Patients may be responsible for non-drug-related, out-of-pocket costs, depending on their specific healthcare benefits. Restrictions apply. 
                   </p>
 
-                  <BlockQuote icon="/images/icons/contentFormIcon.svg">
+                  <BlockQuote noIcon>
                     <ul>
                       <li>
                         <PdfLink url="/pdf-2024/Orals-Terms-and-Conditions.pdf" name="Orals-Terms-and-Conditions.pdf">Terms and Conditions for Oral Medications</PdfLink>

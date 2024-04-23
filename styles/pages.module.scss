@@ -208,7 +208,9 @@
 /* ===== Simple Page Styles ===== */
 /* ============================ */
 	
-
+	.clampMedium{
+		font-size: $clampMedium;
+	}
 
 	.simpleShadow{
 		box-shadow: 

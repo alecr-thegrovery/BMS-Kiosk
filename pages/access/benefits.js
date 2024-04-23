@@ -91,14 +91,14 @@ export default function Post({ postData }) {
 
               <div className={pageStyles.oneColumn}>                  
                   <BlockQuote icon="/images/icons/contentFormIcon.svg">
-                      <h2>Initiate a Benefits Review (BR) by accurately completing and submitting enrollment and PAA forms. </h2>
+                      <h2 >Initiate a Benefits Review (BR) by accurately completing and submitting enrollment and PAA forms. </h2>
                       <ul>  
                         <li>Your BMS Access Support Patient Access Specialist will review the patient’s insurance coverage for the prescribed BMS medication</li>
                         <li>You will receive a summary of benefits within approximately 24 hours</li>
                       </ul> 
                   </BlockQuote>
 
-                  <h2>The Summary of Benefits will determine:</h2>
+                  <h2 className={pageStyles.clampMedium}>The Summary of Benefits will determine:</h2>
                   <ul>  
                     <li>If a medication is covered by a patient’s insurance plan</li>
                     <li>If a prior authorization is required</li>
