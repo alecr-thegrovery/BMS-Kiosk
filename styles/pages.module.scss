@@ -84,12 +84,12 @@
 	justify-content: center;
 	align-items: flex-end;
 	overflow: hidden;
-	background-color: $cream3;
+	background-color: #F1FCFE;
 
 	&[data-bg-color="cream"]{
 		background-color: $cream3;
 	}
-	&[data-bg-color="blue"]{
+	[data-bg-color="blue"]{
 		background-color: $lightBlue;
 	}
 
