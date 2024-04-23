@@ -128,7 +128,7 @@ export default function ResourcesContent({
         name="Low Income Subsidy Brochure"
         thumbnail="/images/resources/LowIncome-brochure.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Low-Income_Subsidy_Brochure.pdf"
-        tag="financial"
+        tag="resources"
       />
 
       {/*<ResourcesCard
