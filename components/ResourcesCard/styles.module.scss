@@ -39,7 +39,7 @@
 		display: flex;
 		justify-content: flex-start;
 		align-items: flex-start;
-		flex-direction: column;
+		flex-direction: row;
 		width: 100%;
 		h3{
 			font-size: $clampSmall;
@@ -51,16 +51,19 @@
 		}
 
 		.text{
-			//width: calc(100% - 180px);
-			width: 100%;
+			width: calc(100% - 2em);
+			//width: 100%;
 			//padding-right: 50px;
 			color: #097789;
-			margin-bottom: 1em;
+			//margin-bottom: 1em;
 		}
 		.linkSection{
-			//width: 180px;
-			width: 100%;
+			width: 2em;
+			//width: 100%;
 			//padding-left: 0.5em;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
 		}
 	}
 	
@@ -76,11 +79,11 @@
 
 		svg{
 			//width: 100%;
-			width: 1em;
+			width: 1.5em;
 			height: auto;
-			margin-right: 0.5em;
+			//margin-right: 0.5em;
 			position: relative;
-			bottom: -0.15em;
+			bottom: 0.15em;
 		}
 		/*border-radius: 0.5em;
 		padding: 0.5em 1em;
@@ -93,15 +96,15 @@
 
 	.localLinkButton{
 		//width: 1.5em;
-		height: auto;
+		/*height: auto;
 		position: relative;
 		display: flex;
-		justify-content: center;
+		justify-content: center;*/
 		//top: -0.5em;
-		font-size: $clampSmall;
-		margin-top: 0.5em;
+		//font-size: $clampSmall;
+		/*margin-top: 0.5em;
 		padding-top: 0.5em;
-		border-top: 1px solid $black;
+		border-top: 1px solid $black;*/
 
 		svg{
 			//width: 100%;
@@ -112,9 +115,10 @@
 			bottom: -0.15em;
 		}
 		a{
-			display: flex;
-			color: $black;
-			text-decoration: none;
+			//display: flex;
+			//color: $black;
+			text-decoration: underline dotted;
+			color: #097789;
 			&:hover{
 				text-decoration: none;
 			}

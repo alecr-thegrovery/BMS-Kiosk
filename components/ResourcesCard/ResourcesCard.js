@@ -37,7 +37,22 @@ export default function BlogPreview({
       <div className={componentStyles.content}>
         
         <div className={componentStyles.text}>
-          <h3>{name ? name : "Resource Name"}</h3>
+          
+          {localPDFLink ?
+            <div className={componentStyles.localLinkButton}>
+              <PdfLink url={localPDFLink} >
+                <h3>{name ? name : "Resource Name"}-PDF</h3>
+              </PdfLink>
+            </div>
+            : localVideoLink ?
+            <div className={componentStyles.localLinkButton}>
+              <PdfLink url={localVideoLink} >
+                <h3>{name ? name : "Resource Name"}</h3>
+              </PdfLink>
+            </div>
+            : 
+            <h3>{name ? name : "Resource Name"}</h3>
+          } 
           {/*<p>{description ? description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}</p>*/}
         </div>
         
@@ -49,10 +64,10 @@ export default function BlogPreview({
               data-modal-open='resourcesForm' 
               data-resource-value={link} 
               href="#"
-            ><OpenResourceIcon/> Send Resource</a>
+            ><OpenResourceIcon/></a>
           </OnlineDetectWrapper>
           
-            {localPDFLink &&
+            {/*{localPDFLink &&
               <div className={componentStyles.localLinkButton}>
                 <PdfLink url={localPDFLink} >
                   <OpenResourceIcon/> Open Resource
@@ -65,7 +80,7 @@ export default function BlogPreview({
                   <OpenResourceIcon/> Open Resource
                 </PdfLink>
               </div>
-            }
+            }*/}
           
                     
         </div>

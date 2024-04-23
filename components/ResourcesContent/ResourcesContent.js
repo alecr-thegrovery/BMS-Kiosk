@@ -65,6 +65,7 @@ export default function ResourcesContent({
           name="BMS AS Enrollment Form"
           thumbnail="/images/resources/enrollment-form.png"
           link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf"
+          localPDFLink="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf"
           tag="enrollment"
       />
 
