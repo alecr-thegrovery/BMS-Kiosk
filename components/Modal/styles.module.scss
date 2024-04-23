@@ -100,6 +100,7 @@ $backdropColor: rgba($black, 0.25);
 	background-color: $white;
 	border-radius: 3px;
 	padding: 2.25rem $clampLarge 0;
+	padding-bottom: 4em;
 
 	.closeButton{
 		position: absolute;
@@ -108,6 +109,17 @@ $backdropColor: rgba($black, 0.25);
 		width: $clampSmall;
 		aspect-ratio: 1/1;
 		cursor: pointer;
+	}
+	.backButton{
+		position: absolute;
+		top: $clampSmall;
+		left: $clampSmall;
+		font-size: $clampSmall;
+		cursor: pointer;
+		display: none;
+	}
+	&[data-back-button='true'] .backButton{
+		display: block;
 	}
 	
 	.iframeWrapper{
@@ -140,6 +152,11 @@ $backdropColor: rgba($black, 0.25);
 		margin: auto;
 		padding: $clampSmall;
 		font-size: $clampExtraSmall;
+		position: absolute;
+		bottom: 0.25em;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
 	}
 }
 
@@ -164,6 +181,7 @@ $backdropColor: rgba($black, 0.25);
 		aspect-ratio: 1/1;
 		cursor: pointer;
 	}
+	
 
 	/*Modal Heading*/
 	.heading{

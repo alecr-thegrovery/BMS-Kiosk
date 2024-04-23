@@ -40,7 +40,7 @@ export default function BlogPreview({
           
           {localPDFLink ?
             <div className={componentStyles.localLinkButton}>
-              <PdfLink url={localPDFLink} >
+              <PdfLink url={localPDFLink} backButton>
                 <h3>{name ? name : "Resource Name"}</h3>
               </PdfLink>
             </div>

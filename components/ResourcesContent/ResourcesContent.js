@@ -87,7 +87,7 @@ export default function ResourcesContent({
         name="Oral T&amp;C"
         thumbnail="/images/resources/T&C-oral.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf"
-        localPDFLink="/pdf-2024/enrollment-formOrals-Terms-and-Conditions.pdf"
+        localPDFLink="/pdf-2024/Orals-Terms-and-Conditions.pdf"
         tag="financial"
       />
 
