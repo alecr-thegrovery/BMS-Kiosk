@@ -48,7 +48,7 @@ export default function Home({ allPostsData }) {
         
         <DynamicHeader
           
-          heading={["Bristol Myers Squibb ", <strong>Access Support</strong>]}
+          heading={["Bristol Myers Squibb ", <strong>Access Support<sup>&reg;</sup></strong>]}
           extrasubhead={[<strong>Support with purpose.</strong>, " Patients are the reason behind what we do."]}
           subhead="Bristol Myers Squibb is committed to helping appropriate patients get access to our medications by providing access and reimbursement support services."
         />

@@ -68,7 +68,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{title} | {siteData.siteTitleBase}</title>
       </Head>
-      <div className={pageStyles.pageLayout} data-bg-color="blue">
+      <div className={pageStyles.pageLayout} data-bg-color="lightBlue">
         {/*Header*/}
         <DynamicHeader
           heading={["Options to Enroll in BMS ", <strong>Access Support</strong>]}
