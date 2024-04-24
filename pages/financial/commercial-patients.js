@@ -101,9 +101,9 @@ export default function Post({ postData }) {
                     </ul>
                   </BlockQuote>
 
-                  <img src="/images/thumbnails-2024/commercial-1.png" alt=""/>
+                  <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/commercial-1.png" alt=""/>
                   <br/><br/>
-                  <img src="/images/thumbnails-2024/commercial-2.png" alt=""/>
+                  <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/commercial-2.png" alt=""/>
 
               </div>
 

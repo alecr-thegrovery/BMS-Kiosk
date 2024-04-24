@@ -92,6 +92,9 @@
 	[data-bg-color="blue"]{
 		background-color: $lightBlue;
 	}
+	&[data-bg-color="mint"]{
+		background-color: #f3fffa;
+	}
 
 	.mainSection{
 		height: 80%;
@@ -114,9 +117,10 @@
 		}
 		img{
 			width: 100%;
-			max-width: 850px;
+			max-width: 750px;
 			margin: auto;
 			margin-bottom: 1em;
+			padding: 0.15em;
 		}
 		p{
 			margin-bottom: 1em;
@@ -200,6 +204,7 @@
 		img:not([class]){
 			max-width: 100%;
 			width: clamp(350px, 80%, 500px);
+
 		}
 	}
 }
@@ -210,6 +215,10 @@
 	
 	.clampMedium{
 		font-size: $clampMedium;
+	}
+
+	.bold{
+		font-weight: 800;
 	}
 
 	.simpleShadow{
