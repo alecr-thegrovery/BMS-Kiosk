@@ -92,7 +92,7 @@ export default function Post({ postData }) {
                     <p>This secure provider portal offers convenient, on-demand access to patient reimbursement cases for select BMS medications.</p>
                   </BlockQuote>
 
-                  <h3>The provider portal allows you to: </h3>
+                  <h3 className={pageStyles.bold}>The provider portal allows you to: </h3>
                   <ul>
                     <li>Access case status updates </li>
                     <li>Enroll in co-pay program and view details, including eligibility dates, annual benefit cap, and available balance</li>
@@ -118,7 +118,7 @@ export default function Post({ postData }) {
                     <p>This secure portal allows HCPs to manage their patients’ co-pay claims after the patient has been enrolled into the Co-Pay Assistance Program.</p>
                   </BlockQuote>
 
-                  <h3>The provider portal allows you to: The co-pay portal allows you to:</h3>
+                  <h3 className={pageStyles.bold}>The provider portal allows you to: The co-pay portal allows you to:</h3>
                   <ul>
                     <li>Submit medical claims</li>
                     <li>Track claim status</li>
