@@ -91,23 +91,23 @@ export default function Post({ postData }) {
                   </BlockQuote>
 
                   <p>
-                    <strong className={pageStyles.purple}>Understanding Your Healthcare Benefits</strong>
+                    <strong className={pageStyles.darkBlue}>Understanding Your Healthcare Benefits</strong>
                     <br/>
                     Provides information on how health insurance works and ways BMS Access Support can help
                   </p>
                   <p>
-                    <strong className={pageStyles.purple}>Patient Reimbursement Process Journey Map</strong>
+                    <strong className={pageStyles.darkBlue}>Patient Reimbursement Process Journey Map</strong>
                     <br/>
                     A high-level flow map showing potential patient insurance coverage scenarios and claims processing information
                   </p>
 
                   <p>
-                    <strong className={pageStyles.purple}>A Guide to 2023 Medicare Part D Coverage for Specialty Drugs</strong>
+                    <strong className={pageStyles.darkBlue}>A Guide to 2023 Medicare Part D Coverage for Specialty Drugs</strong>
                     <br/>
                     A step-by-step guide through each phase of Medicare Part D with patient cost journey examples and additional resources and contact information
                   </p>
                   <p>
-                    <strong className={pageStyles.purple}>BMS Access Support Patient Brochure</strong>
+                    <strong className={pageStyles.darkBlue}>BMS Access Support Patient Brochure</strong>
                     <br/>
                     An overview of the coverage journey and how we can help you obtain access to your prescribed BMS medications
                   </p>
