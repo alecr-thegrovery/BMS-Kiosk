@@ -112,17 +112,17 @@ export default function Post({ postData }) {
                 </div>               
 
                 {/*RIGHT CELL*/}
-                <div className={pageStyles.cell} data-centered>
+                <div className={pageStyles.cell} >
                   <h2>BMS Access Support<sup>&reg;</sup> Co-Pay Portal </h2>
                   <BlockQuote icon="/images/icons/contentComputerScreen2.svg">
                     <p>This secure portal allows HCPs to manage their patients’ co-pay claims after the patient has been enrolled into the Co-Pay Assistance Program.</p>
                   </BlockQuote>
 
-                  <h3 className={pageStyles.bold}>The provider portal allows you to: The co-pay portal allows you to:</h3>
+                  <h3 className={pageStyles.bold}>The co-pay portal allows you to:</h3>
                   <ul>
                     <li>Submit medical claims</li>
                     <li>Track claim status</li>
-                    <li>Submit and track reverification status Confirm payments for patients actively enrolled in the BMS Access Support Co-Pay Assistance Program. Please see full <PdfLink url="/pdf-2024/Orals-Terms-and-Conditions.pdf" name="Orals-Terms-and-Conditions.pdf">Terms and Conditions</PdfLink>, including complete eligibility requirements</li>
+                    <li>Confirm payments for patients actively enrolled in the BMS Access Support Co-Pay Assistance Program. Please see full <PdfLink url="/pdf-2024/Orals-Terms-and-Conditions.pdf" name="Orals-Terms-and-Conditions.pdf">Terms and Conditions</PdfLink>, including complete eligibility requirements</li>
                   </ul>
                   <p>Please note that this portal does NOT support enrollment into co-pay programs.</p>
                 </div>
