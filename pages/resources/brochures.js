@@ -87,13 +87,13 @@ export default function Post({ postData }) {
                 {/*LEFT CELL*/}
                 <div className={pageStyles.cell}>
                   <BlockQuote icon="/images/icons/contentFormIcon.svg">
-                    <p>Patients can download brochures and coverage-related resources that may help answer questions regarding accessing their prescribed BMS medication.</p>
+                    <p>Patients can download brochures and resources that may help answer questions about their coverage.</p>
                   </BlockQuote>
 
                   <p>
                     <strong className={pageStyles.darkBlue}>Understanding Your Healthcare Benefits</strong>
                     <br/>
-                    Provides information on how health insurance works and ways BMS Access Support can help
+                    Provides information on how health insurance works and ways BMS Access Support<sup>&reg;</sup> can help
                   </p>
                   <p>
                     <strong className={pageStyles.darkBlue}>Patient Reimbursement Process Journey Map</strong>
