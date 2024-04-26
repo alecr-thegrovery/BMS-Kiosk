@@ -25,6 +25,10 @@ $backdropColor: rgba($black, 0.25);
 			pointer-events: auto;
 		}
 
+		&[data-back-button='true'] .backButton{
+			display: block;
+		}
+
 	/* ===== Modal Selection ===== */
 		.PDFModal,
 		.VideoModal,
@@ -115,12 +119,11 @@ $backdropColor: rgba($black, 0.25);
 		top: $clampSmall;
 		left: $clampSmall;
 		font-size: $clampSmall;
+		color: $purple;
 		cursor: pointer;
 		display: none;
 	}
-	&[data-back-button='true'] .backButton{
-		display: block;
-	}
+	
 	
 	.iframeWrapper{
 		width: 100%;

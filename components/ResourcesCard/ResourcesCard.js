@@ -46,7 +46,7 @@ export default function BlogPreview({
             </div>
             : localVideoLink ?
             <div className={componentStyles.localLinkButton}>
-              <PdfLink url={localVideoLink} >
+              <PdfLink url={localVideoLink} backButton>
                 <h3>{name ? name : "Resource Name"}</h3>
               </PdfLink>
             </div>

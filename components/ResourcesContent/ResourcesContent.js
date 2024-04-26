@@ -67,6 +67,7 @@ export default function ResourcesContent({
           link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf"
           localPDFLink="/pdf-2024/enrollment-form.pdf"
           tag="enrollment"
+          
       />
 
       {/*<ResourcesCard
