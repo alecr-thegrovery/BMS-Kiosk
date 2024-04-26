@@ -52,7 +52,7 @@ export default function Home({ allPostsData }) {
       <div className={pageStyles.pageLayout}>
         <DynamicHeader
           heading={["Patient Resources "]}
-          subhead="BMS Access Support offers resources for patients who have been prescribed select BMS medications, including insurance information, online tools, and answers to common coverage questions."
+          subhead="Patients have access to educational materials to help them understand their insurance coverage."
         />
 
         <div className={pageStyles.pageLevel2}>
