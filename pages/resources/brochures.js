@@ -102,19 +102,24 @@ export default function Post({ postData }) {
                   </p>
 
                   <p>
-                    <strong className={pageStyles.darkBlue}>A Guide to 2023 Medicare Part D Coverage for Specialty Drugs</strong>
+                    <strong className={pageStyles.darkBlue}>A Guide to 2024 Medicare Part D Coverage for Specialty Drugs</strong>
                     <br/>
-                    A step-by-step guide through each phase of Medicare Part D with patient cost journey examples and additional resources and contact information
+                    A step-by-step guide through each phase of Medicare Part D with patient cost journey examples and additional resources
                   </p>
                   <p>
-                    <strong className={pageStyles.darkBlue}>BMS Access Support Patient Brochure</strong>
+                    <strong className={pageStyles.darkBlue}>BMS Access Support<sup>&reg;</sup> Patient Brochure</strong>
                     <br/>
-                    An overview of the coverage journey and how we can help you obtain access to your prescribed BMS medications
+                    An overview of services that BMS Access Support may be able to provide to patients
+                  </p>
+                  <p>
+                    <strong className={pageStyles.darkBlue}>Low-Income Subsidy Brochure</strong>
+                    <br/>
+                    A guide to Medicare low-income subsidy for patients with limited income or resources
                   </p>
 
-                  <p>
+                  {/*<p>
                     Our resources help provide a better understanding of the health insurance landscape and expectations along the treatment journey. They are located on the Forms &amp; Resources page of the BMS Access Support website.   
-                  </p>
+                  </p>*/}
 
                   <QRCodePreset 
                     link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
