@@ -49,16 +49,19 @@ $fixedWidth: 310px;
 		padding-left: 25px;
 		.heading{
 			font-size: $clampMedium;
+			color: $grey_3;
 			strong{color: $purple;}
 		}
 		.extrasubhead{
 			font-size: $clampSmall;
 			font-weight: 600;
 			margin-bottom: 0.35em;
+			color: $grey_3;
 			strong{color: $darkBlue;}
 		}
 		.subhead{
 			font-size: $clampExtraSmall;
+			color: $grey_3;
 		}
 	}
 	

@@ -93,7 +93,7 @@ export default function Post({ postData }) {
                 {/*LEFT CELL*/}
                 <div className={pageStyles.cell}>
 
-                  <p>We offer product-specific Billing &amp; Coding resources for your healthcare office.</p>
+                  <p>We may be able to provide product-specific billing and diagnosis codes, reimbursement guides, and product distribution information</p>
                   <BlockQuote icon="/images/icons/contentClipboardIcon.svg">
                     <p><strong className={pageStyles.darkBlue}>Billing &amp; Coding Guides</strong> provide an overview of relevant product and diagnosis codes, dosing and administration, and general reimbursement information.</p>
                   </BlockQuote>
@@ -115,7 +115,7 @@ export default function Post({ postData }) {
                   <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/billing-1.png" alt="" />
                   <QRCodePreset 
                     link="https://www.bmsaccesssupport.bmscustomerconnect.com/?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
-                    toolTipText="Scan to access Reimbursement Guides available for all relevant products at BMSAccessSupport.com"
+                    toolTipText="Scan to access the online coding tool and reimbursement guides for relevant products"
                     toolTipPlacement="right"
                   />
                 </div>
