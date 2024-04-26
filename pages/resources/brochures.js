@@ -77,7 +77,7 @@ export default function Post({ postData }) {
         />
 
         {/*Content*/}
-        <div className={pageStyles.pageLevel3} data-bg-color="blue">    
+        <div className={pageStyles.pageLevel3} data-bg-color="mint">    
           <TransitionScreen screen="9"/>        
           <section className={pageStyles.mainSection}>
             <ComputerFrame frame="1">
@@ -87,34 +87,39 @@ export default function Post({ postData }) {
                 {/*LEFT CELL*/}
                 <div className={pageStyles.cell}>
                   <BlockQuote icon="/images/icons/contentFormIcon.svg">
-                    <p>Patients can download brochures and coverage-related resources that may help answer questions regarding accessing their prescribed BMS medication.</p>
+                    <p>Patients can download brochures and resources that may help answer questions about their coverage.</p>
                   </BlockQuote>
 
                   <p>
-                    <strong className={pageStyles.purple}>Understanding Your Healthcare Benefits</strong>
+                    <strong className={pageStyles.darkBlue}>Understanding Your Healthcare Benefits</strong>
                     <br/>
-                    Provides information on how health insurance works and ways BMS Access Support can help
+                    Provides information on how health insurance works and ways BMS Access Support<sup>&reg;</sup> can help
                   </p>
                   <p>
-                    <strong className={pageStyles.purple}>Patient Reimbursement Process Journey Map</strong>
+                    <strong className={pageStyles.darkBlue}>Patient Reimbursement Process Journey Map</strong>
                     <br/>
                     A high-level flow map showing potential patient insurance coverage scenarios and claims processing information
                   </p>
 
                   <p>
-                    <strong className={pageStyles.purple}>A Guide to 2023 Medicare Part D Coverage for Specialty Drugs</strong>
+                    <strong className={pageStyles.darkBlue}>A Guide to 2024 Medicare Part D Coverage for Specialty Drugs</strong>
                     <br/>
-                    A step-by-step guide through each phase of Medicare Part D with patient cost journey examples and additional resources and contact information
+                    A step-by-step guide through each phase of Medicare Part D with patient cost journey examples and additional resources
                   </p>
                   <p>
-                    <strong className={pageStyles.purple}>BMS Access Support Patient Brochure</strong>
+                    <strong className={pageStyles.darkBlue}>BMS Access Support<sup>&reg;</sup> Patient Brochure</strong>
                     <br/>
-                    An overview of the coverage journey and how we can help you obtain access to your prescribed BMS medications
+                    An overview of services that BMS Access Support may be able to provide to patients
+                  </p>
+                  <p>
+                    <strong className={pageStyles.darkBlue}>Low-Income Subsidy Brochure</strong>
+                    <br/>
+                    A guide to Medicare low-income subsidy for patients with limited income or resources
                   </p>
 
-                  <p>
+                  {/*<p>
                     Our resources help provide a better understanding of the health insurance landscape and expectations along the treatment journey. They are located on the Forms &amp; Resources page of the BMS Access Support website.   
-                  </p>
+                  </p>*/}
 
                   <QRCodePreset 
                     link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"

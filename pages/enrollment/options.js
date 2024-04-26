@@ -68,7 +68,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{title} | {siteData.siteTitleBase}</title>
       </Head>
-      <div className={pageStyles.pageLayout} data-bg-color="blue">
+      <div className={pageStyles.pageLayout} data-bg-color="lightBlue">
         {/*Header*/}
         <DynamicHeader
           heading={["Options to Enroll in BMS ", <strong>Access Support</strong>]}
@@ -98,7 +98,7 @@ export default function Post({ postData }) {
                     <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to complete an online enrollment process with e-signature.</p>
                   </BlockQuote>
 
-                  <BlockQuote icon="/images/icons/contentFormIcon.svg">
+                  <BlockQuote icon="/images/icons/contentWebpageIcon.svg">
                     <h2>Option 3: Enroll via the Provider Portal</h2>
                     <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to submit completed forms with physician and patient signatures through the provider portal.</p>
                   </BlockQuote>

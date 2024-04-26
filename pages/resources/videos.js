@@ -78,7 +78,7 @@ export default function Post({ postData }) {
         />
 
         {/*Content*/}
-        <div className={pageStyles.pageLevel3} data-bg-color="blue">        
+        <div className={pageStyles.pageLevel3} data-bg-color="mint">        
           <TransitionScreen screen="10"/>     
           <section className={pageStyles.mainSection}>
             <ComputerFrame frame="1">
@@ -91,12 +91,12 @@ export default function Post({ postData }) {
                   <p>
                     Our video library contains useful information that may help answer common questions related to accessing a patient’s prescribed BMS medication.
                   </p>
-                  <p>
+                  {/*<p>
                     Our resources help provide a better understanding of the health insurance landscape. They are located on the Forms & Resources page of the BMS Access Support website.
                   </p>
-                  <QRCodePreset 
+*/}                  <QRCodePreset 
                     link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
-                    toolTipText="Scan to view Forms &amp; Resources"
+                    toolTipText="Scan to view our video resources, which are located on the Forms & Resources page of the BMS Access Support® website."
                     toolTipPlacement="right"
                   />
                   
