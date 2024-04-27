@@ -71,10 +71,10 @@ export default function ResourcesForm({
           {/*RESOURCE LINK*/}
           <div className={componentStyles.cell}>
             <label  className={componentStyles.selectLabel} for="options">Selected Resource:</label>
-            <select id="ResourcesForm-options" name="options" disabled>
+            <select id="ResourcesForm-options" name="options">
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf">BMS AS Enrollment Form</option>
-              {/*<option value="https://bmsaccesssupport.com/?missing_resource">How-to-Enroll Guide</option>
-              <option value="https://bmsaccesssupport.com/?missing_resource">Sample BR Results Form</option>*/}
+              {/*<option value="https://bmsaccesssupport.com/?missing_resource">How-to-Enroll Guide</option>*/}
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/AS-Summary-of-Benefits-Template.pdf">Sample BR Results Form</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf">Oral T&amp;C</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/IVs-Terms-and-Conditions.pdf">IV T&amp;C</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Understanding_Healthcare_Benefits.pdf">Understanding Healthcare Benefits Brochure</option>
