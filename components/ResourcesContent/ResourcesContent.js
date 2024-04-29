@@ -121,7 +121,7 @@ export default function ResourcesContent({
         name="Medicare Part D Guide"
         thumbnail="/images/resources/Medicare-Guide.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-medicare-guide.pdf"
-        localPDFLink="/pdf-2024/patient-insurance-journey-map.pdf"
+        localPDFLink="/pdf-2024/patient-medicare-guide.pdf"
         tag="resources"
       />
 
