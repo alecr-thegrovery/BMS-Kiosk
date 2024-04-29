@@ -96,7 +96,7 @@ export default function Post({ postData }) {
                   </p>
 */}                  <QRCodePreset 
                     link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
-                    toolTipText="Scan to view our video resources, which are located on the Forms & Resources page of the BMS Access Support® website."
+                    toolTipText={["Scan to view our video resources, which are located on the Forms & Resources page of the BMS Access Support",<sup>&reg;</sup>, " website."]}
                     toolTipPlacement="right"
                   />
                   
