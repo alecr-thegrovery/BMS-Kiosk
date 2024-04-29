@@ -74,7 +74,7 @@ export default function Post({ postData }) {
         {/*Header*/}
         <DynamicHeader
           heading={["Government & Uninsured Patients"]}
-          subhead="BMS Access Support may be able to help identify financial assistance programs for eligible patients who have been prescribed select BMS medications and need help managing the cost of treatment. The appropriate program will depend on the patient’s coverage."
+          subhead="For patients insured through a government program or who do not have insurance, BMS Access Support® can provide information about independent charitable foundations."
         />
 
         {/*Content*/}
@@ -89,7 +89,7 @@ export default function Post({ postData }) {
                 <div className={pageStyles.cell}>
 
                   <p>
-                    Patients who are not covered by prescription drug insurance or insured through Federal Healthcare Programs are not eligible for co-pay assistance programs sponsored by Bristol Myers Squibb. BMS Access Support may be able to refer patients to independent charitable foundations. 
+                    Patients may be eligible for financial assistance from charitable foundations if they do not have prescription drug insurance, have insurance through a government healthcare program, or have a commercial plan but still need help. BMS Access Support may be able to provide information about independent charitable foundations that may be able to help.
                   </p>
                   <p>
                     Scan the QR code below, or call 1-800-861-0048 for details. 
@@ -101,7 +101,7 @@ export default function Post({ postData }) {
                   />
                   <br/>
                   <p className={pageStyles.italics}>
-                    Please Note: Each charitable foundation is independent from Bristol Myers Squibb and will have its own eligibility criteria and evaluation process. Bristol Myers Squibb cannot guarantee that a patient will receive assistance.
+                    It is important to note that these charitable foundations are independent from Bristol-Myers Squibb Company. Each foundation has its own eligibility criteria and evaluation process. Bristol Myers Squibb cannot guarantee that a patient will receive assistance.
                   </p>
                   
                 </div>               
