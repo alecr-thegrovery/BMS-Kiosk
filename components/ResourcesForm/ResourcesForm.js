@@ -129,7 +129,7 @@ export default function ResourcesForm({
           Be sure to check your email.
         </p>
         <br/>
-        <button>Back To Resources</button>
+        <button data-modal-open='resources' >Back To Resources</button>
       </div>
 
       <div className={componentStyles.error}>
