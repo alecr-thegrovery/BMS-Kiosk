@@ -95,7 +95,7 @@ export default function Post({ postData }) {
                     Scan the QR code below, or call 1-800-861-0048 for details. 
                   </p>
                   <QRCodePreset 
-                    link="https://www.bmsaccesssupport.bmscustomerconnect.com/access14/charitable-foundations-resource?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                    link="https://bms.claravine.com/global/b22a6485-3953-4711-97fa-c35ef2d69146"
                     toolTipText="Visit the charitable foundations page at BMSAccessSupport.com"
                     toolTipPlacement="right"
                   />
