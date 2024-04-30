@@ -139,7 +139,7 @@ export default function Post({ postData }) {
 
                   <img src="/images/thumbnails-2024/appeals-2.png" alt="" />
                   <QRCodePreset 
-                    link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                    link="https://bms.claravine.com/global/147cb392-f3c4-4488-8bd3-aabfe4e3898b"
                     toolTipText="Scan for PA &amp; Appeals Forms &amp; Resources"
                     toolTipPlacement="right"
                   />

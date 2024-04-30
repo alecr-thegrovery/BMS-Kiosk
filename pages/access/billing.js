@@ -114,7 +114,7 @@ export default function Post({ postData }) {
                 <div className={pageStyles.cell} data-centered>
                   <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/billing-1.png" alt="" />
                   <QRCodePreset 
-                    link="https://www.bmsaccesssupport.bmscustomerconnect.com/?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                    link="https://bms.claravine.com/global/447de38a-756b-49f1-b8d9-d01dedb5968d"
                     toolTipText="Scan to access the online coding tool and reimbursement guides for relevant products"
                     toolTipPlacement="right"
                   />

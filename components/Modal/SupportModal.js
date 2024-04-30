@@ -88,7 +88,7 @@ export default function SupportModal({
 
         <div className={componentStyles.qrCode}>
           <QRCodePreset 
-            link="https://www.bmsaccesssupport.bmscustomerconnect.com/?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+            link="https://bms.claravine.com/global/599a76c9-d5ec-4ea5-98ba-683a3e967122"
             toolTipText="Visit BMSAccessSupport.com to schedule support assistance"
             toolTipPlacement="right"
           />
