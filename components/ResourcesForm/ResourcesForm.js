@@ -47,6 +47,11 @@ export default function ResourcesForm({
             //show error message
             var element = document.querySelector('#resourcesFormOuter');
             element.setAttribute("data-form-state","error");
+            setTimeout(() => {
+              element.setAttribute("data-form-state","default");
+              emailInput.value = "";
+              ModalWrapper.setAttribute("data-modal-show", "ResourcesModal");
+            }, 5000); //time in ms
           },
         );
     };
@@ -95,8 +100,6 @@ export default function ResourcesForm({
               <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">What is Health Insurance? Video</option>
               <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Get to Know BMS Access Support Video</option>*/}
               <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Resource Videos</option>
-              {/*<option value="XXXXX">XXXXX</option>
-              <option value="XXXXX">XXXXX</option>*/}
 
             </select>
             <a className={componentStyles.backButton} data-modal-open='resources' >&larr; select a different resource</a>
@@ -114,7 +117,10 @@ export default function ResourcesForm({
 
       <div data-form-message="thankYou" className={componentStyles.thankYou}>
         <h3>Thank you!</h3>
-        <p>We've sent you a link to the selected resource.</p>
+        <br/>
+        <p>We've sent you a link to the selected resource. Be sure to check your email.</p>
+        <br/>
+        <p>Sending you back to the Resources screen in a few moments...</p>
       </div>
 
       <div className={componentStyles.error}>

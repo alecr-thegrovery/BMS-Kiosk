@@ -27,13 +27,39 @@ export default function BlogPreview({
 
   return (
     <div className={componentStyles.ResourcesCard + " ResourcesCard"} data-tag={tag}>
+      {/*RESOURCE IMAGE*/}
       <div className={componentStyles.thumbnailImage}>
-        {thumbnail ? 
-        <img src={thumbnail} alt=""/>
-        :
-        <div className={componentStyles.placeholderImage}>Placeholder Image</div>
-        }
+        
+        {localPDFLink ?
+          
+            <PdfLink url={localPDFLink} backButton>
+              <div>
+                {thumbnail ? 
+                <img src={thumbnail} alt=""/>
+                :
+                <div className={componentStyles.placeholderImage}>Placeholder Image</div>
+                }
+              </div>
+            </PdfLink>
+          
+          : localVideoLink ?
+          
+            <PdfLink url={localVideoLink} backButton>
+              <div>
+                {thumbnail ? 
+                <img src={thumbnail} alt=""/>
+                :
+                <div className={componentStyles.placeholderImage}>Placeholder Image</div>
+                }
+              </div>    
+            </PdfLink>
+          
+          : 
+          <h3>{name ? name : "Resource Name"}</h3>
+        } 
       </div>
+
+      {/*RESOURCE NAME/LINK*/}
       <div className={componentStyles.content}>
         
         <div className={componentStyles.text}>

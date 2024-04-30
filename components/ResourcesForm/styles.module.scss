@@ -79,3 +79,22 @@
 			display: block;
 		}
 	}
+
+
+	.thankYou{
+		h3{
+			text-align: center;
+		}
+		p{
+			font-size: $clampSmall;
+		}
+	}
+
+	.error{
+		h3{
+			text-align: center;
+		}
+		p{
+			font-size: $clampSmall;
+		}
+	}
