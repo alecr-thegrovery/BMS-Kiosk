@@ -99,7 +99,7 @@ export default function Post({ postData }) {
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentWebpageIcon.svg">
-                    <h2>Option 3: Enroll via the Provider Portal</h2>
+                    <h2>Option 3: Enroll via the MyBMSCases Provider Portal</h2>
                     <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to submit completed forms with physician and patient e-signatures through the provider portal. </p>
                   </BlockQuote>
 
