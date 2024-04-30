@@ -32,7 +32,15 @@ export default function ResourcesForm({
             console.log('SUCCESS!');
             //show success message, close form
             var element = document.querySelector('#resourcesFormOuter');
+            var emailInput = document.querySelector('#ResourcesForm-email');
+            var ModalWrapper = document.querySelector('#ModalWrapper'); 
             element.setAttribute("data-form-state","success");
+
+            setTimeout(() => {
+              element.setAttribute("data-form-state","default");
+              emailInput.value = "";
+              ModalWrapper.setAttribute("data-modal-show", "ResourcesModal");
+            }, 5000); //time in ms
           },
           (error) => {
             console.log('FAILED...', error.text);
