@@ -95,12 +95,12 @@ export default function Post({ postData }) {
 
                   <BlockQuote icon="/images/icons/contentComputerScreen.svg">
                     <h2>Option 2: Enroll Online</h2>
-                    <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to complete an online enrollment process with e-signature.</p>
+                    <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit BMSAccessSupport.com/enrollment</a> to complete an online enrollment process with e-signature.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentWebpageIcon.svg">
                     <h2>Option 3: Enroll via the Provider Portal</h2>
-                    <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to submit completed forms with physician and patient signatures through the provider portal.</p>
+                    <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to submit completed forms with physician and patient e-signatures through the provider portal. </p>
                   </BlockQuote>
 
                   <p>Once the enrollment form has been submitted and a Benefits Review has been conducted, you will receive your patient’s summary of healthcare benefits.</p>
