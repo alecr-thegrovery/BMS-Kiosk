@@ -40,10 +40,7 @@ export default function ResourcesFormModal({
       </div>
       
       <div className={componentStyles.scroll}>
-        <div className={componentStyles.heading}>
-          <h2>Send Resource</h2>
-          <p>Fill in your email in the form below to share a resource.</p>
-        </div>
+
 
         <div className={componentStyles.body}>
           
