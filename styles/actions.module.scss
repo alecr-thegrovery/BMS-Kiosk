@@ -355,6 +355,7 @@
     .draggable{
       .inner{
         transform: rotate(3deg);
+        will-change: transform;
       }
     } 
     
@@ -434,6 +435,7 @@
       pointer-events: none;
       .inner{
         transform: rotate(3deg);
+        will-change: transform;
       }
     }
   }

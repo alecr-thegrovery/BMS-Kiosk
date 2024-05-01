@@ -73,6 +73,11 @@ export default function ResourcesForm({
       
       <div className={componentStyles.form}>
         
+        <div className={componentStyles.heading}>
+          <h2>Send Resource</h2>
+          <p>Fill in your email in the form below to share a resource.</p>
+        </div>
+
         <form id="ResourcesForm" ref={form} onSubmit={sendEmail}>
 
           {/*EMAIL INPUT*/}
@@ -116,11 +121,15 @@ export default function ResourcesForm({
       </div>
 
       <div data-form-message="thankYou" className={componentStyles.thankYou}>
+        <img src="/images/icons/iconThankYouCheck.png" alt=""/>
         <h3>Thank you!</h3>
+        <p>
+          We've sent you a link to the selected resource. 
+          <br/>
+          Be sure to check your email.
+        </p>
         <br/>
-        <p>We've sent you a link to the selected resource. Be sure to check your email.</p>
-        <br/>
-        <p>Sending you back to the Resources screen in a few moments...</p>
+        <button data-modal-open='resources' >Back To Resources</button>
       </div>
 
       <div className={componentStyles.error}>
