@@ -45,18 +45,18 @@ export default function ResourcesForm({
             var ModalWrapper = document.querySelector('#ModalWrapper'); 
             element.setAttribute("data-form-state","success");
 
-            setTimeout(() => {
+            /*setTimeout(() => {
               closeForm()
-            }, 5000); //time in ms
+            }, 5000); //time in ms*/
           },
           (error) => {
             console.log('FAILED...', error.text);
             //show error message
             var element = document.querySelector('#resourcesFormOuter');
             element.setAttribute("data-form-state","error");
-            setTimeout(() => {
+            /*setTimeout(() => {
               closeForm()
-            }, 5000); //time in ms
+            }, 5000); //time in ms*/
           },
         );
     };
