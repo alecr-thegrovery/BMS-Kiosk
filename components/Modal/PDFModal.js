@@ -26,6 +26,9 @@ export default function PDFModal({
           e.preventDefault();
           ModalWrapper.attr("data-modal-status", "active");
           ModalWrapper.attr("data-modal-show", "ResourcesModal");
+          //clear iframe container
+          const iframe = document.getElementById("ModalIframe");
+          iframe.setAttribute('src', 'about:blank');
         });
       });
     });
@@ -34,7 +37,7 @@ export default function PDFModal({
     const element = document.getElementById("ModalWrapper");
     const iframe = document.getElementById("ModalIframe");
     element.setAttribute('data-modal-status', 'inactive');
-    iframe.setAttribute('src', '/images/BMSLogo.png');
+    iframe.setAttribute('src', 'about:blank');
   }
 
   const closeClick = () => {
@@ -66,7 +69,7 @@ export default function PDFModal({
       </div>*/}
       
       <div className={componentStyles.iframeWrapper}>
-        <iframe id="ModalIframe" src="/images/BMSLogo.svg" frameBorder="0"></iframe>
+        <iframe id="ModalIframe" src="about:blank" frameBorder="0"></iframe>
       </div>
       
       <div className={componentStyles.copyArea}>

@@ -42,6 +42,7 @@ export default function PdfLink({
       $("[data-modal-close]").click(function(e){
         e.preventDefault();
         ModalWrapper.attr("data-modal-status", "inactive");
+        PDFWindow.attr('src', '/images/BMSLogo.png'); 
       });
 
     });

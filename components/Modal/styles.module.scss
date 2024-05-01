@@ -11,6 +11,11 @@ $backdropColor: rgba($black, 0.25);
 	z-index: 10000;
 	transition: $transitionMedium;
 
+	iframe{
+		opacity: 0;
+		transition: $transitionMedium;
+		transition-delay: 2s;
+	}
 	/* ===== Modal State ===== */
 		&[data-modal-status="inactive"]{
 			opacity: 0%;
@@ -19,10 +24,18 @@ $backdropColor: rgba($black, 0.25);
 			.modalInner{
 				transform: translate(-50%, -40%);
 			}
+			iframe{
+				opacity: 0;
+				transition: $transitionMedium;
+				transition-delay: 2s;
+			}
 		}
 		&[data-modal-status="active"]{
 			opacity: 100%;
 			pointer-events: auto;
+			iframe{
+				opacity: 1;
+			}
 		}
 
 		&[data-back-button='true'] .backButton{
