@@ -22,7 +22,7 @@ export default function VideoModal({
       const element = document.getElementById("ModalWrapper");
       const iframe = document.getElementById("ModalIframe");
       element.setAttribute('data-modal-status', 'inactive');
-      iframe.setAttribute('src', '/images/BMSLogo.svg');
+      iframe.setAttribute('src', '/images/BMSLogo.png');
     }
 
     const closeClick = () => {
