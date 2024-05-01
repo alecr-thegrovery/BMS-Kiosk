@@ -59,7 +59,9 @@ export default function IDCard({
                 data-page-transition={link}
                 data-delay="0"
               >
-                <span>&rarr;</span>  
+                {/*<span>*/}
+                  <img src="/images/icons/iconCardClickArrow.svg" alt=""/>
+                {/*</span>  */}
               </a>
           }
 
