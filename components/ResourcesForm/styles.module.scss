@@ -96,7 +96,7 @@
 				display: none;
 			}
 			.error{
-				display: block;
+				display: flex;
 			}
 		}
 
@@ -129,10 +129,28 @@
 		}
 
 		.error{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			h3{
 				text-align: center;
+				font-size: $clampLarge;
+				margin-bottom: $clampSmall;
+				color: $darkBlue;
 			}
 			p{
 				font-size: $clampSmall;
+				text-align: center;
+			}
+			button{
+				border-radius: 0.5em;
+				padding: 0.5em 1em;
+				background-color: $purple;
+				color: $white;
+				border: none;
+				cursor: pointer;
+				margin: auto;
+				display: inline-block;
 			}
 		}

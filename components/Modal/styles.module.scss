@@ -479,14 +479,15 @@ $backdropColor: rgba($black, 0.25);
 		width: 100%;
 		max-width: 1200px;
 		margin: auto;
-		margin-bottom: $clampLarge;
+		margin-bottom: $clampSmall;
 		h2{
 			font-size: $clampLarge;
-			margin-bottom: $clampSmall;
+			//margin-bottom: $clampSmall;
+			color: $grey_3;
 		}
-		p{
+		/*p{
 			font-size: $clampSmall;
-		}
+		}*/
 	}
 
 	/*Body Section - Columns*/

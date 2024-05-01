@@ -20,6 +20,15 @@ export default function ResourcesForm({
   //console.log(author);
   const form = useRef();
 
+  const closeForm = (e) => {
+    var element = document.querySelector('#resourcesFormOuter');
+    var emailInput = document.querySelector('#ResourcesForm-email');
+    var ModalWrapper = document.querySelector('#ModalWrapper'); 
+    element.setAttribute("data-form-state","default");
+    emailInput.value = "";
+    ModalWrapper.setAttribute("data-modal-show", "ResourcesModal");
+  };
+
     const sendEmail = (e) => {
       e.preventDefault();
 
@@ -37,9 +46,7 @@ export default function ResourcesForm({
             element.setAttribute("data-form-state","success");
 
             setTimeout(() => {
-              element.setAttribute("data-form-state","default");
-              emailInput.value = "";
-              ModalWrapper.setAttribute("data-modal-show", "ResourcesModal");
+              closeForm()
             }, 5000); //time in ms
           },
           (error) => {
@@ -48,9 +55,7 @@ export default function ResourcesForm({
             var element = document.querySelector('#resourcesFormOuter');
             element.setAttribute("data-form-state","error");
             setTimeout(() => {
-              element.setAttribute("data-form-state","default");
-              emailInput.value = "";
-              ModalWrapper.setAttribute("data-modal-show", "ResourcesModal");
+              closeForm()
             }, 5000); //time in ms
           },
         );
@@ -129,12 +134,14 @@ export default function ResourcesForm({
           Be sure to check your email.
         </p>
         <br/>
-        <button data-modal-open='resources' >Back To Resources</button>
+        <button data-modal-open='resources' onClick={closeForm} >Back To Resources</button>
       </div>
 
       <div className={componentStyles.error}>
         <h3>Error</h3>
         <p>Sorry, looks like there was an error sending that resource.  Please try again later.</p>
+        <br/>
+        <button data-modal-open='resources' onClick={closeForm} >Back To Resources</button>
       </div>
       
     </div>
