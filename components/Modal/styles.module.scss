@@ -229,7 +229,7 @@ $backdropColor: rgba($black, 0.25);
 			width: 80%;
 			max-width: 20em;
 			p{
-				color: $black;
+				color: $grey_3;
 			}
 		}
 
@@ -245,6 +245,7 @@ $backdropColor: rgba($black, 0.25);
 				justify-content: center;
 				align-items: center;
 				margin-bottom: $clampSmall;
+				color: $grey_3;
 				.icon{
 					font-size: $clampLarge;
 					margin-bottom: $clampSmall;
