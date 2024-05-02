@@ -90,7 +90,10 @@ export default function BlogPreview({
               data-modal-open='resourcesForm' 
               data-resource-value={link} 
               href="#"
-            ><OpenResourceIcon/></a>
+            >
+              {/*<OpenResourceIcon/>*/}
+              <img src="/images/icons/iconSendArrow.png" alt=""/>
+            </a>
           </OnlineDetectWrapper>
           
             {/*{localPDFLink &&
