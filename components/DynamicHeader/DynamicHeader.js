@@ -55,7 +55,7 @@ export default function DynamicHeader({
           <div className={componentStyles.logo}>
             {/*<Link href="/">*/}
               <a data-page-transition="/" data-delay="0">
-                <img src="/images/logo-arrow.svg" alt="Bristol Myers Squibb - Access Support"/>
+                <img src="/images/BMSArrowLogo-alt.png" alt="Bristol Myers Squibb - Access Support"/>
               </a>
             {/*</Link>*/}
 
