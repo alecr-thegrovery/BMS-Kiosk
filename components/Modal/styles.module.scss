@@ -235,15 +235,18 @@ $backdropColor: rgba($black, 0.25);
 
 		.heading{
 			position: absolute;
-			top: -2em;
+			top: -1em;
 			left: 50%;
 			transform: translateX(-50%);
 			background-color: $white;
 			color: $darkBlue;
 			width: 80%;
-			max-width: 20em;
+			max-width: 28em;
 			p{
 				color: $grey_3;
+				max-width: 22em;
+				margin: auto;
+				margin-bottom: 1em;
 			}
 		}
 
