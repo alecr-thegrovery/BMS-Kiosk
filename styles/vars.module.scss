@@ -6,35 +6,35 @@ Description:	Store SCSS vars here
 
 **************************************************/
 
-/* ================== */
+/* =================== */
 /* ===== Imports ===== */
-/* ================== */
+/* =================== */
 
 @import "@styles/fonts.module.scss";
 
 
-/* ========================== */
+/* =========================== */
 /* ===== Color Variables ===== */
-/* ========================== */
-	$black: 			#212121;
-	$white: 			#FFFFFF;
-	$grey_1:			#EEE7E7;
-	$grey_2:			#373231;
-	$grey_3:			#595454;
-	$red: 				#FF0000;
+/* =========================== */
+	$black: 		#212121;
+	$white: 		#FFFFFF;
+	$grey_1:		#EEE7E7;
+	$grey_2:		#373231;
+	$grey_3:		#595454;
+	$red: 			#FF0000;
 
-	$orange: 				#E0603A;
+	$orange: 		#E0603A;
 	$darkOrange:	#BA4103;
-	$brown:				#8B423E;
-	$teal:					#129FBA;
-	$purple:				#C136BE;
-	$green:					#7DC242;
-	$cream: 				#FFF0E8;
-	$cream2:				#FFF7F3;
-	$cream3:				#FFFDF8;
+	$brown:			#8B423E;
+	$teal:			#129FBA;
+	$purple:		#C136BE;
+	$green:			#7DC242;
+	$cream: 		#FFF0E8;
+	$cream2:		#FFF7F3;
+	$cream3:		#FFFDF8;
 	$lightBlue:		#F1FCFE;
 	$lightGreen:	#F4FFFA;
-	$grey:					#F4EFEF;
+	$grey:			#F4EFEF;
 
 	//New Card Colors
 	$darkBlue: #097789;
@@ -45,95 +45,95 @@ Description:	Store SCSS vars here
 	//Card colors
 	$mutedRed: 		#FDD7C2;
 	$mutedYellow: 	#FEEEC4;
-	$mutedBlue: 		#C8EAEC;
+	$mutedBlue: 	#C8EAEC;
 	$mutedGreen: 	#CEECCE;
 
 	//Primary Palette
-	$primaryGray: 				#A69F9F;
+	$primaryGray: 		#A69F9F;
 	$primaryLightGray: 	#EEE7E7;
-	$primaryPurple: 			#BE2BBB;
-	$primaryDarkGray: 		#595454;
-	$primaryWhite:				#FFFFFF;
+	$primaryPurple: 	#BE2BBB;
+	$primaryDarkGray: 	#595454;
+	$primaryWhite:		#FFFFFF;
 
 	//Dark Palette
-	$darkPeach: 	#671112;
-	$darkAmber: 	#C06005;
+	$darkPeach: #671112;
+	$darkAmber: #C06005;
 	$darkAqua: 	#225C6E;
 	$darkMint: 	#267148;
 
 	//Door Colors
-	$doorPeach: 	#FDD7C2;
-	$doorAmber: 	#FFD186;
+	$doorPeach: #FDD7C2;
+	$doorAmber: #FFD186;
 	$doorAqua: 	#C0F2FB;
 	$doorMint: 	#C5FFE6;
 
 /***** Named Colors *****/
 	//only use other vars
-	$primaryColor:			$black;
-	$secondaryColor:		$white;
-	$backgroundColor:		$white;
-	$textColor:				$grey_3;
-	$accentColor:			$purple;
+	$primaryColor:		$black;
+	$secondaryColor:	$white;
+	$backgroundColor:	$white;
+	$textColor:			$grey_3;
+	$accentColor:		$purple;
 
-	$cardColor1: $darkBlue;
-	$cardColor2: $boldBlue;
-	$cardColor3: $tealBlue;
-	$cardColor4: $surfBlue;
+	$cardColor1: 		$darkBlue;
+	$cardColor2: 		$boldBlue;
+	$cardColor3: 		$tealBlue;
+	$cardColor4: 		$surfBlue;
 
-/* ================ */
+/* ================= */
 /* ===== Fonts ===== */
-/* ================ */
+/* ================= */
 	//BMS Humanity
 	$fontBMS: 					"bms_humanityregular";
 		//Variants
 		$fontBMSBoldItalic: 	"bms_humanitybold_italic";
-		$fontBMSExtraBold: 	"bms_humanityextrabold";
-		$fontBMSItalic: 				"bms_humanityitalic";
-		$fontBMSLight: 				"bms_humanitylight";
+		$fontBMSExtraBold: 		"bms_humanityextrabold";
+		$fontBMSItalic: 		"bms_humanityitalic";
+		$fontBMSLight: 			"bms_humanitylight";
 		$fontBMSLightItalic:	"bms_humanitylight_italic";
-		$fontBMSThin: 					"bms_humanitythin";
+		$fontBMSThin: 			"bms_humanitythin";
 		$fontBMSThinItalic: 	"bms_humanitythin_italic";
 
 	//BMS Humanity NW
-	$fontBMSNW: 					"bms_humanity_nwregular";
+	$fontBMSNW: 				"bms_humanity_nwregular";
 		//Variants
-		$fontBMSNWBold: 					"bms_humanity_nwbold";
-		$fontBMSNWBoldItalic: 		"bms_humanity_nwbold_italic";
-		$fontBMSNWExtraBold: 		"bms_humanity_nwextrabold";
-		$fontBMSNWItalic: 				"bms_humanity_nwitalic";
-		$fontBMSNWLight:					"bms_humanity_nwlight";
+		$fontBMSNWBold: 		"bms_humanity_nwbold";
+		$fontBMSNWBoldItalic: 	"bms_humanity_nwbold_italic";
+		$fontBMSNWExtraBold: 	"bms_humanity_nwextrabold";
+		$fontBMSNWItalic: 		"bms_humanity_nwitalic";
+		$fontBMSNWLight:		"bms_humanity_nwlight";
 		$fontBMSNWLightItalic: 	"bms_humanity_nwlight_italic";
-		$fontBMSNWThin: 					"bms_humanity_nwthin";
-		$fontBMSNWThinItalic: 		"bms_humanity_nwthin_italic";
+		$fontBMSNWThin: 		"bms_humanity_nwthin";
+		$fontBMSNWThinItalic: 	"bms_humanity_nwthin_italic";
 
 	//BMS Humanity AR
-	$fontBMSAR: 					"bms_humanity_arregular";
+	$fontBMSAR: 				"bms_humanity_arregular";
 		//Variants
-		$fontBMSARBold: 				"bms_humanity_arbold";
+		$fontBMSARBold: 		"bms_humanity_arbold";
 		$fontBMSARExtraBold:	"bms_humanity_arextrabold";
-		$fontBMSARLight: 				"bms_humanity_arlight";
-		$fontBMSARThin:					"bms_humanity_arthin";
+		$fontBMSARLight: 		"bms_humanity_arlight";
+		$fontBMSARThin:			"bms_humanity_arthin";
 		
 	
 
 	//Named Vars
-	$fontBody:			$fontBMS;
+	$fontBody:		$fontBMS;
 	$fontDisplay:	$fontBMSNW;
-	$fontAlt:				$fontBMSAR;
+	$fontAlt:		$fontBMSAR;
 
 /***** Static Font Sizes *****/
-	$fontSizeHeading:		36px;
+	$fontSizeHeading:	36px;
 	$fontSizeSubhead:	24px;
-	$fontSizeBody:			18px;
-	$fontSizeDetail:		12px;
+	$fontSizeBody:		18px;
+	$fontSizeDetail:	12px;
 
 /***** Dynamic Font Sizes *****/
 	$clampExtraExtraSmall:	clamp(6px, 1vw, 10px);
-	$clampExtraSmall:				clamp(10px, 1.2vw, 16px);
-	$clampSmall: 							clamp(12px, 1.5vw, 21px);
-	$clampMedium: 						clamp(14px, 2vw, 28px);
-	$clampLarge: 							clamp(24px, 4vw, 45px);
-	$clampExtraLarge: 				clamp(36px, 5.5vw, 60px);
+	$clampExtraSmall:		clamp(10px, 1.2vw, 16px);
+	$clampSmall: 			clamp(12px, 1.5vw, 21px);
+	$clampMedium: 			clamp(14px, 2vw, 28px);
+	$clampLarge: 			clamp(24px, 4vw, 45px);
+	$clampExtraLarge: 		clamp(36px, 5.5vw, 60px);
 
 /***** Letter Spacing *****/
 	$letterSpacingWide:		0.05em;
@@ -141,10 +141,10 @@ Description:	Store SCSS vars here
 
 /***** Content Widths *****/
 	$contentWidthMin: 	320px;
-	$contentWidthSm: 		650px;
-	$contentWidthMd: 		1100px;
-	$contentWidthLg: 		1450px;
-	$contentWidthXl: 		1650px;
+	$contentWidthSm:	650px;
+	$contentWidthMd: 	1100px;
+	$contentWidthLg: 	1450px;
+	$contentWidthXl: 	1650px;
 	$contentWidthMax: 	2400px;
 
 
