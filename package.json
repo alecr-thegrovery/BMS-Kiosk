@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.7.1",
-    "@types/react": "^18.0.17"
+    "@types/react": "^18.0.17",
+    "webpack": "^5.91.0"
   }
 }
