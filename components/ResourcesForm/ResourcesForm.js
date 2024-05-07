@@ -88,7 +88,7 @@ export default function ResourcesForm({
           {/*EMAIL INPUT*/}
           <div className={componentStyles.cell}>
             <label for="email">Email:</label>
-            <input type="email" id="ResourcesForm-email" name="email" required/>
+            <input type="email" id="ResourcesForm-email" name="email" autocomplete="off" required/>
           </div>
           
           {/*RESOURCE LINK*/}
