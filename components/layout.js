@@ -73,18 +73,18 @@ export default function Layout({
 
         {/*PWA-related tags*/}
         <link rel="manifest" href="/manifest.json" />
-        <meta name="application-name" content="PWA App" />
+        <meta name="application-name" content="BMS Access Support" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="PWA App" />
-        <meta name="description" content="Best PWA App in the world" />
+        <meta name="description" content="BMS Access Support Kiosk Experience" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-TileColor" content="#2B5797" />
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="PWA App" />
+        <meta name="apple-mobile-web-app-title" content="BMS Access Support" />
         <meta name="theme-color" content="#007B98" />
 
         <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />

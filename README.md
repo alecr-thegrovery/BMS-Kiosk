@@ -28,6 +28,7 @@
 
 ### Initialize ###
 * Use Node v16.13.0 - you can just run "npm run nvm" to set
+	* NOTICE: Updated to Node v18.18.2
 * run 'npm install'
 * run 'npm run dev' (start and serve commands are the same as this by default, customize them if you need to)
 
