@@ -1,6 +1,6 @@
 {
-  "name": "PWA App",
-  "short_name": "App",
+  "name": "BMS Access Support",
+  "short_name": "BMS Access Support",
   "icons": [
     {
       "src": "/pwa-icons/android-chrome-192x192.png",
