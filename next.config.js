@@ -22,7 +22,7 @@ const nextConfig = withPWA({
   trailingSlash: true,
 
   //REDIRECTS
-  async redirects() {
+  /*async redirects() {
     return [
       {
         source: '/redirect-test',
@@ -30,7 +30,7 @@ const nextConfig = withPWA({
         permanent: true,
       },
     ]
-  }
+  }*/
 
 })
 
