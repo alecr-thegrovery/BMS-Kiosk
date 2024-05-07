@@ -388,9 +388,9 @@ export default function App({ Component, pageProps }) {
         //run function
         deviceDetect();
 
-    /* =============================== */
-    /* ===== Online Stauts Detect  ===== */
-    /* =============================== */
+    /* ================================= */
+    /* ===== Online Status Detect  ===== */
+    /* ================================= */
         console.log("===== ONLINE STATUS CHECKER CODE =====");
         function handleOnlineStatus() {
           console.log('User is online');

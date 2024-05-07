@@ -192,3 +192,10 @@
     opacity: 0.5;
     pointer-events: none;
   }
+
+  .OnlineDetectWrapper[data-reverse="true"]{
+    opacity: 0;
+  }
+  .OnlineDetectWrapper[data-reverse="true"].offline{
+    opacity: 1;
+  }
