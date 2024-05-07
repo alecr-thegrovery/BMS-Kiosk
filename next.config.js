@@ -12,7 +12,7 @@ const withPWA = require('next-pwa')({
 
 const nextConfig = withPWA({
   /* config options here */
-  output: 'standalone',
+  output: 'export',
   //IMAGE LOADER
   images: {
     unoptimized: true,
