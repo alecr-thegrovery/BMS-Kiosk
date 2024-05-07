@@ -11,8 +11,7 @@ import componentStyles from './styles.module.scss'
 
 export default function BlogPreview({ 
   //Props
-  children, id, image, title, 
-  previewText, author, date
+  children, reverse
 }) {
 
   //console.log(author);
@@ -21,7 +20,10 @@ export default function BlogPreview({
   });
   
   return (
-    <div className={componentStyles.OnlineDetectWrapper + " OnlineDetectWrapper"}>
+    <div 
+      className={componentStyles.OnlineDetectWrapper + " OnlineDetectWrapper"}
+      data-reverse={reverse ? 'true' : 'false'}
+    >
       {children}
     </div>
   )

@@ -14,6 +14,7 @@ import BackToHome from '@components/BackToHome'
 import SmallScreenWarning from '@components/SmallScreenWarning'
 import FullScreenWidget from '@components/FullScreenWidget'
 import IdleTimer from '@components/IdleTimer'
+import OfflineNotice from '@components/OfflineNotice'
 
 export const siteTitle = 'BMS Congress Access Support'
 export const siteData = data
@@ -105,6 +106,7 @@ export default function Layout({
       {/*<SupportModal/>*/}
       <Modal/>
       <IdleTimer/>
+      <OfflineNotice/>
       
       {/* MAIN SECTION */}
       <main className={styles.main}>
