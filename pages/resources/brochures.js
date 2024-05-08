@@ -122,7 +122,7 @@ export default function Post({ postData }) {
                   </p>*/}
 
                   <QRCodePreset 
-                    link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                    link="one.bms.com/4acNhRM"
                     toolTipText="Scan to view Forms &amp; Resources"
                     toolTipPlacement="right"
                   />

@@ -130,7 +130,7 @@ export default function Post({ postData }) {
                   <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/appeals-1.png" alt="" />
                   <p>To access the BMS Access Payer Map, scan the QR code below and select the appropriate medication.</p>
                   <QRCodePreset 
-                    link="https://www.bmsaccessmap.com/opdivo?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                    link="one.bms.com/4b69Vw9"
                     toolTipText="Scan to visit BMS Access Payer Map"
                     toolTipPlacement="right"
                   />
