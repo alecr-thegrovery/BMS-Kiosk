@@ -95,7 +95,7 @@ export default function Post({ postData }) {
 
                   <BlockQuote icon="/images/icons/contentComputerScreen.svg">
                     <h2>Option 2: Enroll Online</h2>
-                    <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit BMSAccessSupport.com/enrollment</a> to complete an online enrollment process with e-signature.</p>
+                    <p><a className={utilStyles.wordBreak} data-page-transition="/enrollment/provider-portal" data-delay="0">Visit BMSAccessSupport.com/enrollment</a> to complete an online enrollment process with e-signature.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentWebpageIcon.svg">

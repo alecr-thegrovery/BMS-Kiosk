@@ -38,3 +38,7 @@
 .textSection{
   margin-bottom: 100px;
 }
+
+.wordBreak{
+  word-break: break-all;
+}
