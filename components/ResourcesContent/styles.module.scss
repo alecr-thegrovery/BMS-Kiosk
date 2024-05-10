@@ -1,0 +1,60 @@
+@import "@styles/vars.module.scss";
+
+.ResourcesContent{
+	//border: 2px dashed $black;
+	width: 100%;
+	height: 100%;
+	//padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.tagCloud{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: no-wrap;
+	overflow: visible;
+	margin-bottom: 1em;
+	font-size: $clampExtraSmall;
+
+	div{
+		border: solid 0.2em transparent;
+		padding: 0.5em 1em;
+		border-radius: 2.5em;
+		margin-right: 1em;
+		font-size: 0.9em;
+		font-family: $fontBMSARLight;
+		background-color: $purple;
+		color: $white;
+		cursor: pointer;
+		
+		
+
+		&[data-filter="enrollment"]{
+			background-color: $darkBlue;
+			color: $white;
+		}
+		&[data-filter="access"]{
+			background-color: $boldBlue;
+			color: $white;
+		}
+		&[data-filter="financial"]{
+			background-color: $tealBlue;
+			color: $black;
+		}
+		&[data-filter="resources"]{
+			background-color: $surfBlue;
+			color: $black;
+		}
+		&[data-active="active"]{
+			border-color: $black;
+		}
+	}
+}
+
+.innerGrid{
+	display: flex;
+	flex-wrap: wrap;
+}

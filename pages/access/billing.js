@@ -83,7 +83,7 @@ export default function Post({ postData }) {
         />
 
         {/*Content*/}
-        <div className={pageStyles.pageLevel3} data-bg-color="cream">          
+        <div className={pageStyles.pageLevel3} data-bg-color="lightBlue">          
           <TransitionScreen screen="6"/>   
           <section className={pageStyles.mainSection}>
             <ComputerFrame frame="4">
@@ -93,17 +93,17 @@ export default function Post({ postData }) {
                 {/*LEFT CELL*/}
                 <div className={pageStyles.cell}>
 
-                  <h2>We offer product-specific Billing &amp; Coding resources for your healthcare office.</h2>
+                  <p>We may be able to provide product-specific billing and diagnosis codes, reimbursement guides, and product distribution information</p>
                   <BlockQuote icon="/images/icons/contentClipboardIcon.svg">
-                    <p><strong>Billing &amp; Coding Guides</strong> provide an overview of relevant product and diagnosis codes, dosing and administration, and general reimbursement information.</p>
+                    <p><strong className={pageStyles.darkBlue}>Billing &amp; Coding Guides</strong> provide an overview of relevant product and diagnosis codes, dosing and administration, and general reimbursement information.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentClipboardIcon.svg">
-                    <p><strong>Online Code Search Tool</strong> allows providers to type in a keyword to find a specific HCPCS, CPT, NDC, 5010, or ICD-10 code.</p>
+                    <p><strong className={pageStyles.darkBlue}>Online Code Search Tool</strong> allows providers to type in a keyword to find a specific HCPCS, CPT, NDC, 5010, or ICD-10 code.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentListIcon.svg">
-                    <p><strong>Sample Claim Forms</strong> call out where to enter important information on health insurance claim forms (e.g., drug name, dosing information, HCPCS code, etc.).</p>
+                    <p><strong className={pageStyles.darkBlue}>Sample Claim Forms</strong> call out where to enter important information on health insurance claim forms (e.g., drug name, dosing information, HCPCS code, etc.).</p>
                   </BlockQuote>
                   <br/>
                   
@@ -112,10 +112,10 @@ export default function Post({ postData }) {
 
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
-                  <img src="/images/content/billing-coding-medselector-img-v2.png" alt="" />
+                  <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/billing-1.png" alt="" />
                   <QRCodePreset 
-                    link="https://www.bmsaccesssupport.bmscustomerconnect.com/?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
-                    toolTipText="Scan to access Reimbursement Guides available for all relevant products at BMSAccessSupport.com"
+                    link="https://bms.claravine.com/global/447de38a-756b-49f1-b8d9-d01dedb5968d"
+                    toolTipText="Scan to access the online coding tool and reimbursement guides for relevant products"
                     toolTipPlacement="right"
                   />
                 </div>

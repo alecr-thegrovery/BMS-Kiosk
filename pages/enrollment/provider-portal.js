@@ -12,6 +12,7 @@ import ComputerFrame from '@components/SVGComponents/ComputerFrame'
 import TransitionScreen from '@components/SVGComponents/TransitionScreen'
 import BlockQuote from '@components/ContentComponents/BlockQuote'
 import PdfThumbnail from '@components/ContentComponents/PdfThumbnail'
+import PdfLink from '@components/ContentComponents/PdfLink'
 import QRCodePreset from "@components/ContentComponents/QRCodePreset";
 
 /*===== Styles =====*/
@@ -73,11 +74,11 @@ export default function Post({ postData }) {
       <div className={pageStyles.pageLayout}>
         {/*Header*/}
         <DynamicHeader
-          heading={["Using the My BMS Cases ", <strong>Provider Portal</strong>]}
+          heading={["Using the BMS ", <strong>Access Support<sup>&reg;</sup></strong>, " Provider Portals"]}
         />
 
         {/*Content*/}
-        <div className={pageStyles.pageLevel3} data-bg-color="cream">  
+        <div className={pageStyles.pageLevel3} data-bg-color="lightBlue">  
           <TransitionScreen screen="3"/>             
           <section className={pageStyles.mainSection}>
             <ComputerFrame frame="1">
@@ -86,12 +87,12 @@ export default function Post({ postData }) {
               <div className={pageStyles.twoColumn}>
                 {/*LEFT CELL*/}
                 <div className={pageStyles.cell}>
-                  
+                  <h2>MyBMSCases Provider Portal </h2>
                   <BlockQuote icon="/images/icons/contentComputerScreen.svg">
-                    <p>This secure provider portal offers convenient, on-demand access to patient reimbursement cases for BMS medications.</p>
+                    <p>This secure provider portal offers convenient, on-demand access to patient reimbursement cases for select BMS medications.</p>
                   </BlockQuote>
 
-                  <h2>The provider portal allows you to: </h2>
+                  <h3 className={pageStyles.bold}>The provider portal allows you to: </h3>
                   <ul>
                     <li>Access case status updates </li>
                     <li>Enroll in co-pay program and view details, including eligibility dates, annual benefit cap, and available balance</li>
@@ -102,7 +103,7 @@ export default function Post({ postData }) {
                   <br/>
                   <div className={pageStyles.centeredRow}>
                     <QRCodePreset 
-                      link="https://www.mybmscases.com/bmsProviderLightningPortal/s/login/?ec=302&startURL=%2FbmsProviderLightningPortal%2Fs%2F%29%5D&utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                      link="one.bms.com4bkzppG"
                       toolTipText="Scan to visit Provider Portal"
                       toolTipPlacement="right"
                     />
@@ -111,8 +112,19 @@ export default function Post({ postData }) {
                 </div>               
 
                 {/*RIGHT CELL*/}
-                <div className={pageStyles.cell} data-centered>
-                  <img src="/images/content/provider-portal-img.png" alt="" />
+                <div className={pageStyles.cell} >
+                  <h2>BMS Access Support<sup>&reg;</sup> Co-Pay Portal </h2>
+                  <BlockQuote icon="/images/icons/contentComputerScreen2.svg">
+                    <p>This secure portal allows HCPs to manage their patients’ co-pay claims after the patient has been enrolled into the Co-Pay Assistance Program.</p>
+                  </BlockQuote>
+
+                  <h3 className={pageStyles.bold}>The co-pay portal allows you to:</h3>
+                  <ul>
+                    <li>Submit medical claims</li>
+                    <li>Track claim status</li>
+                    <li>Confirm payments for patients actively enrolled in the BMS Access Support Co-Pay Assistance Program. Please see full <PdfLink url="/pdf-2024/IVs-Terms-and-Conditions.pdf" name="IVs-Terms-and-Conditions.pdf">Terms and Conditions</PdfLink>, including complete eligibility requirements</li>
+                  </ul>
+                  <p>Please note that this portal does NOT support enrollment into co-pay programs.</p>
                 </div>
 
               </div>

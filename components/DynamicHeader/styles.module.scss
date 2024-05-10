@@ -7,7 +7,7 @@ $fixedWidth: 310px;
 	background-color: $white;
 	position: absolute;
 	z-index: 20;
-	left: 0px;
+	left: -5px;
 	top: 25px;
 	width: 75%;
 	box-shadow: $simpleShadow;
@@ -22,12 +22,12 @@ $fixedWidth: 310px;
 		flex-wrap: wrap;
 		justify-content: flex-start;
 		align-items: center;
-		padding: 15px 35px;
+		padding: 0px 0px;
 	}
 
 	.logo{
 		width: $fixedWidth;
-		padding:5px;
+		padding:0px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -46,15 +46,22 @@ $fixedWidth: 310px;
 	.text{
 		width:calc(100% - #{$fixedWidth});
 		padding-right: 50px;
-		padding-left: 100px;
+		padding-left: 25px;
 		.heading{
 			font-size: $clampMedium;
-			strong{
-				color: $purple;
-			}
+			color: $grey_3;
+			strong{color: $purple;}
+		}
+		.extrasubhead{
+			font-size: $clampSmall;
+			font-weight: 600;
+			margin-bottom: 0.35em;
+			color: $grey_3;
+			strong{color: $darkBlue;}
 		}
 		.subhead{
 			font-size: $clampExtraSmall;
+			color: $grey_3;
 		}
 	}
 	

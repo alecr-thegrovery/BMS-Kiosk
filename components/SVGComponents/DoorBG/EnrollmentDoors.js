@@ -33,14 +33,14 @@ export default function EnrollmentDoors({
         </defs>
         <g id="iPad_Pro_12.9in_Enrollment_Hallway_2" data-name="iPad Pro 12.9in – Enrollment Hallway – 2" clipPath="url(#clip-iPad_Pro_12.9in_Enrollment_Hallway_2)">
           <rect width="1976" height="1263" fill="#fff"/>
-          <path id="Background-Color" d="M0,0H1976V1303.253H0Z" fill="#fdd7c2" stroke="#fff" strokeWidth="1.04" opacity="0.196"/>
+          <path id="Background-Color" d="M0,0H1976V1303.253H0Z" fill="#F2FCFE" stroke="#fff" strokeWidth="1.04" opacity="1"/>
           <rect id="Floor" width="1989.786" height="150" transform="translate(-13.786 1153.253)" fill="#fff" stroke="#453838" strokeMiterlimit="10" strokeWidth="1"/>
           <g id="All-Objects">
             <g id="Doors-Group" data-element="doors">
 
 
 
-              <g id="door1" transform="translate(-2434.939 184.607)" className="droppable" data-door="1" data-door-name="options" data-link="/enrollment/options/" data-active="inactive">
+              <g id="door1" transform="translate(-2434.939 184.607)" className="droppable" data-door="1" data-door-name="options" data-link="/enrollment/options/" data-page-transition="/enrollment/options/" data-active="inactive">
                 <g className="doorInnerBlack">
                   <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
                 </g>
@@ -71,7 +71,7 @@ export default function EnrollmentDoors({
                 
               </g>
 
-              <g id="door2" transform="translate(-2097.943 184.607)" className="droppable" data-door="2" data-door-name="enrollmentForm" data-link="/enrollment/enrollment-form/" data-active="inactive">
+              <g id="door2" transform="translate(-2097.943 184.607)" className="droppable" data-door="2" data-door-name="enrollmentForm" data-link="/enrollment/enrollment-form/" data-page-transition="/enrollment/enrollment-form/" data-active="inactive">
                 <g className="doorInnerBlack">
                   <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
                 </g>
@@ -102,7 +102,7 @@ export default function EnrollmentDoors({
                 
               </g>
 
-              <g id="door3" transform="translate(-1769.29 184.607)" className="droppable" data-door="3" data-door-name="providerPortal" data-link="/enrollment/provider-portal/" data-active="inactive">
+              <g id="door3" transform="translate(-1769.29 184.607)" className="droppable" data-door="3" data-door-name="providerPortal" data-link="/enrollment/provider-portal/" data-page-transition="/enrollment/provider-portal/" data-active="inactive">
                 <g className="doorInnerBlack">
                   <path id="Path_3483" data-name="Path 3483" d="M0,0H279.311V526.307H0Z" fill="#212121" transform="translate(2589.634 442.31)"/>
                 </g>
@@ -136,18 +136,18 @@ export default function EnrollmentDoors({
               <g id="Signs">
                 <g id="sign2" transform="translate(0 20)">
                   <rect id="Rectangle_185" data-name="Rectangle 185" width="279.31" height="86.697" transform="translate(491.5 491.358)" fill="#fff" stroke="#9f9089" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.264"/>
-                  <rect id="Rectangle_1905" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#fecdb4" stroke="#fecdb4" strokeLinecap="round" strokeWidth="1.264"/>
+                  <rect id="Rectangle_1905" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#097789" stroke="#097789" strokeLinecap="round" strokeWidth="1.264"/>
                   <text id="HOW_TO_COMPLETE_THE_ENROLLMENT_FORM" data-name="HOW TO COMPLETE THE 
       ENROLLMENT FORM" transform="translate(631 528)" fill="#595454" fontSize="22"   letterSpacing="0.02em"><tspan x="-127.941" y="0">HOW TO COMPLETE THE </tspan><tspan x="-104.561" y="22">ENROLLMENT FORM</tspan></text>
                 </g>
                 <g id="sign1" transform="translate(-336.996 20)">
                   <rect id="Rectangle_185-2" data-name="Rectangle 185" width="279.31" height="86.697" transform="translate(491.691 491.358)" fill="#fff" stroke="#9f9089" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.264"/>
-                  <rect id="Rectangle_1905-2" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#fecdb4" stroke="#fecdb4" strokeLinecap="round" strokeWidth="1.264"/>
+                  <rect id="Rectangle_1905-2" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#097789" stroke="#097789" strokeLinecap="round" strokeWidth="1.264"/>
                   <text id="OPTIONS_TO_ENROLL" data-name="OPTIONS TO ENROLL" transform="translate(631.269 539)" fill="#595454" fontSize="22"   letterSpacing="0.02em"><tspan x="-107.515" y="0">OPTIONS TO ENROLL</tspan></text>
                 </g>
                 <g id="sign3" transform="translate(328.653 20)">
                   <rect id="Rectangle_185-3" data-name="Rectangle 185" width="279.31" height="86.697" transform="translate(491.847 491.358)" fill="#fff" stroke="#9f9089" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.264"/>
-                  <rect id="Rectangle_1905-3" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#fecdb4" stroke="#fecdb4" strokeLinecap="round" strokeWidth="1.264"/>
+                  <rect id="Rectangle_1905-3" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#097789" stroke="#097789" strokeLinecap="round" strokeWidth="1.264"/>
                   <text id="PROVIDER_PORTAL" data-name="PROVIDER PORTAL" transform="translate(631.347 539)" fill="#595454" fontSize="22"   letterSpacing="0.02em"><tspan x="-94.19" y="0">PROVIDER PORTAL</tspan></text>
                 </g>
               </g>
@@ -172,7 +172,7 @@ export default function EnrollmentDoors({
               </g>
               <g id="Wall-Item" transform="translate(-2733.63 192.948)">
                 <g id="Group_185" data-name="Group 185">
-                  <rect id="Rectangle_152" data-name="Rectangle 152" width="92.904" height="123.68" transform="translate(3890.97 507.821) rotate(-0.279)" fill="#fdd7c2" stroke="#453838" strokeMiterlimit="10" strokeWidth="1.332"/>
+                  <rect id="Rectangle_152" data-name="Rectangle 152" width="92.904" height="123.68" transform="translate(3890.97 507.821) rotate(-0.279)" fill="#097789" stroke="#097789" strokeMiterlimit="10" strokeWidth="1.332"/>
                   <rect id="Rectangle_153" data-name="Rectangle 153" width="74.924" height="105.699" transform="translate(3900.003 516.767) rotate(-0.279)" fill="#fff"/>
                   <rect id="Rectangle_154" data-name="Rectangle 154" width="38.509" height="6.181" transform="translate(3918.244 523.224) rotate(-0.279)" fill="#f0e8e5"/>
                   <rect id="Rectangle_155" data-name="Rectangle 155" width="56.491" height="5.048" transform="translate(3909.328 538.843) rotate(-0.279)" fill="#f0e8e5"/>

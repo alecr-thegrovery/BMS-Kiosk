@@ -387,8 +387,50 @@ export default function App({ Component, pageProps }) {
         }
         //run function
         deviceDetect();
+
+    /* ================================= */
+    /* ===== Online Status Detect  ===== */
+    /* ================================= */
+        console.log("===== ONLINE STATUS CHECKER CODE =====");
+        function handleOnlineStatus() {
+          console.log('User is online');
+          // Perform any action when the user comes online
+          onlineDetectClass("online");
+        }
+
+        function handleOfflineStatus() {
+          console.log('User is offline');
+          // Perform any action when the user goes offline
+          onlineDetectClass("offline");
+        }
+
+        function checkOnlineStatusOnLoad() {
+          console.log("===== OSC - on load =====");
+          if (navigator.onLine) {
+            handleOnlineStatus();
+          } else {
+            handleOfflineStatus();
+          }
+        }
+
+        function onlineDetectClass(status) {
+          var elements = document.querySelectorAll('.OnlineDetectWrapper');
+          elements.forEach(element => {
+            //do the thing
+            element.classList.add(status);
+            //element.classList.remove("active");
+          });
+        }
+
+        // Check online status when the page loads
+        window.addEventListener('load', checkOnlineStatusOnLoad);
+
+        // Listen for online/offline changes
+        window.addEventListener('online', handleOnlineStatus);
+        window.addEventListener('offline', handleOfflineStatus);
         
 
+      
   });
  
   return <Component {...pageProps} />

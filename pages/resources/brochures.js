@@ -77,7 +77,7 @@ export default function Post({ postData }) {
         />
 
         {/*Content*/}
-        <div className={pageStyles.pageLevel3} data-bg-color="blue">    
+        <div className={pageStyles.pageLevel3} data-bg-color="mint">    
           <TransitionScreen screen="9"/>        
           <section className={pageStyles.mainSection}>
             <ComputerFrame frame="1">
@@ -87,37 +87,42 @@ export default function Post({ postData }) {
                 {/*LEFT CELL*/}
                 <div className={pageStyles.cell}>
                   <BlockQuote icon="/images/icons/contentFormIcon.svg">
-                    <p>Patients can download brochures and coverage-related resources that may help answer questions regarding accessing their prescribed BMS medication.</p>
+                    <p>Patients can download brochures and resources that may help answer questions about their coverage.</p>
                   </BlockQuote>
 
                   <p>
-                    <strong className={pageStyles.purple}>Understanding Your Healthcare Benefits</strong>
+                    <strong className={pageStyles.darkBlue}>Understanding Your Healthcare Benefits</strong>
                     <br/>
-                    Provides information on how health insurance works and ways BMS Access Support can help
+                    Provides information on how health insurance works and ways BMS Access Support<sup>&reg;</sup> can help
                   </p>
                   <p>
-                    <strong className={pageStyles.purple}>Patient Reimbursement Process Journey Map</strong>
+                    <strong className={pageStyles.darkBlue}>Patient Reimbursement Process Journey Map</strong>
                     <br/>
                     A high-level flow map showing potential patient insurance coverage scenarios and claims processing information
                   </p>
 
                   <p>
-                    <strong className={pageStyles.purple}>A Guide to 2023 Medicare Part D Coverage for Specialty Drugs</strong>
+                    <strong className={pageStyles.darkBlue}>A Guide to 2024 Medicare Part D Coverage for Specialty Drugs</strong>
                     <br/>
-                    A step-by-step guide through each phase of Medicare Part D with patient cost journey examples and additional resources and contact information
+                    A step-by-step guide through each phase of Medicare Part D with patient cost journey examples and additional resources
                   </p>
                   <p>
-                    <strong className={pageStyles.purple}>BMS Access Support Patient Brochure</strong>
+                    <strong className={pageStyles.darkBlue}>BMS Access Support<sup>&reg;</sup> Patient Brochure</strong>
                     <br/>
-                    An overview of the coverage journey and how we can help you obtain access to your prescribed BMS medications
+                    An overview of services that BMS Access Support may be able to provide to patients
+                  </p>
+                  <p>
+                    <strong className={pageStyles.darkBlue}>Low-Income Subsidy Brochure</strong>
+                    <br/>
+                    A guide to Medicare low-income subsidy for patients with limited income or resources
                   </p>
 
-                  <p>
+                  {/*<p>
                     Our resources help provide a better understanding of the health insurance landscape and expectations along the treatment journey. They are located on the Forms &amp; Resources page of the BMS Access Support website.   
-                  </p>
+                  </p>*/}
 
                   <QRCodePreset 
-                    link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                    link="one.bms.com/4acNhRM"
                     toolTipText="Scan to view Forms &amp; Resources"
                     toolTipPlacement="right"
                   />
@@ -127,27 +132,32 @@ export default function Post({ postData }) {
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
                   <PdfThumbnail 
-                    thumbnail="/images/thumbnails/Understanding_Healthcare_Benefits_thumb.png"
+                    thumbnail="/images/thumbnails-2024/brochures-1.png"
                     name="Understanding Healthcare Benefits"
-                    url="/pdf/Understanding_Healthcare_Benefits.pdf"
+                    url="/pdf-2024/Understanding_Healthcare_Benefits.pdf"
                    />
                    <br/>
                   <PdfThumbnail 
-                    thumbnail="/images/thumbnails/Patient_Reimbursement_Process_Map_thumb.png"
+                    thumbnail="/images/thumbnails-2024/brochures-2.png"
                     name="Patient Reimbursement Process Map"
-                    url="/pdf/Patient_Reimbursement_Process_Map.pdf"
+                    url="/pdf-2024/patient-insurance-journey-map.pdf"
                    />
                    <br/>
                    <PdfThumbnail 
-                    thumbnail="/images/thumbnails/NO-US-2200487_A_Guide_to_Medicare_Part_D_2023_thumb2x.jpg"
+                    thumbnail="/images/thumbnails-2024/brochures-3.png"
                     name="Medicare Part D Guide"
-                    url="/pdf/A_Guide_to_Medicare_Part_D_2023.pdf"
+                    url="/pdf-2024/patient-medicare-guide.pdf"
                    />
                    <br/>
                    <PdfThumbnail 
-                    thumbnail="/images/thumbnails/PatientBrochure_Thumb.png"
+                    thumbnail="/images/thumbnails-2024/brochures-4.png"
                     name="BMS Access Support Patient Brochure"
-                    url="/pdf/Patient_Brochure.pdf"
+                    url="/pdf-2024/Patient-Brochure.pdf"
+                   />
+                   <PdfThumbnail 
+                    thumbnail="/images/thumbnails-2024/brochures-5.png"
+                    name="Low-Income Subsidy Brochure"
+                    url="/pdf-2024/Low-Income_Subsidy_Brochure.pdf"
                    />
                 </div>
 

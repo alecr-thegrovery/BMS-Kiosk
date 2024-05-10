@@ -78,7 +78,7 @@ export default function Post({ postData }) {
         />
 
         {/*Content*/}
-        <div className={pageStyles.pageLevel3} data-bg-color="blue">        
+        <div className={pageStyles.pageLevel3} data-bg-color="mint">        
           <TransitionScreen screen="10"/>     
           <section className={pageStyles.mainSection}>
             <ComputerFrame frame="1">
@@ -91,12 +91,12 @@ export default function Post({ postData }) {
                   <p>
                     Our video library contains useful information that may help answer common questions related to accessing a patient’s prescribed BMS medication.
                   </p>
-                  <p>
+                  {/*<p>
                     Our resources help provide a better understanding of the health insurance landscape. They are located on the Forms & Resources page of the BMS Access Support website.
                   </p>
-                  <QRCodePreset 
-                    link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
-                    toolTipText="Scan to view Forms &amp; Resources"
+*/}                  <QRCodePreset 
+                    link="https://bms.claravine.com/global/3f40ee3d-9e55-426d-af2f-0fc5f6aef960"
+                    toolTipText={["Scan to view our video resources, which are located on the Forms & Resources page of the BMS Access Support",<sup>&reg;</sup>, " website."]}
                     toolTipPlacement="right"
                   />
                   
@@ -105,14 +105,26 @@ export default function Post({ postData }) {
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
                   <VideoThumbnail
-                    thumbnail="/images/content/as-video-generic-poster_ss.png"
-                    name="What is health insurance?" 
+                    thumbnail="/images/thumbnails-2024/video-1.png"
+                    name="Enrollment Form Tutorial" 
                     url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
                   />
                   <br/><br/>
                   <VideoThumbnail
-                    thumbnail="/images/content/as-video-generic-poster_ss.png"
+                    thumbnail="/images/thumbnails-2024/video-2.png"
                     name="What is an Explanation of Benefits (EOB)? " 
+                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
+                  />
+                  <br/><br/>
+                  <VideoThumbnail
+                    thumbnail="/images/thumbnails-2024/video-3.png"
+                    name="What is Health Insurance? " 
+                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
+                  />
+                  <br/><br/>
+                  <VideoThumbnail
+                    thumbnail="/images/thumbnails-2024/video-4.png"
+                    name="Get to Know BMS Access Support" 
                     url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
                   />
                 </div>

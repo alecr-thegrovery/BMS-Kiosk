@@ -76,7 +76,7 @@ export default function Post({ postData }) {
         />
 
         {/*Content*/}
-        <div className={pageStyles.pageLevel3} data-bg-color="cream">          
+        <div className={pageStyles.pageLevel3} data-bg-color="lightBlue">          
           <TransitionScreen screen="2"/>     
           <section className={pageStyles.mainSection}>
             <ComputerFrame frame="2">
@@ -87,14 +87,15 @@ export default function Post({ postData }) {
                     <p>Accurately complete the enrollment form, including the Patient Authorization and Agreement (PAA), to prevent processing delays.</p>
                   </BlockQuote>
 
-                  <img src="/images/content/EnrollmentFormContentImage-1.png" alt="" />
-                  <img src="/images/content/EnrollmentFormContentImage-2.png" alt="" />
-                  <img src="/images/content/EnrollmentFormContentImage-3.png" alt="" />
-                  <img src="/images/content/EnrollmentFormContentImage-4.png" alt="" />
+                  <img src="/images/thumbnails-2024/enrollment-form-pt1.png" alt="" />
+                  <img src="/images/thumbnails-2024/enrollment-form-pt2.png" alt="" />
+                  <img src="/images/thumbnails-2024/enrollment-form-pt3.png" alt="" />
+                  <img src="/images/thumbnails-2024/enrollment-form-pt4.png" alt="" />
+                  <img src="/images/thumbnails-2024/enrollment-form-pt5.png" alt="" />
                   <br/>
                   <div className={pageStyles.centeredRow}>
                     <QRCodePreset 
-                      link="https://www.bmsaccesssupport.bmscustomerconnect.com/sign?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                      link="bit.ly/4bqptut"
                       toolTipText="Scan for patient e-signature"
                       toolTipPlacement="right"
                     />

@@ -9,7 +9,7 @@ import componentStyles from './styles.module.scss'
 
 export default function PdfLink({ 
   //Props
-  url, name, children
+  url, name, children, backButton 
 }) {
 
   //console.log(author);
@@ -28,11 +28,13 @@ export default function PdfLink({
         //set PDF in iframe
         let pdfLink = $(this).attr('data-pdf-url');
         let pdfName = $(this).attr('data-pdf-name');
+        let backButtonState = $(this).attr('data-back-button');
         console.log(pdfLink);
         PDFWindow.attr("src", pdfLink+"#view=FitH"); 
         //activate PDF modal
         ModalWrapper.attr("data-modal-status", "active");
         ModalWrapper.attr("data-modal-show", "PDFModal");
+        ModalWrapper.attr("data-back-button", backButtonState);
         PDFTitle.text(pdfName);
       });
 
@@ -40,6 +42,7 @@ export default function PdfLink({
       $("[data-modal-close]").click(function(e){
         e.preventDefault();
         ModalWrapper.attr("data-modal-status", "inactive");
+        PDFWindow.attr('src', '/images/BMSLogo.png'); 
       });
 
     });
@@ -52,6 +55,7 @@ export default function PdfLink({
       data-modal-open='pdf'
       data-pdf-url={url}
       data-pdf-name={name}
+      data-back-button={backButton ? 'true' : 'false'}
     >
 
       {children}

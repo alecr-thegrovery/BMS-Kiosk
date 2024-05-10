@@ -1,0 +1,164 @@
+@import "@styles/vars.module.scss";
+
+.ResourcesForm{
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
+	border: 3px solid $darkBlue;
+	padding: 1.5em;
+	border-radius: 1em;
+
+	.heading{
+		text-align: center;
+		display: block;
+		width: 100%;
+		max-width: 1200px;
+		margin: auto;
+		margin-bottom: $clampLarge;
+		h2{
+			font-size: $clampLarge;
+			margin-bottom: $clampSmall;
+			color: $darkBlue;
+		}
+		p{
+			font-size: $clampSmall;
+			color: $grey_3;
+		}
+	}
+
+	.cell{
+		margin-bottom: 0.5em;
+		display: flex;
+		flex-direction: column;
+	}
+	.selectLabel{
+		font-size: $clampSmall;
+	}
+	select{
+		appearance: none;
+		opacity: 1;
+		color: $grey_3;
+		background: transparent;
+		border: none;
+		pointer-events: none;
+		font-size: $clampSmall;
+	}
+	.backButton{
+		font-size: $clampSmall;
+		color: $purple;
+	}
+	button{
+		border-radius: 0.5em;
+		padding: 0.5em 1em;
+		/*box-shadow: 1px 2px 6px rgba(128, 128, 128, 0.55);
+		background-image: linear-gradient(to bottom, #373231, #373231, #373231, #373231, #373231, #342f2e, #302d2b, #2d2a28, #262422, #1f1e1c, #191817, #121110);*/
+		background-color: $purple;
+		color: $white;
+		border: none;
+		cursor: pointer;
+	}
+
+
+}
+
+/*===== =========== =====*/
+/*===== Form States =====*/
+/*===== =========== =====*/
+	/*===== Form State Displays =====*/
+		[data-form-state="default"]{
+			.form{
+				display: block;
+			}
+			.thankYou{
+				display: none;
+			}
+			.error{
+				display: none;
+			}
+		}
+
+		[data-form-state="success"]{
+			.form{
+				display: none;
+			}
+			.thankYou{
+				display: flex;
+			}
+			.error{
+				display: none;
+			}
+		}
+
+		[data-form-state="error"]{
+			.form{
+				display: none;
+			}
+			.thankYou{
+				display: none;
+			}
+			.error{
+				display: flex;
+			}
+		}
+
+	/*===== Form State Styles =====*/
+		.thankYou{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			img{
+				width: 100%;
+				max-width: 3em;
+				height: auto;
+				margin-bottom: 0.5em;
+			}
+			h3{
+				text-align: center;
+				font-size: $clampLarge;
+				margin-bottom: $clampSmall;
+				color: $darkBlue;
+			}
+			p{
+				font-size: $clampSmall;
+				text-align: center;
+				color: $grey_3;
+			}
+			button{
+				border-radius: 0.5em;
+				padding: 0.5em 1em;
+				background-color: $purple;
+				color: $white;
+				border: none;
+				cursor: pointer;
+				margin: auto;
+				display: inline-block;
+			}
+		}
+
+		.error{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			h3{
+				text-align: center;
+				font-size: $clampLarge;
+				margin-bottom: $clampSmall;
+				color: $darkBlue;
+			}
+			p{
+				font-size: $clampSmall;
+				text-align: center;
+			}
+			button{
+				border-radius: 0.5em;
+				padding: 0.5em 1em;
+				background-color: $purple;
+				color: $white;
+				border: none;
+				cursor: pointer;
+				margin: auto;
+				display: inline-block;
+			}
+		}

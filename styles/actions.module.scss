@@ -355,6 +355,7 @@
     .draggable{
       .inner{
         transform: rotate(3deg);
+        will-change: transform;
       }
     } 
     
@@ -388,8 +389,43 @@
           transform: rotateY(45deg) translate3d(0, 0, 0);
         }
       }
+
+      //enrollment doors
+      &[data-link*="enrollment"]{
+        &.can--catch{
+          .doorInnerBlack{
+            outline: $clampExtraExtraSmall solid $darkBlue;
+          }
+        }
+      }
+      //access doors
+      &[data-link*="access"]{
+        &.can--catch{
+          .doorInnerBlack{
+            outline: $clampExtraExtraSmall solid $boldBlue;
+          }
+        }
+      }
+      //financial doors
+      &[data-link*="financial"]{
+        &.can--catch{
+          .doorInnerBlack{
+            outline: $clampExtraExtraSmall solid $tealBlue;
+          }
+        }
+      }
+      //resources doors
+      &[data-link*="resources"]{
+        &.can--catch{
+          .doorInnerBlack{
+            outline: $clampExtraExtraSmall solid $surfBlue;
+          }
+        }
+      }
       
     }
+    
+
     
   }
 
@@ -399,6 +435,7 @@
       pointer-events: none;
       .inner{
         transform: rotate(3deg);
+        will-change: transform;
       }
     }
   }

@@ -5,6 +5,7 @@ import $ from 'jquery'
 import interact from 'interactjs'
 import Card from './Card.js'
 import IDCard from '@components/IDCard'
+import IDCardV2 from '@components/IDCardV2'
 //import IDCard from '@components/SVGComponents/IDCard'
 
 /*===== Styles =====*/
@@ -29,7 +30,7 @@ export default function DragDrop({
 
         {/*<div className={"cardsFilter "+ componentStyles.cardsFilter}></div>*/}
 
-        <IDCard
+        <IDCardV2
           cardID="enrollment"
           text="Enrollment"
           link="/enrollment/"
@@ -37,35 +38,39 @@ export default function DragDrop({
           animation="fadeInUp"
           animationDelay="1"
           tooltipID="lvl-1-card-instructions"
-          tooltipText={[<h2>Begin Getting Access!</h2> , <p>Tap to drag an access card to the scanner on the right to learn more about each topic.</p>]}
+          tooltipText={[<h2>Begin Getting Access!</h2> , <p>Drag and drop an access card to the scanner on the right, or tap on their arrow icons, to learn more about each topic.</p>]}
           tooltipPlacement="up"
+          clickNavButton
         />
 
-        <IDCard
+        <IDCardV2
           cardID="access"
           text="Access and Reimbursement Report"
           link="/access/"
           color="mutedYellow"
           animation="fadeInUp"
           animationDelay="2"
+          clickNavButton
         />
 
-        <IDCard 
+        <IDCardV2 
           cardID="financial"
           text="Co-Pay &amp; Finacial Assistance Services"
           link="/financial/"
           color="mutedBlue"
           animation="fadeInUp"
           animationDelay="3"
+          clickNavButton
         />
       
-        <IDCard 
+        <IDCardV2 
           cardID="resources"
           text="Patient Resources"
           link="/resources/"
           color="mutedGreen"
           animation="fadeInUp"
           animationDelay="4"
+          clickNavButton
         />
         
       </div>

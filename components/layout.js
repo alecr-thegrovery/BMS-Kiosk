@@ -14,6 +14,7 @@ import BackToHome from '@components/BackToHome'
 import SmallScreenWarning from '@components/SmallScreenWarning'
 import FullScreenWidget from '@components/FullScreenWidget'
 import IdleTimer from '@components/IdleTimer'
+import OfflineNotice from '@components/OfflineNotice'
 
 export const siteTitle = 'BMS Congress Access Support'
 export const siteData = data
@@ -60,7 +61,7 @@ export default function Layout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
 
-        <script async  src="https://www.googletagmanager.com/gtag/js?id=G-GWVJJH8PJ6"></script>
+        {/*<script async  src="https://www.googletagmanager.com/gtag/js?id=G-GWVJJH8PJ6"></script>
         <script >
         {`
           window.dataLayer = window.dataLayer || [];
@@ -69,7 +70,35 @@ export default function Layout({
 
           gtag('config', 'G-GWVJJH8PJ6');
         `}
-        </script>
+        </script>*/}
+
+        {/*PWA-related tags*/}
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="application-name" content="BMS Access Support" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="PWA App" />
+        <meta name="description" content="BMS Access Support Kiosk Experience" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-TileColor" content="#2B5797" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="BMS Access Support" />
+        <meta name="theme-color" content="#007B98" />
+
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+
+        <link rel="apple-touch-icon" href="/icons/touch-icon-iphone.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/icons/touch-icon-ipad.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/touch-icon-iphone-retina.png" />
+        <link rel="apple-touch-icon" sizes="167x167" href="/icons/touch-icon-ipad-retina.png" />
+        
+        {/*<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5" />*/}
+        <link rel="shortcut icon" href="/favicon.ico" />
+
       </Head>
 
       <SmallScreenWarning/>
@@ -77,6 +106,7 @@ export default function Layout({
       {/*<SupportModal/>*/}
       <Modal/>
       <IdleTimer/>
+      <OfflineNotice/>
       
       {/* MAIN SECTION */}
       <main className={styles.main}>

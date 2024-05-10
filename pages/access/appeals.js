@@ -82,7 +82,7 @@ export default function Post({ postData }) {
         />
 
         {/*Content*/}
-        <div className={pageStyles.pageLevel3} data-bg-color="cream">          
+        <div className={pageStyles.pageLevel3} data-bg-color="lightBlue">          
           <TransitionScreen screen="5"/>   
           <section className={pageStyles.mainSection}>
             <ComputerFrame frame="3">
@@ -94,14 +94,14 @@ export default function Post({ postData }) {
                   
                   <BlockQuote icon="/images/icons/contentListIcon.svg">
                   {/*<h2>Prior Authorization (PA)</h2>*/}
-                  <h2>If required in the Benefits Review, our team can:</h2>
+                  <h2>If a PA is required, our team can:</h2>
                   <ul>
                     <li>Help obtain plan-specific PA forms and understand PA requirements </li>
-                    <li>Track PAs and follow up with payer</li>
+                    <li>Track PAs and follow up with payer </li>
                   </ul>
                   </BlockQuote>
 
-                  <h2>Or you can obtain payer requirement information through the BMS Access Payer Map at BMSAccessMap.com:</h2>
+                  <h2>Or, you can obtain payer requirement information through the BMS Access Payer Map at BMSAccessMap.com:</h2>
                   <ul>
                     <li>Get on-demand access to coverage policies and formulary status for select BMS medications within local health plans</li>
                     <li>View utilization management criteria, including Prior Authorization and documentation requirements, diagnostic testing information, etc.</li>
@@ -127,19 +127,19 @@ export default function Post({ postData }) {
 
                 {/*RIGHT CELL*/}
                 <div className={pageStyles.cell} data-centered>
-                  <img src="/images/content/appeals-img.png" alt="" />
+                  <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/appeals-1.png" alt="" />
                   <p>To access the BMS Access Payer Map, scan the QR code below and select the appropriate medication.</p>
                   <QRCodePreset 
-                    link="https://www.bmsaccessmap.com/opdivo?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                    link="one.bms.com/4b69Vw9"
                     toolTipText="Scan to visit BMS Access Payer Map"
                     toolTipPlacement="right"
                   />
 
                   <br/><br/>
 
-                  <img src="/images/content/pa-appeals-supporting.png" alt="" />
+                  <img src="/images/thumbnails-2024/appeals-2.png" alt="" />
                   <QRCodePreset 
-                    link="https://www.bmsaccesssupport.bmscustomerconnect.com/forms-resources?utm_source=bms_congress_access_app&utm_medium=qr_code_scan&utm_campaign=congress_access_event"
+                    link="https://bms.claravine.com/global/147cb392-f3c4-4488-8bd3-aabfe4e3898b"
                     toolTipText="Scan for PA &amp; Appeals Forms &amp; Resources"
                     toolTipPlacement="right"
                   />

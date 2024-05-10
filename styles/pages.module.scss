@@ -84,13 +84,19 @@
 	justify-content: center;
 	align-items: flex-end;
 	overflow: hidden;
-	background-color: $cream3;
+	background-color: #F1FCFE;
 
 	&[data-bg-color="cream"]{
 		background-color: $cream3;
 	}
-	&[data-bg-color="blue"]{
+	[data-bg-color="blue"]{
 		background-color: $lightBlue;
+	}
+	&[data-bg-color="lightBlue"]{
+		background-color: $lightBlue;
+	}
+	&[data-bg-color="mint"]{
+		background-color: #f3fffa;
 	}
 
 	.mainSection{
@@ -106,12 +112,18 @@
 
 		h2{
 			margin-bottom: 0.5em;
+			color: $darkBlue;
+		}
+		h3{
+			font-size: $clampSmall;
+			margin-bottom: 0.5em;
 		}
 		img{
 			width: 100%;
-			max-width: 850px;
+			max-width: 750px;
 			margin: auto;
 			margin-bottom: 1em;
+			padding: 0.15em;
 		}
 		p{
 			margin-bottom: 1em;
@@ -139,6 +151,9 @@
 		}
 		.purple{
 			color: $purple;
+		}
+		.darkBlue{
+			color: $darkBlue;
 		}
 		.italics{
 			font-style: $fontBMSLightItalic;
@@ -192,11 +207,26 @@
 		img:not([class]){
 			max-width: 100%;
 			width: clamp(350px, 80%, 500px);
+
 		}
 	}
 }
 
-/* =================================== */
-/* ===== Simple Background Colors ===== */
-/* =================================== */
+/* ============================ */
+/* ===== Simple Page Styles ===== */
+/* ============================ */
 	
+	.clampMedium{
+		font-size: $clampMedium;
+	}
+
+	.bold{
+		font-weight: 800;
+	}
+
+	.simpleShadow{
+		box-shadow: 
+			0.15em 0.25em 0.5em rgba(0, 0, 0, 0.15), 
+			-0.15em 0.25em 0.5em rgba(0, 0, 0, 0.15);
+			margin-bottom: 0.5em;
+	}

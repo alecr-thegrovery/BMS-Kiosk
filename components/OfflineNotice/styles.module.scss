@@ -1,0 +1,23 @@
+@import "@styles/vars.module.scss";
+
+.OfflineNotice{
+	position: fixed;
+	bottom: 1rem;
+	left: 1rem;
+	z-index: 1000;
+	pointer-events: none;
+
+	.inner{
+		font-size: $clampExtraSmall;
+		background: $black;
+		color: $white;
+		padding: 0.5em 1em;
+	}
+
+	&[data-state='offline']{
+		.inner{
+			opacity: 1;
+			transform: translate3D(0px,0px,0px);
+		}
+	}
+}

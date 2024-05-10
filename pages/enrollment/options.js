@@ -68,7 +68,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{title} | {siteData.siteTitleBase}</title>
       </Head>
-      <div className={pageStyles.pageLayout} data-bg-color="cream">
+      <div className={pageStyles.pageLayout} data-bg-color="lightBlue">
         {/*Header*/}
         <DynamicHeader
           heading={["Options to Enroll in BMS ", <strong>Access Support</strong>]}
@@ -90,12 +90,17 @@ export default function Post({ postData }) {
                   
                   <BlockQuote icon="/images/icons/contentPrinterIcon.svg">
                     <h2>Option 1: Enroll via Fax</h2>
-                    <p>Obtain enrollment forms at BMSAccessSupport.com, under the Enrollment tab. <a data-page-transition="/enrollment/enrollment-form" data-delay="0">Tap for information on how to complete the enrollment form</a>.</p>
+                    <p>Obtain enrollment forms at BMSAccessSupport.com under the Enrollment tab. <a data-page-transition="/enrollment/enrollment-form" data-delay="0">Tap for information on how to complete the enrollment form</a>.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentComputerScreen.svg">
-                    <h2>Option 2: Enroll via the Provider Portal</h2>
-                    <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to submit completed forms with physician and patient signatures through the provider portal.</p>
+                    <h2>Option 2: Enroll Online</h2>
+                    <p><a className={utilStyles.wordBreak} data-page-transition="/enrollment/provider-portal" data-delay="0">Visit BMSAccessSupport.com/enrollment</a> to complete an online enrollment process with e-signature.</p>
+                  </BlockQuote>
+
+                  <BlockQuote icon="/images/icons/contentWebpageIcon.svg">
+                    <h2>Option 3: Enroll via the MyBMSCases Provider Portal</h2>
+                    <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to submit completed forms with physician and patient e-signatures through the provider portal. </p>
                   </BlockQuote>
 
                   <p>Once the enrollment form has been submitted and a Benefits Review has been conducted, you will receive your patient’s summary of healthcare benefits.</p>
@@ -107,8 +112,8 @@ export default function Post({ postData }) {
                 <div className={pageStyles.cell} data-centered>
                   <PdfThumbnail
                     name="Enrollment Form"
-                    url="/pdf/Oncology_Enrollment_Form_EN.pdf"
-                    thumbnail="/images/thumbnails/Oncology_Enrollment_Form_EN.jpg"
+                    url="/pdf-2024/enrollment-form.pdf"
+                    thumbnail="/images/thumbnails-2024/how-to-enroll.png"
                   />
                 </div>
 

@@ -12,7 +12,7 @@ import varStyles from '@styles/vars.module.scss'
 const name = 'BMS CONGRESS ACCESS'
 
 export default function DynamicHeader({ 
-  children, home, heading, subhead
+  children, home, heading, subhead, extrasubhead
 }) {
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export default function DynamicHeader({
           <div className={componentStyles.logo}>
             {/*<Link href="/">*/}
               <a data-page-transition="/" data-delay="0">
-                <img src="/images/BMSLogo.svg" alt="Bristol Myers Squibb - Access Support"/>
+                <img src="/images/BMSArrowLogo-alt.png" alt="Bristol Myers Squibb - Access Support"/>
               </a>
             {/*</Link>*/}
 
@@ -66,7 +66,13 @@ export default function DynamicHeader({
             <h1 className={componentStyles.heading}>
               {heading}
             </h1>
-            <p className={componentStyles.subhead}>{subhead}</p>
+            {extrasubhead &&
+              <p className={componentStyles.extrasubhead}>{extrasubhead}</p>
+            }
+            {subhead &&
+              <p className={componentStyles.subhead}>{subhead}</p>
+            }
+            
           </div>
           
         </div>

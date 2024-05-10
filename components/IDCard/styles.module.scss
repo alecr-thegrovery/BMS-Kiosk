@@ -15,4 +15,28 @@
 			drop-shadow(-1px -1px 10px rgba($black, 0.5))
 		;
 	}
+	.inner{}
+
+	.clickableIcon{
+		width: 2rem;
+		height: 2rem;
+		font-size: 1.5rem;
+		line-height: 0;
+		background-color: $white;
+		border: solid 5px $purple;
+		border-radius: 100%;
+		margin: auto;
+		margin-top:1rem;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		position: absolute;
+		top: -1.15em;
+		right: -0.5em;
+		z-index: 10;
+		span{
+			position: relative;
+			top: -5px;
+		}
+	}
 }

@@ -3,10 +3,12 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link'
 import Card from '@components/DragDrop/Card.js'
 import IDCard from '@components/IDCard'
+import IDCardV2 from '@components/IDCardV2'
 import { BsUpcScan } from "react-icons/bs";
 import { MdArrowBackIosNew } from "react-icons/md";
 import $ from 'jquery'
 import SupportIcon from '@components/SVGComponents/SupportIcon'
+import ResourcesIcon from '@components/SVGComponents/ResourcesIcon'
 import BackIcon from '@components/SVGComponents/BackIcon'
 import HomeIcon from '@components/SVGComponents/HomeIcon'
 import ScannerIcon from '@components/SVGComponents/ScannerIcon'
@@ -47,6 +49,30 @@ export default function Sidebar({
         ModalWrapper.attr("data-modal-show", "SupportModal");
       });
 
+      $("[data-modal-open='resources']").click(function(e){
+        e.preventDefault();
+        ModalWrapper.attr("data-modal-status", "active");
+        ModalWrapper.attr("data-modal-show", "ResourcesModal");
+      });
+
+      $("[data-modal-open='resourcesForm']").click(function(e){
+        e.preventDefault();
+        ModalWrapper.attr("data-modal-status", "active");
+        ModalWrapper.attr("data-modal-show", "ResourcesFormModal");
+
+        //pre-select resource option
+        var resourceID = $(this).attr('data-resource-value');
+        console.log(resourceID);
+        //$("#ResourcesForm-options option[value='"+resourceID+"']").attr('selected', 'true');
+        document.getElementById('ResourcesForm-options').value = resourceID;
+      });
+
+      $("[data-modal-close]").click(function(e){
+        e.preventDefault();
+        //$("#SupportModal").attr("data-modal-status", "inactive");
+        ModalWrapper.attr("data-modal-status", "inactive");
+      });
+
       $("[data-modal-close]").click(function(e){
         e.preventDefault();
         //$("#SupportModal").attr("data-modal-status", "inactive");
@@ -66,10 +92,22 @@ export default function Sidebar({
         
         <div className={componentStyles.controlsOuter}>
           <div className={componentStyles.controls}>
-            <a data-modal-open='support' href="#">
+            
+            <a className={componentStyles.alt} data-modal-open='support' href="#">
               <SupportIcon/>
               SUPPORT
             </a>
+
+            {/*<a  href="/resource-links">
+              <SupportIcon/>
+              RESOURCES
+            </a>*/}
+
+            <a  data-modal-open='resources' href="#">
+              <ResourcesIcon/>
+              RESOURCES
+            </a>
+
           </div>
         </div>
         
@@ -79,7 +117,7 @@ export default function Sidebar({
 
             {access && 
               <div className={componentStyles.cardOutter}>
-                <IDCard
+                <IDCardV2
                   cardID="access"
                   text="Access and Reimbursement Report"
                   color="mutedRed"
@@ -91,7 +129,7 @@ export default function Sidebar({
             }
             {enrollment && 
               <div className={componentStyles.cardOutter}>
-                <IDCard
+                <IDCardV2
                   cardID="enrollment"
                   text="Enrollment"
                   color="mutedYellow"
@@ -102,7 +140,7 @@ export default function Sidebar({
             }
             {financial && 
               <div className={componentStyles.cardOutter}>
-                <IDCard
+                <IDCardV2
                   cardID="financial"
                   text="Co-Pay &amp; Finacial Assistance Services"
                   color="mutedBlue"
@@ -113,7 +151,7 @@ export default function Sidebar({
             }
             {resources && 
               <div className={componentStyles.cardOutter}>
-                <IDCard
+                <IDCardV2
                   cardID="resources"
                   text="Patient Resources"
                   color="mutedGreen"

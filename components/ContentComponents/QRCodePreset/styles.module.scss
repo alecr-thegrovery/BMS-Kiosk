@@ -7,7 +7,7 @@ $qrCodeSize: clamp(100px, 1vw, 200px);
 	display: flex;
 	flex-direction: row;
 	//flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 	svg{
 		padding: 5px;

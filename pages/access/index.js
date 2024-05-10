@@ -50,7 +50,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <div className={pageStyles.pageLayout}>
         <DynamicHeader
-          heading={["Access & Reimbursement ", <strong>Support</strong>]}
+          heading={["Access & Reimbursement Support"]}
           subhead="BMS Access Support offers real-time support to help initiate and maintain access to prescribed BMS medications."
         />
 
