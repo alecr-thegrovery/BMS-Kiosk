@@ -103,7 +103,7 @@ export default function Post({ postData }) {
                   <br/>
                   <div className={pageStyles.centeredRow}>
                     <QRCodePreset 
-                      link="one.bms.com4bkzppG"
+                      link="www.bmscopay.com"
                       toolTipText="Scan to visit Provider Portal"
                       toolTipPlacement="right"
                     />
