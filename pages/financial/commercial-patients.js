@@ -74,7 +74,7 @@ export default function Post({ postData }) {
         {/*Header*/}
         <DynamicHeader
           heading={["Commercial Patients"]}
-          subhead={["BMS Access Support may be able to help identify financial assistance programs for eligible patients who have been prescribed select BMS medications and need help managing the cost of treatment. The appropriate program will depend on the patient’s coverage."]}
+          subhead={["Eligible, commercially insured patients pay pay as little as $0 per one-month supply or infusion."]}
         />
 
         {/*Content*/}
@@ -91,14 +91,11 @@ export default function Post({ postData }) {
                   </p>
 
                   <BlockQuote noIcon>
-                    <ul>
-                      <li>
-                        <PdfLink url="/pdf-2024/Orals-Terms-and-Conditions.pdf" name="Orals-Terms-and-Conditions.pdf">Terms and Conditions for Oral Medications</PdfLink>
-                      </li>
-                      <li>
-                        <PdfLink url="/pdf-2024/IVs-Terms-and-Conditions.pdf" name="IVs-Terms-and-Conditions.pdf">Terms and Conditions for HCP-Administered Medications</PdfLink>
-                      </li>
-                    </ul>
+                    
+                    <PdfLink url="/pdf-2024/Orals-Terms-and-Conditions.pdf" name="Orals-Terms-and-Conditions.pdf">Terms and Conditions for Oral Medications</PdfLink>
+                    <br/><br/>
+                    <PdfLink url="/pdf-2024/IVs-Terms-and-Conditions.pdf" name="IVs-Terms-and-Conditions.pdf">Terms and Conditions for HCP-Administered Medications</PdfLink>
+                      
                   </BlockQuote>
 
                   <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/commercial-1.png" alt=""/>
