@@ -95,7 +95,8 @@ export default function Post({ postData }) {
                     Our resources help provide a better understanding of the health insurance landscape. They are located on the Forms & Resources page of the BMS Access Support website.
                   </p>
 */}                  <QRCodePreset 
-                    link="https://bms.claravine.com/global/3f40ee3d-9e55-426d-af2f-0fc5f6aef960"
+                    /*link="https://bms.claravine.com/global/3f40ee3d-9e55-426d-af2f-0fc5f6aef960"*/
+                    link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
                     toolTipText={["Scan to view our video resources, which are located on the Forms & Resources page of the BMS Access Support",<sup>&reg;</sup>, " website."]}
                     toolTipPlacement="right"
                   />
