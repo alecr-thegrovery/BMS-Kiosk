@@ -78,7 +78,7 @@ export default function Post({ postData }) {
       <div className={pageStyles.pageLayout}>
         {/*Header*/}
         <DynamicHeader
-          heading={["Prior Authorization & Appeals Support"]}
+          heading={["PA & Appeals Support"]}
         />
 
         {/*Content*/}
