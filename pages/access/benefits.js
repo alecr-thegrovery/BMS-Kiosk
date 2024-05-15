@@ -120,7 +120,7 @@ export default function Post({ postData }) {
                       <li>Timely filing guidelines for claims/appeals </li>
                     </ul>        
                     <BlockQuote icon="/images/icons/contentCalendarIcon.svg">
-                      <p><strong>For patients who are enrolled in BMS Access Support</strong>, reverification of benefits is available upon HCP request for each new calendar year to confirm a patient’s continued access and minimize disruption in therapy.</p>
+                      <p><strong className={pageStyles.darkBlue}>For patients who are enrolled in BMS Access Support</strong>, reverification of benefits is available upon HCP request for each new calendar year to confirm a patient’s continued access and minimize disruption in therapy.</p>
                     </BlockQuote>          
                 </div>               
 
