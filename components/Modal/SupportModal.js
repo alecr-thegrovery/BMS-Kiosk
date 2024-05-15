@@ -101,7 +101,7 @@ export default function SupportModal({
             <br/>
             Touch base with the BMS Access &amp; Reimbursement Manager at this booth. We’re happy to help you.
           </h5>
-          <p>The accurate completion of reimbursement- or coverage-related documentation is the responsibility of the healthcare provider and patient. Bristol Myers Squibb and its agents make no guarantee regarding reimbursement for any service or item.</p>
+          <p>The accurate completion of reimbursement or coverage-related documentation is the responsibility of the healthcare provider and patient. Bristol Myers Squibb and its agents make no guarantee regarding reimbursement for any service or item.</p>
         </div>        
       </div>
 
