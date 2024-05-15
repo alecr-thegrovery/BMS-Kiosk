@@ -80,7 +80,7 @@ export default function ResourcesContent({
       <ResourcesCard
         name="Sample BR Results Form"
         thumbnail="/images/resources/Sample-Form.png"
-         link="https://bms-access-support-kiosk-update-2024.netlify.app/pdf-2024/AS-Summary-of-Benefits-Template.pdf"
+         link="https://digitalexperience.bmsaccesssupport.com/pdf-2024/AS-Summary-of-Benefits-Template.pdf"
           localPDFLink="/pdf-2024/AS-Summary-of-Benefits-Template.pdf"
         tag="access"
       />}
