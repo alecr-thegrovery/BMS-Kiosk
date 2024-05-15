@@ -88,7 +88,8 @@ export default function SupportModal({
 
         <div className={componentStyles.qrCode}>
           <QRCodePreset 
-            link="https://bms.claravine.com/global/599a76c9-d5ec-4ea5-98ba-683a3e967122"
+            /*link="https://bms.claravine.com/global/599a76c9-d5ec-4ea5-98ba-683a3e967122"*/
+            link="https://BMSAccessSupport.com"
             toolTipText="Visit BMSAccessSupport.com to schedule support assistance"
             toolTipPlacement="right"
           />
