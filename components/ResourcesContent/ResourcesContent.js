@@ -75,15 +75,15 @@ export default function ResourcesContent({
         thumbnail="/images/resources/enrollment-form.png"
         link="https://bmsaccesssupport.com/?missing_resource"
         tag="access"
-      />*/
+      />*/}
 
       <ResourcesCard
         name="Sample BR Results Form"
         thumbnail="/images/resources/Sample-Form.png"
-         link="https://digitalexperience.bmsaccesssupport.com/pdf-2024/AS-Summary-of-Benefits-Template.pdf"
-          localPDFLink="/pdf-2024/AS-Summary-of-Benefits-Template.pdf"
+        link="https://digitalexperience.bmsaccesssupport.com/pdf-2024/AS-Summary-of-Benefits-Template.pdf"
+        localPDFLink="/pdf-2024/AS-Summary-of-Benefits-Template.pdf"
         tag="access"
-      />}
+      />
 
       <ResourcesCard
         name="Terms &amp; Conditions for Oral Medications"
