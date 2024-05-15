@@ -115,7 +115,7 @@ export default function Post({ postData }) {
                     name="What is an Explanation of Benefits (EOB)? " 
                     url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
                   />
-                  <br/><br/>
+                  {/*<br/><br/>
                   <VideoThumbnail
                     thumbnail="/images/thumbnails-2024/video-3.png"
                     name="What is Health Insurance? " 
@@ -126,7 +126,7 @@ export default function Post({ postData }) {
                     thumbnail="/images/thumbnails-2024/video-4.png"
                     name="Get to Know BMS Access Support" 
                     url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
-                  />
+                  />*/}
                 </div>
 
               </div>
