@@ -95,7 +95,8 @@ export default function Post({ postData }) {
                     Scan the QR code below, or call 1-800-861-0048 for details. 
                   </p>
                   <QRCodePreset 
-                    link="https://bms.claravine.com/global/b22a6485-3953-4711-97fa-c35ef2d69146"
+                    /*link="https://bms.claravine.com/global/b22a6485-3953-4711-97fa-c35ef2d69146"*/
+                    link="https://www.bmsaccesssupport.com/charitable-foundations"
                     toolTipText="Visit the charitable foundations page at BMSAccessSupport.com"
                     toolTipPlacement="right"
                   />
