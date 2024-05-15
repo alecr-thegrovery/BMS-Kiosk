@@ -98,12 +98,12 @@ export default function ResourcesForm({
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Oncology_Enrollment_Form_EN.pdf">BMS AS Enrollment Form</option>
               {/*<option value="https://bmsaccesssupport.com/?missing_resource">How-to-Enroll Guide</option>*/}
               <option value="https://digitalexperience.bmsaccesssupport.com//pdf-2024/AS-Summary-of-Benefits-Template.pdf">Sample BR Results Form</option>
-              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf">Oral T&amp;C</option>
-              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/IVs-Terms-and-Conditions.pdf">IV T&amp;C</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf">Terms &amp; Conditions for Oral Medications</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/IVs-Terms-and-Conditions.pdf">Terms &amp; Conditions for HCP Administered Medications</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Understanding_Healthcare_Benefits.pdf">Understanding Healthcare Benefits Brochure</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-insurance-journey-map.pdf">Patient Reimbursement Process Map</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-medicare-guide.pdf">Medicare Part D Guide</option>
-              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf">BMS Access Support Patient Brochure</option>
+              <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf">Patient Brochure</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Low-Income_Subsidy_Brochure.pdf">Low Income Subsidy Brochure</option>
               {/*<option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Enrollment Form Tutorial Video</option>
               <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">What is an Explanation of Benefits Video</option>

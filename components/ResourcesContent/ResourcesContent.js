@@ -86,7 +86,7 @@ export default function ResourcesContent({
       />}
 
       <ResourcesCard
-        name="Oral T&amp;C"
+        name="Terms &amp; Conditions for Oral Medications"
         thumbnail="/images/resources/T&C-oral.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Orals-Terms-and-Conditions.pdf"
         localPDFLink="/pdf-2024/Orals-Terms-and-Conditions.pdf"
@@ -94,7 +94,7 @@ export default function ResourcesContent({
       />
 
       <ResourcesCard
-        name="IV T&amp;C"
+        name="Terms &amp; Conditions for HCP Administered Medications"
         thumbnail="/images/resources/T&C-HCP.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/IVs-Terms-and-Conditions.pdf"
         localPDFLink="/pdf-2024/IVs-Terms-and-Conditions.pdf"
@@ -126,7 +126,7 @@ export default function ResourcesContent({
       />
 
       <ResourcesCard
-        name="BMS Access Support Patient Brochure"
+        name="Patient Brochure"
         thumbnail="/images/resources/patient-brochure.png"
         link="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf"
         localPDFLink="/pdf-2024/Patient-Brochure.pdf"
