@@ -33,7 +33,7 @@ export default function ResourcesForm({
       e.preventDefault();
 
       emailjs
-        .sendForm('service_9m9ggk3', 'template_7dystu5', form.current, {
+        .sendForm('service_a0ad2wp', 'template_7dystu5', form.current, {
           publicKey: '8Zp2xjJG2RZQDI6Jn',
         })
         .then(
