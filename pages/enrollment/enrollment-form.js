@@ -95,7 +95,7 @@ export default function Post({ postData }) {
                   <br/>
                   <div className={pageStyles.centeredRow}>
                     <QRCodePreset 
-                      link="https://www.mybmscases.com/bmsProviderLightningPortal/s/esign"
+                      link="https://www.mybmscases.com/bmsProviderLightningPortal/s/esign?cid=qr_2756247"
                       toolTipText="Scan for patient e-signature"
                       toolTipPlacement="right"
                     />

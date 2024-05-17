@@ -96,7 +96,7 @@ export default function Post({ postData }) {
                   </p>
                   <QRCodePreset 
                     /*link="https://bms.claravine.com/global/b22a6485-3953-4711-97fa-c35ef2d69146"*/
-                    link="https://www.bmsaccesssupport.com/charitable-foundations"
+                    link="https://www.bmsaccesssupport.com/charitable-foundations?cid=qr_2690745"
                     toolTipText="Visit the charitable foundations page at BMSAccessSupport.com"
                     toolTipPlacement="right"
                   />
