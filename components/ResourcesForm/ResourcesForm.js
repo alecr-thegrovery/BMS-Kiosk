@@ -64,6 +64,7 @@ export default function ResourcesForm({
     useEffect(() => {
       $(document).ready(function() {
         let ModalWrapper = $("#ModalWrapper");
+        let button = $("#resourcesSubmitButton");
         
         $("[data-modal-open='resources']").click(function(e){
             e.preventDefault();
@@ -71,6 +72,37 @@ export default function ResourcesForm({
             ModalWrapper.attr("data-modal-show", "ResourcesModal");
           });
         });
+
+        //display loading animation for 5 seconds then revert
+        $("#resourcesSubmitButton").click(function(e){
+          console.log('click');
+          $("#resourcesSubmitButton").attr("data-status", "sending");
+          setTimeout(() => {
+            $("#resourcesSubmitButton").attr("data-status", "locked");
+          }, 5000); //time in ms
+          
+        });
+
+        //detect if form is filled
+        function checkInputStatus() {
+          console.log('typing');
+          const input = document.getElementById('ResourcesForm-email');
+          const element = document.getElementById('resourcesSubmitButton');
+          console.log(input.checkValidity())
+
+          if (input.checkValidity()) {
+              element.setAttribute('data-status', 'default');
+          } else {
+              element.setAttribute('data-status', 'locked');
+          }
+        }
+
+        document.getElementById('ResourcesForm-email').addEventListener('input', checkInputStatus);
+        /*document.getElementById('ResourcesForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            checkInputStatus();
+        });*/
+        
       });
 
   return (
@@ -117,7 +149,19 @@ export default function ResourcesForm({
           
           {/*SUBMIT BUTTON*/}
           <div className={componentStyles.cell}>
-            <button type="submit">Submit</button>
+            <button 
+              id="resourcesSubmitButton" 
+              className={componentStyles.resourcesSubmitButton}
+              type="submit"
+              data-status="locked"
+            >
+              <div data-text className={componentStyles.buttonText}>Submit</div>
+              <div data-loading className={componentStyles.loading}>
+                <div className={componentStyles.dot}></div>
+                <div className={componentStyles.dot}></div>
+                <div className={componentStyles.dot}></div>
+              </div>
+            </button>
             
           </div>
           
