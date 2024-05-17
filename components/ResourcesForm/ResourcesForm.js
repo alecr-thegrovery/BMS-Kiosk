@@ -137,11 +137,11 @@ export default function ResourcesForm({
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-medicare-guide.pdf">Medicare Part D Guide</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf">Patient Brochure</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Low-Income_Subsidy_Brochure.pdf">Low Income Subsidy Brochure</option>
-              {/*<option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Enrollment Form Tutorial Video</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">What is an Explanation of Benefits Video</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">What is Health Insurance? Video</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Get to Know BMS Access Support Video</option>*/}
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Resource Videos</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=enrollment-form-tutorial">Enrollment Form Tutorial Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=explanation-of-benefits">What is an Explanation of Benefits Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=what-is-health-insurance">What is Health Insurance? Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=bms-access-support">Get to Know BMS Access Support Video</option>
+              {/*<option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Resource Videos</option>*/}
 
             </select>
             <a className={componentStyles.backButton} data-modal-open='resources' >&larr; select a different resource</a>
