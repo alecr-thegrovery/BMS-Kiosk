@@ -64,6 +64,7 @@ export default function ResourcesForm({
     useEffect(() => {
       $(document).ready(function() {
         let ModalWrapper = $("#ModalWrapper");
+        let button = $("#resourcesSubmitButton");
         
         $("[data-modal-open='resources']").click(function(e){
             e.preventDefault();
@@ -71,6 +72,37 @@ export default function ResourcesForm({
             ModalWrapper.attr("data-modal-show", "ResourcesModal");
           });
         });
+
+        //display loading animation for 5 seconds then revert
+        $("#resourcesSubmitButton").click(function(e){
+          console.log('click');
+          $("#resourcesSubmitButton").attr("data-status", "sending");
+          setTimeout(() => {
+            $("#resourcesSubmitButton").attr("data-status", "locked");
+          }, 5000); //time in ms
+          
+        });
+
+        //detect if form is filled
+        function checkInputStatus() {
+          console.log('typing');
+          const input = document.getElementById('ResourcesForm-email');
+          const element = document.getElementById('resourcesSubmitButton');
+          console.log(input.checkValidity())
+
+          if (input.checkValidity()) {
+              element.setAttribute('data-status', 'default');
+          } else {
+              element.setAttribute('data-status', 'locked');
+          }
+        }
+
+        document.getElementById('ResourcesForm-email').addEventListener('input', checkInputStatus);
+        /*document.getElementById('ResourcesForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            checkInputStatus();
+        });*/
+        
       });
 
   return (
@@ -105,11 +137,11 @@ export default function ResourcesForm({
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/patient-medicare-guide.pdf">Medicare Part D Guide</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Patient-Brochure.pdf">Patient Brochure</option>
               <option value="https://www.bmsaccesssupport.com/assets/commercial/us/bmsaccesssupport/en/pdf/Low-Income_Subsidy_Brochure.pdf">Low Income Subsidy Brochure</option>
-              {/*<option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Enrollment Form Tutorial Video</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">What is an Explanation of Benefits Video</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">What is Health Insurance? Video</option>
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Get to Know BMS Access Support Video</option>*/}
-              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Resource Videos</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=enrollment-form-tutorial">Enrollment Form Tutorial Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=explanation-of-benefits">What is an Explanation of Benefits Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=what-is-health-insurance">What is Health Insurance? Video</option>
+              <option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=bms-access-support">Get to Know BMS Access Support Video</option>
+              {/*<option value="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1">Resource Videos</option>*/}
 
             </select>
             <a className={componentStyles.backButton} data-modal-open='resources' >&larr; select a different resource</a>
@@ -117,7 +149,19 @@ export default function ResourcesForm({
           
           {/*SUBMIT BUTTON*/}
           <div className={componentStyles.cell}>
-            <button type="submit">Submit</button>
+            <button 
+              id="resourcesSubmitButton" 
+              className={componentStyles.resourcesSubmitButton}
+              type="submit"
+              data-status="locked"
+            >
+              <div data-text className={componentStyles.buttonText}>Submit</div>
+              <div data-loading className={componentStyles.loading}>
+                <div className={componentStyles.dot}></div>
+                <div className={componentStyles.dot}></div>
+                <div className={componentStyles.dot}></div>
+              </div>
+            </button>
             
           </div>
           

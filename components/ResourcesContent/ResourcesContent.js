@@ -141,33 +141,45 @@ export default function ResourcesContent({
         tag="resources"
       />
 
-      {/*<ResourcesCard
+      <ResourcesCard
         name="Enrollment Form Tutorial Video"
-        link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
+        thumbnail="/images/thumbnails-2024/video-1.png"
+        link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=enrollment-form-tutorial"
+        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
+        tag="resources"
       />
 
       <ResourcesCard
         name="What is an Explanation of Benefits Video"
-        link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
+        thumbnail="/images/thumbnails-2024/video-2.png"
+        link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=explanation-of-benefits"
+        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
+        tag="resources"
       />
 
       <ResourcesCard
         name="What is Health Insurance? Video"
-        link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
+        thumbnail="/images/thumbnails-2024/video-3.png"
+        link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=what-is-health-insurance"
+        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
+        tag="resources"
       />
 
       <ResourcesCard
         name="Get to Know BMS Access Support Video"
-        link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
-      />*/}
+        thumbnail="/images/thumbnails-2024/video-4.png"
+        link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=bms-access-support"
+        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
+        tag="resources"
+      />
 
-      <ResourcesCard
+      {/*<ResourcesCard
         name="Resources Videos"
         thumbnail="/images/resources/video-generic.png"
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1"
         localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
         tag="resources"
-      />
+      />*/}
       </div>
       
     </div>
