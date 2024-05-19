@@ -115,7 +115,7 @@ export default function Post({ postData }) {
                   <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/billing-1.png" alt="" />
                   <QRCodePreset 
                     /*link="https://bms.claravine.com/global/447de38a-756b-49f1-b8d9-d01dedb5968d"*/
-                    link="https://www.bmsaccesssupport.com/code-coverage"
+                    link="https://www.bmsaccesssupport.com/codes-coverage?cid=qr_2690744"
                     toolTipText="Scan to access the online coding tool and reimbursement guides for relevant products"
                     toolTipPlacement="right"
                   />
