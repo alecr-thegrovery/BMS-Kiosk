@@ -89,7 +89,7 @@ export default function SupportModal({
         <div className={componentStyles.qrCode}>
           <QRCodePreset 
             /*link="https://bms.claravine.com/global/599a76c9-d5ec-4ea5-98ba-683a3e967122"*/
-            link="https://BMSAccessSupport.com"
+            link="https://www.bmsaccesssupport.com?cid=qr_2690747"
             toolTipText="Visit BMSAccessSupport.com to schedule support assistance"
             toolTipPlacement="right"
           />
@@ -101,7 +101,7 @@ export default function SupportModal({
             <br/>
             Touch base with the BMS Access &amp; Reimbursement Manager at this booth. We’re happy to help you.
           </h5>
-          <p>The accurate completion of reimbursement- or coverage-related documentation is the responsibility of the healthcare provider and patient. Bristol Myers Squibb and its agents make no guarantee regarding reimbursement for any service or item.</p>
+          <p>The accurate completion of reimbursement or coverage-related documentation is the responsibility of the healthcare provider and patient. Bristol Myers Squibb and its agents make no guarantee regarding reimbursement for any service or item.</p>
         </div>        
       </div>
 

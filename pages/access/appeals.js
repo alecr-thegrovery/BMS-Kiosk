@@ -78,7 +78,7 @@ export default function Post({ postData }) {
       <div className={pageStyles.pageLayout}>
         {/*Header*/}
         <DynamicHeader
-          heading={["Prior Authorization & Appeals Support"]}
+          heading={["PA & Appeals Support"]}
         />
 
         {/*Content*/}
@@ -130,7 +130,7 @@ export default function Post({ postData }) {
                   <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/appeals-1.png" alt="" />
                   <p>To access the BMS Access Payer Map, scan the QR code below and select the appropriate medication.</p>
                   <QRCodePreset 
-                    link="https://www.bmsaccessmap.com/"
+                    link="https://www.bmsaccessmap.com/?cid=qr_2756249"
                     toolTipText="Scan to visit BMS Access Payer Map"
                     toolTipPlacement="right"
                   />
@@ -139,7 +139,8 @@ export default function Post({ postData }) {
 
                   <img src="/images/thumbnails-2024/appeals-2.png" alt="" />
                   <QRCodePreset 
-                    link="https://bms.claravine.com/global/147cb392-f3c4-4488-8bd3-aabfe4e3898b"
+                    /*link="https://bms.claravine.com/global/147cb392-f3c4-4488-8bd3-aabfe4e3898b"*/
+                    link="https://www.bmsaccesssupport.com/forms-resources?cid=qr_2690743"
                     toolTipText="Scan for PA &amp; Appeals Forms &amp; Resources"
                     toolTipPlacement="right"
                   />

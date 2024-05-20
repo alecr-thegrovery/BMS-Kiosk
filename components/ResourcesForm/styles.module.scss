@@ -101,6 +101,35 @@
 			}
 		}
 
+		.resourcesSubmitButton{
+			.buttonText{
+				display: block;
+			}
+			.loading{
+				display: none;
+			}
+			&[data-status="locked"]{
+				opacity: 0.5;
+				pointer-events: none;
+			}
+			&[data-status="default"]{
+				.buttonText{
+					display: block;
+				}
+				.loading{
+					display: none;
+				}
+			}
+			&[data-status="sending"]{
+				.buttonText{
+					display: none;
+				}
+				.loading{
+					display: flex;
+				}
+			}
+		}
+
 	/*===== Form State Styles =====*/
 		.thankYou{
 			display: flex;
@@ -162,3 +191,44 @@
 				display: inline-block;
 			}
 		}
+
+
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  .dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: $white;
+    border-radius: 50%;
+    opacity: 0;
+    animation: fade 1s infinite;
+  }
+
+  .dot:nth-child(1) {
+    animation-delay: 0s;
+  }
+
+  .dot:nth-child(2) {
+    animation-delay: 0.25s;
+  }
+
+  .dot:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+
+  @keyframes fade {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+}
+

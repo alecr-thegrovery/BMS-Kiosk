@@ -52,7 +52,7 @@ export default function Home({ allPostsData }) {
       <div className={pageStyles.pageLayout}>
         <DynamicHeader
           heading={["Financial Support Options"]}
-          subhead="BMS Access Support may be able to help identify financial assistance programs for eligible patients who have been prescribed select BMS medications and need help managing the cost of treatment. The appropriate program will depend on the patient’s coverage."
+          subhead={["BMS Access Support",<sup>&reg;</sup>," may be able to help identify financial assistance programs for eligible patients who have been prescribed select BMS medications and need help managing the cost of treatment. The appropriate program will depend on the patient’s coverage."]}
         />
 
         <div className={pageStyles.pageLevel2}>
