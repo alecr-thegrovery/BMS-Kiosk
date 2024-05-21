@@ -145,7 +145,7 @@ export default function ResourcesContent({
         name="Enrollment Form Tutorial Video"
         thumbnail="/images/thumbnails-2024/video-1.png"
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=enrollment-form-tutorial"
-        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
+        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729099956001"
         tag="resources"
       />
 
@@ -153,7 +153,7 @@ export default function ResourcesContent({
         name="What is an Explanation of Benefits Video"
         thumbnail="/images/thumbnails-2024/video-2.png"
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=explanation-of-benefits"
-        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
+        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
         tag="resources"
       />
 
@@ -169,7 +169,7 @@ export default function ResourcesContent({
         name="Get to Know BMS Access Support Video"
         thumbnail="/images/thumbnails-2024/video-4.png"
         link="https://www.bmsaccesssupport.com/forms-resources?tabKey=video-resources1&video=bms-access-support"
-        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
+        localVideoLink="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=6345886150112"
         tag="resources"
       />
 
