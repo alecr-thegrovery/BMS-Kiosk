@@ -342,6 +342,8 @@ export default function App({ Component, pageProps }) {
       elements.forEach(element => {
         console.log("overflow element present");
         // Check if the element's scrollHeight is greater than its clientHeight
+        console.log("element.scrollTop: "+ element.scrollTop);
+        console.log("element.clientHeight: "+ element.clientHeight);
         if (element.scrollHeight > element.clientHeight) {
           console.log("overflow detected");
           // If overflow content is detected, add a class to the element
@@ -356,15 +358,27 @@ export default function App({ Component, pageProps }) {
           // add a scroll event listener to each element
           element.addEventListener('scroll', () => {
             // check if the element's content is scrolled to the bottom
-            const atBottom = element.scrollHeight - element.scrollTop === element.clientHeight;
-            // update the data-attribute value to true if scrolled to bottom, false otherwise
+            var elHeight = element.scrollHeight - 200;
             
-            if (atBottom) {
-              console.log("overflow detected");
-              // If overflow content is detected, add a class to the element
+            const atBottom = elHeight - element.scrollTop === element.clientHeight;
+            // update the data-attribute value to true if scrolled to bottom, false otherwise
+            console.log("scroll");
+            console.log(elHeight);
+            console.log(element.scrollTop);
+            console.log(element.clientHeight);
+            
+            /*if (element.scrollHeight - element.scrollTop === element.clientHeight) {
+              console.log("atBottom detected");
               element.setAttribute('data-overflow-detect', 'atBottom');
             }else{
               element.setAttribute('data-overflow-detect', 'overflow');
+            }*/
+
+            if (element.scrollTop === 0) {
+              element.setAttribute('data-overflow-detect', 'overflow');
+            }else{
+              console.log("atBottom detected");
+              element.setAttribute('data-overflow-detect', 'atBottom');
             }
           });
         });

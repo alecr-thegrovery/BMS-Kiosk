@@ -108,7 +108,7 @@ export default function Post({ postData }) {
                   <VideoThumbnail
                     thumbnail="/images/thumbnails-2024/video-1.png"
                     name="Enrollment Form Tutorial" 
-                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
+                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729099956001"
                   />
                   <br/><br/>
                   <VideoThumbnail
@@ -116,18 +116,18 @@ export default function Post({ postData }) {
                     name="What is an Explanation of Benefits (EOB)? " 
                     url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
                   />
-                  {/*<br/><br/>
+                  <br/><br/>
                   <VideoThumbnail
                     thumbnail="/images/thumbnails-2024/video-3.png"
                     name="What is Health Insurance? " 
-                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
+                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729106370001"
                   />
                   <br/><br/>
                   <VideoThumbnail
                     thumbnail="/images/thumbnails-2024/video-4.png"
                     name="Get to Know BMS Access Support" 
-                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=5729102364001"
-                  />*/}
+                    url="https://players.brightcove.net/1892432924001/default_default/index.html?videoId=6345886150112"
+                  />
                 </div>
 
               </div>
