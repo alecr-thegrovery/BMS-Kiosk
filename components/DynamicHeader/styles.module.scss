@@ -13,7 +13,8 @@ $fixedWidth: 310px;
 	box-shadow: $simpleShadow;
 	border-radius: 3px;
 	border-top-left-radius: 0px;
-    	border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  user-select: none;
 	
 	.inner{
 		width: 100%;
