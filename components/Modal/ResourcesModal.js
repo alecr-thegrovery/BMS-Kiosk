@@ -43,7 +43,7 @@ export default function ResourcesModal({
       
       <div className={componentStyles.scroll}>
         <div className={componentStyles.heading}>
-          <h2>All Resources</h2>
+          <h2>Resources</h2>
         </div>
 
         <div className={componentStyles.body}>

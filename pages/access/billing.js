@@ -95,7 +95,7 @@ export default function Post({ postData }) {
 
                   <p>We may be able to provide product-specific billing and diagnosis codes, reimbursement guides, and product distribution information</p>
                   <BlockQuote icon="/images/icons/contentClipboardIcon.svg">
-                    <p><strong className={pageStyles.darkBlue}>Billing &amp; Coding Guides</strong> provide an overview of relevant product and diagnosis codes, dosing and administration, and general reimbursement information.</p>
+                    <p><strong className={pageStyles.darkBlue}>Billing &amp; Coding Guides</strong> allows providers to find product-specific HCPCS, CPT, NDC, ICD-10, or revenue codes.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentClipboardIcon.svg">

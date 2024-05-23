@@ -14,6 +14,7 @@ $footerHeight: 3rem;
 	//height: $footerHeight;
 	background-color: $white;
 	box-shadow: 0.1em -0.1em 0.25em rgba($black, 0.15);
+	user-select: none;
 	
 	.inner{
 		width: 100%;

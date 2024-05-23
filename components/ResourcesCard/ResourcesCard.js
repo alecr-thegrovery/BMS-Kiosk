@@ -29,7 +29,7 @@ export default function BlogPreview({
     <div className={componentStyles.ResourcesCard + " ResourcesCard"} data-tag={tag}>
       {/*RESOURCE IMAGE*/}
       <div className={componentStyles.thumbnailImage}>
-        
+        <OnlineDetectWrapper>
         {localPDFLink ?
           
             <PdfLink url={localPDFLink} backButton>
@@ -57,11 +57,13 @@ export default function BlogPreview({
           : 
           <h3>{name ? name : "Resource Name"}</h3>
         } 
+        </OnlineDetectWrapper>
       </div>
 
       {/*RESOURCE NAME/LINK*/}
+      <OnlineDetectWrapper>
       <div className={componentStyles.content}>
-        
+
         <div className={componentStyles.text}>
           
           {localPDFLink ?
@@ -84,7 +86,7 @@ export default function BlogPreview({
         
         <div className={componentStyles.linkSection} >
          
-          <OnlineDetectWrapper>
+          
             <a 
               className={componentStyles.linkButton} 
               data-modal-open='resourcesForm' 
@@ -94,7 +96,7 @@ export default function BlogPreview({
               {/*<OpenResourceIcon/>*/}
               <img src="/images/icons/iconSendArrow.png" alt=""/>
             </a>
-          </OnlineDetectWrapper>
+          
           
             {/*{localPDFLink &&
               <div className={componentStyles.localLinkButton}>
@@ -115,7 +117,7 @@ export default function BlogPreview({
         </div>
         
       </div>
-      
+      </OnlineDetectWrapper>
 
       
       {/*<div className={componentStyles.qrcode}>
