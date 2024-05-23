@@ -19,7 +19,7 @@ export default function OfflineNotice({
 
   return (
     <div className={componentStyles.OfflineNotice} >
-      <OnlineDetectWrapper >
+      <OnlineDetectWrapper reverse>
         <div className={componentStyles.inner}>
           <img src="/images/icons/offline.svg" alt=""/>
           Notice: you are offline.
