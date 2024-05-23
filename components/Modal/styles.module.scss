@@ -203,13 +203,13 @@ $backdropColor: rgba($black, 0.25);
 	/*Modal Heading*/
 	.heading{
 		text-align: center;
-		display: block;
-		width: 100%;
-		max-width: 1200px;
+		display: inline-block;
+		//width: 100%;
+		//max-width: 1200px;
 		margin: auto;
 		margin-bottom: $clampLarge;
 		h2{
-			font-size: $clampLarge;
+			font-size: 2vw;
 			margin-bottom: $clampSmall;
 		}
 		p{
@@ -240,8 +240,12 @@ $backdropColor: rgba($black, 0.25);
 			transform: translateX(-50%);
 			background-color: $white;
 			color: $darkBlue;
-			width: 80%;
-			max-width: 28em;
+			//width: 80%;
+			//max-width: 28em;
+			padding: 0 1em;
+			h2{
+				white-space: nowrap;
+			}			
 			p{
 				color: $grey_3;
 				max-width: 22em;
@@ -501,7 +505,7 @@ $backdropColor: rgba($black, 0.25);
 		h2{
 			font-size: $clampLarge;
 			//margin-bottom: $clampSmall;
-			color: $grey_3;
+			color: $darkBlue;
 		}
 		/*p{
 			font-size: $clampSmall;

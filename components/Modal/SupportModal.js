@@ -44,7 +44,7 @@ export default function SupportModal({
 
           <div className={componentStyles.heading}>
             <h2>Looking for support? We're here for you.</h2>
-            <p>Patient access support, reimbursement resources, and financial support options may be available through <strong>BMS Access Support</strong></p>
+            <p>Patient access support, reimbursement resources, and financial support options may be available through <strong>BMS Access Support<sup>&reg;</sup></strong></p>
           </div>
 
 
