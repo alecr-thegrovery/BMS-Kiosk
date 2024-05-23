@@ -52,7 +52,7 @@ export default function Home({ allPostsData }) {
       <div className={pageStyles.pageLayout}>
         <DynamicHeader
           heading={["Enrolling in Bristol Myers Squibb ", <strong>Access Support<sup>&reg;</sup></strong>]}
-          subhead="Enrollment in BMS Access Support is required to get support for select, prescribed BMS medications."
+          subhead="Enrollment in the Access Support program is required to receive coverage support like benefits reviews and prior authorization assistance."
         />
 
         <div className={pageStyles.pageLevel1}>

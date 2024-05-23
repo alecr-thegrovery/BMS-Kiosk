@@ -103,9 +103,9 @@ export default function Post({ postData }) {
                     <p><a data-page-transition="/enrollment/provider-portal" data-delay="0">Visit MyBMSCases.com</a> to submit completed forms with physician and patient e-signatures through the provider portal. </p>
                   </BlockQuote>
 
-                  <p>Once the enrollment form has been submitted and a Benefits Review has been conducted, you will receive your patient’s summary of healthcare benefits.</p>
+                  <p>Once the enrollment form has been submitted and a benefits review has been conducted, you will receive your patient’s summary of healthcare benefits.</p>
 
-                  <p>Please Note: While enrollment in the BMS Access Support program is required to receive certain support offerings, such as Benefits Reviews and appeals assistance, patients can also access select support offerings through the online resources found at BMSAccessSupport.com.</p>
+                  <p>Please Note: While enrollment in the BMS Access Support program is required to receive certain support offerings, such as benefits reviews and appeals assistance, patients can also access select support offerings through the online resources found at BMSAccessSupport.com.</p>
                 </div>               
 
                 {/*RIGHT CELL*/}
