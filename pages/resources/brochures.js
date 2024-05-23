@@ -123,7 +123,7 @@ export default function Post({ postData }) {
 
                   <QRCodePreset 
                     link="https://www.bmsaccesssupport.com/forms-resources?cid=qr_2756250"
-                    toolTipText="Scan to view Forms &amp; Resources"
+                    toolTipText="Patient resources are located on the Forms &amp; Resources page of the BMS Access Support website"
                     toolTipPlacement="right"
                   />
                   
