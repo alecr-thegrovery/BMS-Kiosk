@@ -74,7 +74,7 @@ export default function Post({ postData }) {
         {/*Header*/}
         <DynamicHeader
           heading={["Government & Uninsured Patients"]}
-          subhead="For patients insured through a government program or who do not have insurance, BMS Access Support® can provide information about independent charitable foundations."
+          subhead={["For patients insured through a government program or who do not have insurance, BMS Access Support",<sup>&reg;</sup>," can provide information about independent charitable foundations."]}
         />
 
         {/*Content*/}

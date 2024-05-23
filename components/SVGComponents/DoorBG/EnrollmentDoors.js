@@ -148,7 +148,7 @@ export default function EnrollmentDoors({
                 <g id="sign3" transform="translate(328.653 20)">
                   <rect id="Rectangle_185-3" data-name="Rectangle 185" width="279.31" height="86.697" transform="translate(491.847 491.358)" fill="#fff" stroke="#9f9089" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.264"/>
                   <rect id="Rectangle_1905-3" data-name="Rectangle 1905" width="279.31" height="9.697" transform="translate(491.691 568.358)" fill="#097789" stroke="#097789" strokeLinecap="round" strokeWidth="1.264"/>
-                  <text id="PROVIDER_PORTAL" data-name="PROVIDER PORTAL" transform="translate(631.347 539)" fill="#595454" fontSize="22"   letterSpacing="0.02em"><tspan x="-94.19" y="0">PROVIDER PORTAL</tspan></text>
+                  <text id="PROVIDER_PORTAL" data-name="PROVIDER PORTAL" transform="translate(631.347 539)" fill="#595454" fontSize="22"   letterSpacing="0.02em"><tspan x="-94.19" y="0">PROVIDER PORTALS</tspan></text>
                 </g>
               </g>
             </g>
