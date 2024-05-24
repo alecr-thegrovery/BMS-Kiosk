@@ -129,11 +129,11 @@ export default function Post({ postData }) {
                 <div className={pageStyles.cell} data-centered>
                   <img className={pageStyles.simpleShadow} src="/images/thumbnails-2024/appeals-1.png" alt="" />
                   <p>To access the <strong className={pageStyles.purple}>BMS Access Payer Map</strong>, visit BMSAccessMap.com on your desktop or tablet.</p>
-                  <QRCodePreset 
+                  {/*<QRCodePreset 
                     link="https://www.bmsaccessmap.com/?cid=qr_2756249"
                     toolTipText="Scan to visit BMS Access Payer Map"
                     toolTipPlacement="right"
-                  />
+                  />*/}
 
                   <br/><br/>
 
