@@ -99,7 +99,7 @@ export default function Post({ postData }) {
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentClipboardIcon.svg">
-                    <p><strong className={pageStyles.darkBlue}>Online Code Search Tool</strong> allows providers to type in a keyword to find a specific HCPCS, CPT, NDC, 5010, or ICD-10 code.</p>
+                    <p><strong className={pageStyles.darkBlue}>Online Coding Tool</strong> allows providers to find product-specific HCPCS, CPT, NDC, ICD-10, or revenue codes.</p>
                   </BlockQuote>
 
                   <BlockQuote icon="/images/icons/contentListIcon.svg">
